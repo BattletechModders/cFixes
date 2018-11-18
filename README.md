@@ -20,10 +20,10 @@ They are intended for free use and re-use.
 (by directory)
 
 ### /data/chassis/
-chassisdef_commando_COM-1B.json - fixed typo: "IB" changed to "1B"
-chassisdef_thunderbolt_TDR-5S.json - fixed typo: "well armored and" changed to "well armed and"
-chassisdef_trebuchet_TBT-5N.json - fixed value: CT Armor 120 changed to 160
-chassisdef_zeus_ZEU-6S.json - fixed value: Jump Jets 3 changed to 4
+chassisdef_commando_COM-1B.json - fixed typo: "IB" changed to "1B".
+chassisdef_thunderbolt_TDR-5S.json - fixed typo: "well armored and" changed to "well armed and".
+chassisdef_trebuchet_TBT-5N.json - fixed value: CT Armor 120 changed to 160.
+chassisdef_zeus_ZEU-6S.json - fixed value: Jump Jets 3 changed to 4.
 
 ### /data/events/
 event_mw_arcadeMercenaries.json - fixed typo: "his" changed to "{TGT_MW.Gender?Male:his|Female:her|NonBinary:their}"
