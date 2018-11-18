@@ -61,3 +61,4 @@ Weapon_LRM_LRM10_2-Delta.json - fixed value: "Instability" : 5, changed to "Inst
 Weapon_LRM_LRM15_2-Delta.json - fixed value: "Instability" : 5, changed to "Instability" : 4,
 Weapon_SRM_SRM6_1-Holly.json - fixed value: "Cost" : 140000, changed to "Cost" : 120000,
 Weapon_SRM_SRM6_2-Holly.json - fixed value: "AccuracyModifier" : -5, changed to "AccuracyModifier" : 0, - fixed value: "Cost" : 330000, changed to "Cost" : 125000,
+Weapon_PPC_PPCER_0-STOCK.json - added general PPC status debuf "sensors impaired"
