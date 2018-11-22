@@ -22,8 +22,10 @@ They are intended for free use and re-use.
 ### /data/chassis/
 chassisdef_commando_COM-1B.json - fixed typo: "IB" changed to "1B".
 chassisdef_thunderbolt_TDR-5S.json - fixed typo: "well armored and" changed to "well armed and".
-chassisdef_trebuchet_TBT-5N.json - fixed value: CT Armor 120 changed to 160.
+chassisdef_trebuchet_TBT-5N.json - fixed value: CT max Armor 120 changed to 160.
 chassisdef_zeus_ZEU-6S.json - fixed value: Jump Jets 3 changed to 4.
+chassisdef_atlas_AS7-D.json - reduced CenterTorso internal structure to 155.
+chassisdef_atlas_AS7-D-HT.json - reduced CenterTorso internal structure to 155.
 
 ### /data/events/
 event_mw_arcadeMercenaries.json - fixed typo: "his" changed to "{TGT_MW.Gender?Male:his|Female:her|NonBinary:their}"
@@ -41,6 +43,9 @@ mechdef_jagermech_JM6-A.json - added tag: "unit_indirectFire",
 mechdef_orion_ON1-K.json - added tag: "unit_indirectFire",
 mechdef_quickdraw_QKD-5A.json - removed tag: "unit_indirectFire",
 mechdef_zeus_ZEU-6S.json - added tag: "unit_indirectFire",
+mechdef_atlas_AS7-D.json - reduced CenterTorso internal structure to 155.
+mechdef_atlas_AS7-D-HT.json - reduced CenterTorso internal structure to 155.
+
 
 ### /data/pilot/
 The exact list of changes is long to detail see original thread...
