@@ -59,13 +59,12 @@ https://forum.paradoxplaza.com/forum/index.php?threads/simple-json-typo-fixes-fo
 starsystemdef_NewGanymede.json - fixed typo: "Concordant" changed to "Concordat"
 
 ### /data/vehicle/
-vehicledef_APC_Wheeled.json - fixed value: Turret Armor 210 changed to 30 - fixed value: Turret Structure 30 changed to 5
 vehicledef_STRIKER.json - fixed value: Turret Armor 120 changed to 110
 
 ### /data/weapon/
 Weapon_LRM_LRM5_2-Delta.json - fixed value: "Instability" : 5, changed to "Instability" : 4,
 Weapon_LRM_LRM10_2-Delta.json - fixed value: "Instability" : 5, changed to "Instability" : 4,
 Weapon_LRM_LRM15_2-Delta.json - fixed value: "Instability" : 5, changed to "Instability" : 4,
-Weapon_SRM_SRM6_1-Holly.json - fixed value: "Cost" : 140000, changed to "Cost" : 120000,
-Weapon_SRM_SRM6_2-Holly.json - fixed value: "AccuracyModifier" : -5, changed to "AccuracyModifier" : 0, - fixed value: "Cost" : 330000, changed to "Cost" : 125000,
-Weapon_PPC_PPCER_0-STOCK.json - added general PPC status debuf "sensors impaired"
+Weapon_PPC_PPCER_0-STOCK.json - added general PPC status debuff "sensors impaired"
+Weapon_PPC_PPCER_1-MagnaFirestar.json - added general PPC status debuff "sensors impaired"
+Weapon_PPC_PPCER_2-TiegartMagnum.json - added general PPC status debuff "sensors impaired"
