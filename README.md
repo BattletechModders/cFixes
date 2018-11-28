@@ -46,6 +46,8 @@ mechdef_zeus_ZEU-6S.json - added tag: "unit_indirectFire",
 mechdef_atlas_AS7-D.json - reduced CenterTorso internal structure to 155.
 mechdef_atlas_AS7-D-HT.json - reduced CenterTorso internal structure to 155.
 
+### /data/movement/
+movedef_crab_CRB-27 - Fixed Walk and Sprint distances.  From 120/200 to 140/240.
 
 ### /data/pilot/
 The exact list of changes is long to detail see original thread...
