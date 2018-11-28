@@ -50,10 +50,9 @@ mechdef_atlas_AS7-D-HT.json - reduced CenterTorso internal structure to 155.
 movedef_crab_CRB-27 - Fixed Walk and Sprint distances.  From 120/200 to 140/240.
 
 ### /data/pilot/
-The exact list of changes is long to detail see original thread...
-https://forum.paradoxplaza.com/forum/index.php?threads/battletech-pregenerated-ronin-kickstarter-pilots-missing-passive-skills.1125874/
-along with the additions noted by Amechwarrior for PvP pilots...
+Added missing pilot traits by Amechwarrior for PvP pilots:
 https://forum.paradoxplaza.com/forum/index.php?threads/simple-json-typo-fixes-for-1-3.1126334/
+Small typo fix in Backer Pilot "Brown"
 
 ### /data/starsystem/
 starsystemdef_NewGanymede.json - fixed typo: "Concordant" changed to "Concordat"
