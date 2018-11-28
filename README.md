@@ -55,7 +55,12 @@ https://forum.paradoxplaza.com/forum/index.php?threads/simple-json-typo-fixes-fo
 Small typo fix in Backer Pilot "Brown"
 
 ### /data/starsystem/
+starsystemdef_MacLeodsLand.json - fixed typo: "Concordant" changed to "Concordat"
 starsystemdef_NewGanymede.json - fixed typo: "Concordant" changed to "Concordat"
+starsystemdef_NewVandenburg.json - fixed typo: "Concordant" changed to "Concordat"
+starsystemdef_Renfield.json - fixed typo: "Concordant" changed to "Concordat"
+starsystemdef_Samantha.json - fixed typo: "Concordant" changed to "Concordat"
+starsystemdef_Taurus.json - fixed typo: "Concordant" changed to "Concordat"
 
 ### /data/vehicle/
 vehicledef_STRIKER.json - fixed value: Turret Armor 120 changed to 110
