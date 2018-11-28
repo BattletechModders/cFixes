@@ -29,7 +29,9 @@
     "Voice": "m_pro06_matthew",
     "abilityDefNames": [
         "AbilityDefGu5",
-        "TraitDefHealthAddOne"
+        "TraitDefHealthAddOne",
+        "TraitDefRefireReduceOne",
+        "TraitDefOverheatAddFifteen"
     ],
     "AIPersonality": "Undefined",
     "PilotTags": {
@@ -40,6 +42,7 @@
             "pilot_brave",
             "pilot_command",
             "pilot_mechwarrior",
+            "name_Bootcamp",
             "pilot_steiner"
         ],
         "tagSetSourceFile": ""
