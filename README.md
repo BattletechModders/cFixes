@@ -41,15 +41,25 @@ faction_MagistracyOfCanopus.json - fixed typo: "conservation" changed to "compen
 
 ### /data/mech/
 mechdef_atlas_AS7-D.json - reduced CenterTorso internal structure to 155.
+
 mechdef_atlas_AS7-D-HT.json - reduced CenterTorso internal structure to 155.
+
 mechdef_cataphract_CTF-1X.json - removed tag: "unit_jumpOK", 
+
 mechdef_catapult_CPLT-C1.json - added tag: "unit_jumpOK", - added tag: "unit_indirectFire",
+
 mechdef_centurion_CN9-AL.json - added tag: "unit_indirectFire",
+
 mechdef_commando_COM-1B.json - fixed typo: "IB" changed to "1B"
+
 mechdef_highlander_HGN-733P.json - added tag: "unit_indirectFire",
+
 mechdef_jagermech_JM6-A.json - added tag: "unit_indirectFire",
+
 mechdef_orion_ON1-K.json - added tag: "unit_indirectFire",
+
 mechdef_quickdraw_QKD-5A.json - removed tag: "unit_indirectFire",
+
 mechdef_zeus_ZEU-6S.json - added tag: "unit_indirectFire",
 
 ### /data/movement/
@@ -57,15 +67,22 @@ movedef_crab_CRB-27 - Fixed Walk and Sprint distances.  From 120/200 to 140/240.
 
 ### /data/pilot/
 Added missing pilot traits by Amechwarrior for PvP pilots:
+
 https://forum.paradoxplaza.com/forum/index.php?threads/simple-json-typo-fixes-for-1-3.1126334/
+
 Small typo fix in Backer Pilot "Brown"
 
 ### /data/starsystem/
 starsystemdef_MacLeodsLand.json - fixed typo: "Concordant" changed to "Concordat"
+
 starsystemdef_NewGanymede.json - fixed typo: "Concordant" changed to "Concordat"
+
 starsystemdef_NewVandenburg.json - fixed typo: "Concordant" changed to "Concordat"
+
 starsystemdef_Renfield.json - fixed typo: "Concordant" changed to "Concordat"
+
 starsystemdef_Samantha.json - fixed typo: "Concordant" changed to "Concordat"
+
 starsystemdef_Taurus.json - fixed typo: "Concordant" changed to "Concordat"
 
 ### /data/vehicle/
@@ -73,8 +90,13 @@ vehicledef_STRIKER.json - fixed value: Turret Armor 120 changed to 110
 
 ### /data/weapon/
 Weapon_LRM_LRM5_2-Delta.json - fixed value: "Instability" : 5, changed to "Instability" : 4,
+
 Weapon_LRM_LRM10_2-Delta.json - fixed value: "Instability" : 5, changed to "Instability" : 4,
+
 Weapon_LRM_LRM15_2-Delta.json - fixed value: "Instability" : 5, changed to "Instability" : 4,
+
 Weapon_PPC_PPCER_0-STOCK.json - added general PPC status debuff "sensors impaired"
+
 Weapon_PPC_PPCER_1-MagnaFirestar.json - added general PPC status debuff "sensors impaired"
+
 Weapon_PPC_PPCER_2-TiegartMagnum.json - added general PPC status debuff "sensors impaired"
