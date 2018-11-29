@@ -20,12 +20,18 @@ They are intended for free use and re-use.
 (by directory)
 
 ### /data/chassis/
-chassisdef_commando_COM-1B.json - fixed typo: "IB" changed to "1B".
-chassisdef_thunderbolt_TDR-5S.json - fixed typo: "well armored and" changed to "well armed and".
-chassisdef_trebuchet_TBT-5N.json - fixed value: CT max Armor 120 changed to 160.
-chassisdef_zeus_ZEU-6S.json - fixed value: Jump Jets 3 changed to 4.
 chassisdef_atlas_AS7-D.json - reduced CenterTorso internal structure to 155.
+
 chassisdef_atlas_AS7-D-HT.json - reduced CenterTorso internal structure to 155.
+
+chassisdef_commando_COM-1B.json - fixed typo: "IB" changed to "1B".
+
+chassisdef_thunderbolt_TDR-5S.json - fixed typo: "well armored and" changed to "well armed and".
+
+chassisdef_trebuchet_TBT-5N.json - fixed value: CT max Armor 120 changed to 160.
+
+chassisdef_zeus_ZEU-6S.json - fixed value: Jump Jets 3 changed to 4.
+
 
 ### /data/events/
 event_mw_arcadeMercenaries.json - fixed typo: "his" changed to "{TGT_MW.Gender?Male:his|Female:her|NonBinary:their}"
@@ -34,6 +40,8 @@ event_mw_arcadeMercenaries.json - fixed typo: "his" changed to "{TGT_MW.Gender?M
 faction_MagistracyOfCanopus.json - fixed typo: "conservation" changed to "compensation"
 
 ### /data/mech/
+mechdef_atlas_AS7-D.json - reduced CenterTorso internal structure to 155.
+mechdef_atlas_AS7-D-HT.json - reduced CenterTorso internal structure to 155.
 mechdef_cataphract_CTF-1X.json - removed tag: "unit_jumpOK", 
 mechdef_catapult_CPLT-C1.json - added tag: "unit_jumpOK", - added tag: "unit_indirectFire",
 mechdef_centurion_CN9-AL.json - added tag: "unit_indirectFire",
@@ -43,8 +51,6 @@ mechdef_jagermech_JM6-A.json - added tag: "unit_indirectFire",
 mechdef_orion_ON1-K.json - added tag: "unit_indirectFire",
 mechdef_quickdraw_QKD-5A.json - removed tag: "unit_indirectFire",
 mechdef_zeus_ZEU-6S.json - added tag: "unit_indirectFire",
-mechdef_atlas_AS7-D.json - reduced CenterTorso internal structure to 155.
-mechdef_atlas_AS7-D-HT.json - reduced CenterTorso internal structure to 155.
 
 ### /data/movement/
 movedef_crab_CRB-27 - Fixed Walk and Sprint distances.  From 120/200 to 140/240.
