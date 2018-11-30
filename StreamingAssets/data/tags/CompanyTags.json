@@ -1,0 +1,258 @@
+{
+	"items" : [
+	
+	/* Argo Upgrade tags */
+	
+		"argo_power1",
+		"argo_power2",
+		"argo_power3",
+		"argo_structure0",
+		"argo_structure1",
+		"argo_structure2",
+		"argo_drive0",
+		"argo_drive1",
+		"argo_drive2",
+		"argo_mechBay1",
+		"argo_mechBay2",
+		"argo_mechBay3",
+		"argo_mechBay_automation1",
+		"argo_mechBay_automation2",
+		"argo_mechBay_machineShop",
+		"argo_mechBay_scaffolding",
+		"argo_mechBay_refitHarness",
+		"argo_pod1",
+		"argo_pod2",
+		"argo_pod3",
+		"argo_trainingModule1",
+		"argo_trainingModule2",
+		"argo_trainingModule3",
+		"argo_rec_lounge1",
+		"argo_rec_lounge2",
+		"argo_rec_gym",
+		"argo_rec_hydroponics",
+		"argo_rec_library1",
+		"argo_rec_library2",
+		"argo_rec_arcade",
+		"argo_rec_pool",
+		"argo_medBay1",
+		"argo_medBay2",
+		"argo_medBay3",
+		"argo_medbay_hospital",
+
+	/* System tags for tracking stat changes */
+	
+		"MODIFIED_STAT_MechTechSkill",
+		"MODIFIED_STAT_MedTechSkill",
+		
+	/* System tags for tracking game mode */
+	
+		"SYSTEM_GAMEMODE_KAMEA_CAMPAIGN",
+		"SYSTEM_GAMEMODE_CAREER",
+		"SYSTEM_GAMEMODE_NONE",
+		
+	/* System tags for tracking faction alliance state */
+	/* These tags are read-only. Use special results to modify, not tag set/unset */
+	
+		"ALLIED_FACTION_Davion",
+		"ENEMY_FACTION_Davion",
+		
+		"ALLIED_FACTION_Kurita",
+		"ENEMY_FACTION_Kurita",
+		
+		"ALLIED_FACTION_Liao",
+		"ENEMY_FACTION_Liao",
+		
+		"ALLIED_FACTION_Marik",
+		"ENEMY_FACTION_Marik",
+		
+		"ALLIED_FACTION_Steiner",
+		"ENEMY_FACTION_Steiner",
+		
+		"ALLIED_FACTION_MagistracyOfCanopus",
+		"ENEMY_FACTION_MagistracyOfCanopus",
+		
+		"ALLIED_FACTION_TaurianConcordat",
+		"ENEMY_FACTION_TaurianConcordat",
+		
+		"ALLIED_FACTION_AuriganPirates",
+		"ENEMY_FACTION_AuriganPirates",
+		
+		"ALLIED_FACTION_AuriganRestoration",
+		"ENEMY_FACTION_AuriganRestoration",
+		
+		"ALLIED_FACTION_AuriganDirectorate",
+		"ENEMY_FACTION_AuriganDirectorate",
+		
+		
+	/* Story and Restoration tags */
+				
+		"story_restoration_panzyr",
+		"story_restoration_smithon",
+		"story_restoration_itrom",
+		"story_restoration_tyrlon",
+		"story_ready_mission5",
+		"story_ready_mission9",
+		"story_complete",
+		"story_axylus_sumirehelped",
+		"story_axylus_sumirestayed",
+		"story_locuraVirua_isolated",
+
+	/* Flashpoint tags */
+
+		"flashpoint_defector_complete",
+		"flashpoint_defector_a",
+		"flashpoint_defector_b",
+		"flashpoint_defector_cancel",
+		"flashpoint_defector_followupEvent",
+
+		"flashpoint_doubleAgent_complete",
+		"flashpoint_doubleAgent_a",
+		"flashpoint_doubleAgent_b",
+		"flashpoint_doubleAgent_c",
+
+		"flashpoint_extraActivities_complete",
+		"flashpoint_extraActivities_a",
+		"flashpoint_extraActivities_b",
+		"flashpoint_extraActivities_followupEvent",
+		
+		"flashpoint_flattenedEarth_complete",
+		"flashpoint_flattenedEarth_a",
+		"flashpoint_flattenedEarth_b",
+		"flashpoint_flattenedEarth_followupEvent",
+
+		"flashpoint_gladiator_complete",
+		"flashpoint_gladiator_a",
+		"flashpoint_gladiator_b",
+		"flashpoint_gladiator_followupEvent",
+
+		"flashpoint_greed_complete",
+		"flashpoint_greed_a",
+		"flashpoint_greed_b",
+		
+		"flashpoint_headhunting_complete",
+		"flashpoint_headhunting_a",
+		"flashpoint_headhunting_b",
+
+		"flashpoint_justinAllard_complete",
+		"flashpoint_justinAllard_a",
+		"flashpoint_justinAllard_b",
+		"flashpoint_justinAllard_followupEvent",
+
+		"flashpoint_longHunt_complete",
+		"flashpoint_longHunt_a",
+		"flashpoint_longHunt_b",
+		"flashpoint_longHunt_followupEvent",
+
+		"flashpoint_longRoad_complete",
+		"flashpoint_longRoad_a",
+		"flashpoint_longRoad_b",
+
+		"flashpoint_scoundrel_complete",
+		"flashpoint_scoundrel_a",
+		"flashpoint_scoundrel_b",
+		"flashpoint_scoundrel_followupEvent",
+		"flashpoint_scoundrel_followupEvent-1a",
+		"flashpoint_scoundrel_followupEvent-1b",
+		"flashpoint_scoundrel_followupEvent-2",
+
+		"flashpoint_shadowOrg_complete",
+		"flashpoint_shadowOrg_a",
+		"flashpoint_shadowOrg_b",
+		"flashpoint_shadowOrg_followupEvent",
+
+		"flashpoint_succession_complete",
+		"flashpoint_succession_a",
+		"flashpoint_succession_b",
+
+		"flashpoint_unwelcomeGuests_complete",
+		"flashpoint_unwelcomeGuests_a",
+		"flashpoint_unwelcomeGuests_b",
+		"flashpoint_unwelcomeGuests_followupEvent",
+
+	/* Event and contract tags */
+
+		"event_HIDDEN",
+
+		"company_underworldFriends",
+		"company_underworldEnemies",
+		"company_fixedVentilation",
+		"company_cat",
+		"company_leopard_loan_fair",
+		"company_leopard_loan_good",
+
+		"company_blackMarket_ON",
+		"company_blackMarket_OFF",
+		"company_blackMarket_BANNED",
+		"company_blackMarket_NOTYET",
+		"company_blackMarket_NOSHAKEDOWN",
+		
+		"event_mercReviewBoard_Davion",
+		"event_mercReviewBoard_Liao",
+		"event_mercReviewBoard_Marik",
+
+		"chain_bountyHunter_Davion1",
+		"chain_bountyHunter_Liao1",
+		"chain_bountyHunter_Marik1",
+
+		"event_FluShip",
+		"event_FluPlanet",
+
+		"event_DistressCall",
+
+		"event_mw_targetPractice",
+		"event_mw_corridorBocce",
+		"event_co_underfed",
+		"event_co_underfed_garden",
+		"event_co_poolSkinnyDipping",
+		"event_mw_firstHarvest",
+		"event_mw_moonlighting",
+		"event_mw_doctorsOrders",
+		"event_co_rumbleSeat",
+		"event_co_intro_Test9",
+		"event_co_intro_Archangel",
+		
+		"event_co_oldFriend_Gladiator",
+		"event_co_oldFriend_MerchantGuard",
+		"event_co_oldFriend_FreeLancer",
+		"event_co_oldFriend_Mercenary",
+		"event_co_oldFriend_Soldier",
+		"event_co_oldFriend_Pirate",
+		"event_co_thePast_Accident",
+		"event_co_thePast_Bankrupt",
+		"event_co_thePast_Betrayed",
+		"event_co_thePast_Exile",
+		"event_co_thePast_Loner",
+
+		"event_mw_researchSumire",
+		"event_co_researchYang",
+		"event_mw_researchMurad",
+		
+		"chain_ruins_brick",
+		"chain_ruins_photos",
+		"chain_ruins_scans",
+		
+		"chain_assassinate_HoloVidCelebrity0",
+		"chain_assassinate_HoloVidCelebrity1",
+
+		"chain_plague_ShoreLeave1",
+		"chain_plague_Rescue1",
+		"chain_plague_Vaccine",
+
+		"chain_gamma_mechtech",
+		"chain_gamma_medical",
+		"chain_gamma_food",
+		"chain_gamma_mystery1",
+		"chain_gamma_mystery2",
+		"chain_gamma_mystery3",
+		"chain_gamma_mystery-resolved",
+		
+		"mission_HuntedCriminal_badguykilled",
+		"mission_HuntedCriminal_completed",
+		"mission_HuntedCriminal_refusedOffer",
+		"mission_HuntedCriminal_acceptedOffer",
+
+		"mission_rescue_oneMansArt"
+
+	],
+	"tagSetSourceFile": ""
+}
