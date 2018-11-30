@@ -32,6 +32,13 @@ chassisdef_trebuchet_TBT-5N.json - fixed value: CT max Armor 120 changed to 160.
 
 chassisdef_zeus_ZEU-6S.json - fixed value: Jump Jets 3 changed to 4.
 
+### /data/contracts/
+DefendBase_Bodyguards.json - removed redundant "the" in dialogs.
+
+### /descriptions/Lore/
+LoreGreatHouses.json - Ordered Houses "Around the Sphere"
+
+LoreSuccessorState.json - Ordered Houses "Around the Sphere"
 
 ### /data/events/
 event_mw_arcadeMercenaries.json - fixed typo: "his" changed to "{TGT_MW.Gender?Male:his|Female:her|NonBinary:their}"
@@ -73,6 +80,8 @@ https://forum.paradoxplaza.com/forum/index.php?threads/simple-json-typo-fixes-fo
 Small typo fix in Backer Pilot "Brown"
 
 ### /data/starsystem/
+starsystemdef_Camadeirre.json - fixed typo: "Camadeirre" change to "Camadeierre"
+
 starsystemdef_MacLeodsLand.json - fixed typo: "Concordant" changed to "Concordat"
 
 starsystemdef_NewGanymede.json - fixed typo: "Concordant" changed to "Concordat"
@@ -86,7 +95,16 @@ starsystemdef_Samantha.json - fixed typo: "Concordant" changed to "Concordat"
 starsystemdef_Taurus.json - fixed typo: "Concordant" changed to "Concordat"
 
 ### /data/vehicle/
+vehicledef_BULLDOG.json - added Front MG and ammo
+
+vehicledef_DEMOLISHER.json - added missing 4th ton of AC/20 ammo
+
+vehicledef_SCORPION.json - moved MG from Turret to Front
+
 vehicledef_STRIKER.json - fixed value: Turret Armor 120 changed to 110
+
+### /data/vehicleChassis/
+vehiclechassisdef_SCORPION - moved AP hardpoint from Turret to Front
 
 ### /data/weapon/
 Weapon_LRM_LRM5_2-Delta.json - fixed value: "Instability" : 5, changed to "Instability" : 4,
