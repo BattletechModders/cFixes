@@ -7,7 +7,8 @@ These files are the result of the combined work of several community modders, na
 
 - Amechwarrior, Hawaii, bug tracing and code review.
 - Dr. Banzai, Germany, bug fixing and configuration management.
-- scJazz, US East Cost, bug fixes and code review.
+- scJazz, US East Coast, bug fixes and code review.
+- JustinKaseToo, US East Coast (living on West Coast time according to his wife), bug fixes.
 
 Credits:
 Special thanks to JustinKaseToo for providing a ton of basic information we were able to built up on.
