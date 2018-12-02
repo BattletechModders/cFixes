@@ -84,6 +84,9 @@ pilot_kbeta_ozone.json - Removed Piloting 7 Sprint Bonus, added Piloting 6 Evasi
 
 pilot_kbeta_showboat.json - Removed Piloting 7 Sprint Bonus, added Piloting 6 Evasive Charge Max +1
 
+### /data/simGameConstants
+SimGameConstants.json - Various extra commas, missing comma after "uixSvgIcon_contract_Travel"
+
 ### /data/starsystem/
 starsystemdef_Camadeirre.json - fixed typo: "Camadeirre" change to "Camadeierre"
 
