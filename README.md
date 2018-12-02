@@ -8,11 +8,10 @@ These files are the result of the combined work of several community modders, na
 - Amechwarrior, Hawaii, bug tracing and code review.
 - Dr. Banzai, Germany, bug fixing and configuration management.
 - scJazz, US East Coast, bug fixes and code review.
-- JustinKaseToo, US East Coast (living on West Coast time according to his wife), bug fixes.
+- JustinKaseToo, US East Coast (living on West Coast time according to his wife), bug and formatting fixes.
 
 Credits:
-Special thanks to JustinKaseToo for providing a ton of basic information we were able to built up on.
-Another shout out to Ark Evensong for providing the fixes to various pilots.
+Special thanks to Ark Evensong for providing the fixes to various pilots.
 
 The authors do not claim any intellectual or legal property on the content of these files. 
 They are intended for free use and re-use.
@@ -125,11 +124,11 @@ Weapon_PPC_PPCER_0-STOCK.json - added general PPC status debuff "sensors impaire
 
 Weapon_PPC_PPCER_1-MagnaFirestar.json - added general PPC status debuff "sensors impaired"
 
+Weapon_PPC_PPCER_1-MagnaFirestar.json - added weapon bonus description
+
 Weapon_PPC_PPCER_2-TiegartMagnum.json - added general PPC status debuff "sensors impaired"
 
 Weapon_PPC_PPCER_2-TiegartMagnum.json - added weapon bonus description
-
-Weapon_PPC_PPCER_1-MagnaFirestar.json - added weapon bonus description
 
 Weapon_Gauss_Gauss_1-M7.json - added weapon bonus description
 
