@@ -4,8 +4,8 @@
             "unit_mech",
             "unit_assault",
             "unit_lance_tank",
-			"unit_indirectFire",
-            "unit_role_sniper",
+            "unit_indirectFire",
+            "unit_role_brawler",
             "unit_release"
         ]
     }
