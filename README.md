@@ -21,9 +21,9 @@ They are intended for free use and re-use.
 (by directory)
 
 ### /data/chassis/
-chassisdef_atlas_AS7-D.json - reduced CenterTorso internal structure to 155.
+chassisdef_atlas_AS7-D.json - reduced CenterTorso internal structure to 155, max CT armor to match.
 
-chassisdef_atlas_AS7-D-HT.json - reduced CenterTorso internal structure to 155.
+chassisdef_atlas_AS7-D-HT.json - reduced CenterTorso internal structure to 155, max CT armor to match.
 
 chassisdef_commando_COM-1B.json - fixed typo: "IB" changed to "1B".
 
@@ -74,11 +74,15 @@ mechdef_zeus_ZEU-6S.json - added tag: "unit_indirectFire",
 movedef_crab_CRB-27 - Fixed Walk and Sprint distances.  From 120/200 to 140/240.
 
 ### /data/pilot/
-Added missing pilot traits by Amechwarrior for PvP pilots:
+pilot_backer_Brown - Typo in bio "ambivalence" corrected to "ambivalent."
 
-https://forum.paradoxplaza.com/forum/index.php?threads/simple-json-typo-fixes-for-1-3.1126334/
+pilot_kbeta_apex - Added missing "TraitDefWeaponHit7"
 
-Small typo fix in Backer Pilot "Brown"
+pilot_kbeta_arclight.json - Removed Piloting 7 Sprint Bonus, added Piloting 6 Evasive Charge Max +1
+
+pilot_kbeta_ozone.json - Removed Piloting 7 Sprint Bonus, added Piloting 6 Evasive Charge Max +1
+
+pilot_kbeta_showboat.json - Removed Piloting 7 Sprint Bonus, added Piloting 6 Evasive Charge Max +1
 
 ### /data/starsystem/
 starsystemdef_Camadeirre.json - fixed typo: "Camadeirre" change to "Camadeierre"
