@@ -1,11 +1,11 @@
 {
-  "Finances" : {  
-			"ContractNegotiableReputationAddition" : 5
+   "Finances" : {  
+		"ContractNegotiableReputationAddition" : 5
    }, 
-    "Story" : {
+   "Story" : {
 		"HighRepNotificationValue" : 50
    }, 
-   "Progression" : {
+   "Missions" : {
 		"MissionTypeIcons": [
 			"uixTxrIcon_portrait_Temp",
 			"uixSvgIcon_contract_Battle",
@@ -49,13 +49,13 @@
 		]
    },
    "Flashpoints" : {
-				"GreaterThanThisTotalWeightIsHeavyLance" : 240		
+		"GreaterThanThisTotalWeightIsHeavyLance" : 240	
    },
    "CareerMode" : {
-			"FlashpointStartRange" : [
+		"FlashpointStartRange" : [
 			14,
 			21
-		]
+		],
 		"HonoredMaxContractDifficulty" : 10
    }
 }
