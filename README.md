@@ -142,9 +142,17 @@ Weapon_Laser_LargeLaserPulse_1-Thunderbolt12.json - added weapon bonus descripti
 
 Weapon_Laser_LargeLaserPulse_2-Exostar.json - added weapon bonus description
  
+Weapon_Laser_MediumLaserER_1-MagnaVI.json - added weapon bonus description
+
+Weapon_Laser_MediumLaserER_2-BrightBloom.json - added weapon bonus description
+
 Weapon_Laser_MediumLaserPulse_1-RakerIV.json - added weapon bonus description
 
 Weapon_Laser_MediumLaserPulse_2-Magna400P.json - added weapon bonus description
+
+Weapon_Laser_SmallLaserER_1-Diverse_Optics.json - added weapon bonus description
+
+Weapon_Laser_SmallLaserER_2-BlazeFire.json - added weapon bonus description
 
 Weapon_Laser_SmallLaserPulse_1-Maxell.json - added weapon bonus description
 
