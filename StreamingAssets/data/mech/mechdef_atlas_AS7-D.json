@@ -1,32 +1,4 @@
 {
-    "MechTags": {
-        "items": [
-            "unit_indirectFire",
-            "unit_mech",
-            "unit_assault",
-            "unit_release",
-            "unit_ready",
-            "unit_lance_tank",
-            "unit_role_brawler"
-        ],
-        "tagSetSourceFile": ""
-    },
-    "ChassisID": "chassisdef_atlas_AS7-D",
-    "HeraldryID": null,
-    "Description": {
-        "Cost": 12980000,
-        "Rarity": 5,
-        "Purchasable": true,
-        "Manufacturer": null,
-        "Model": null,
-        "UIName": "Atlas AS7-D",
-        "Id": "mechdef_atlas_AS7-D",
-        "Name": "Atlas",
-        "Details": "The Atlas D is the king of the battlefield, capable of bringing a dizzying array of weapons to bear on targets at any range. It is also noteworthy for normally mounting the maximum amount of armor possible. Few opponents can survive even brief contact with this monster.",
-        "Icon": "uixTxrIcon_atlas"
-    },
-    "simGameMechPartCost": 1300000,
-    "Version": 1,
     "Locations": [
         {
             "DamageLevel": "Functional",
