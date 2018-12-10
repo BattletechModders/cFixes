@@ -167,7 +167,7 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "LeftLeg",
+            "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_JumpJet_Generic_Standard",
             "SimGameUID": "",
             "ComponentDefType": "JumpJet",
@@ -211,7 +211,7 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "LeftTorso",
+            "MountedLocation": "RightLeg",
             "ComponentDefID": "Gear_HeatSink_Generic_Double",
             "SimGameUID": "",
             "ComponentDefType": "HeatSink",
