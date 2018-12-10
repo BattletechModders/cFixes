@@ -20,7 +20,7 @@ They are intended for free use and re-use.
 (by directory)
 
 ### /data/chassis/
-chassisdef_atlas_AS7-D.json - reduced CenterTorso internal structure to 155, max CT armor to match, moved ammo from Legs to RT
+chassisdef_atlas_AS7-D.json - reduced CenterTorso internal structure to 155, max CT armor to match
 
 chassisdef_atlas_AS7-D-HT.json - reduced CenterTorso internal structure to 155, max CT armor to match
 
@@ -53,7 +53,7 @@ event_mw_arcadeMercenaries.json - fixed typo: "his" changed to "{TGT_MW.Gender?M
 faction_MagistracyOfCanopus.json - fixed typo: "conservation" changed to "compensation"
 
 ### /data/mech/
-mechdef_atlas_AS7-D.json - reduced CenterTorso internal structure to 155
+mechdef_atlas_AS7-D.json - reduced CenterTorso internal structure to 155, moved ammo from Legs to RT
 
 mechdef_atlas_AS7-D-HT.json - reduced CenterTorso internal structure to 155
 
