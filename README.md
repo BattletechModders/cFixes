@@ -20,20 +20,26 @@ They are intended for free use and re-use.
 (by directory)
 
 ### /data/chassis/
-chassisdef_atlas_AS7-D.json - reduced CenterTorso internal structure to 155, max CT armor to match.
+chassisdef_atlas_AS7-D.json - reduced CenterTorso internal structure to 155, max CT armor to match, moved ammo from Legs to RT
 
-chassisdef_atlas_AS7-D-HT.json - reduced CenterTorso internal structure to 155, max CT armor to match.
+chassisdef_atlas_AS7-D-HT.json - reduced CenterTorso internal structure to 155, max CT armor to match
 
-chassisdef_commando_COM-1B.json - fixed typo: "IB" changed to "1B".
+chassisdef_blackknight_BL-6-KNT.json - fixed variant name to BK-7-KNT
 
-chassisdef_thunderbolt_TDR-5S.json - fixed typo: "well armored and" changed to "well armed and".
+chassisdef_blackknight_BL-6b-KNT.json - fixed reference to BK-7-KNT
 
-chassisdef_trebuchet_TBT-5N.json - fixed value: CT max Armor 120 changed to 160.
+chassisdef_commando_COM-1B.json - fixed typo: "IB" changed to "1B"
 
-chassisdef_zeus_ZEU-6S.json - fixed value: Jump Jets 3 changed to 4.
+chassisdef_griffin_GRF-4N.json - fixed variant name to GRF-2N
+
+chassisdef_thunderbolt_TDR-5S.json - fixed typo: "well armored and" changed to "well armed and"
+
+chassisdef_trebuchet_TBT-5N.json - fixed value: CT max Armor 120 changed to 160
+
+chassisdef_zeus_ZEU-6S.json - fixed value: Jump Jets 3 changed to 4
 
 ### /data/contracts/
-DefendBase_Bodyguards.json - removed redundant "the" in dialogs.
+DefendBase_Bodyguards.json - removed redundant "the" in dialogs
 
 ### /descriptions/Lore/
 LoreGreatHouses.json - Ordered Houses "Around the Sphere"
@@ -47,9 +53,13 @@ event_mw_arcadeMercenaries.json - fixed typo: "his" changed to "{TGT_MW.Gender?M
 faction_MagistracyOfCanopus.json - fixed typo: "conservation" changed to "compensation"
 
 ### /data/mech/
-mechdef_atlas_AS7-D.json - reduced CenterTorso internal structure to 155.
+mechdef_atlas_AS7-D.json - reduced CenterTorso internal structure to 155
 
-mechdef_atlas_AS7-D-HT.json - reduced CenterTorso internal structure to 155.
+mechdef_atlas_AS7-D-HT.json - reduced CenterTorso internal structure to 155
+
+mechdef_blackknight_BL-6-KNT.json - fixed variant name to BK-7-KNT, fixed PPC in wrong HardpointSlot
+
+mechdef_blackknight_BL-6b-KNT.json - fixed reference to BK-7-KNT, moved DHS from illegal Leg slots to torsos and arms
 
 mechdef_cataphract_CTF-1X.json - removed tag: "unit_jumpOK", 
 
@@ -59,7 +69,15 @@ mechdef_centurion_CN9-AL.json - added tag: "unit_indirectFire",
 
 mechdef_commando_COM-1B.json - fixed typo: "IB" changed to "1B"
 
-mechdef_highlander_HGN-733P.json - added tag: "unit_indirectFire",
+mechdef_griffin_GRF-4N.json - fixed variant name to GRF-2N, JJ from Leg to Torso, moved DHS from illegal Leg slots to torsos to match "Greed"
+
+mechdef_griffin_GRF-4N_fp_greed.json - fixed variant name to GRF-2N, JJ from Leg to Torso
+
+mechdef_highlander_HGN-732b.json - Adjusted Torso Front Armor to match Record Sheets
+
+mechdef_highlander_HGN-733.json - Adjusted Center Torso Front Armor to match Record Sheets, allocated "spare" armor point to CTR
+
+mechdef_highlander_HGN-733P.json - added tag: "unit_indirectFire", adjusted Torso Front Armor and HS+ammo locations to match Record Sheets
 
 mechdef_jagermech_JM6-A.json - added tag: "unit_indirectFire",
 
@@ -70,7 +88,7 @@ mechdef_quickdraw_QKD-5A.json - removed tag: "unit_indirectFire",
 mechdef_zeus_ZEU-6S.json - added tag: "unit_indirectFire",
 
 ### /data/movement/
-movedef_crab_CRB-27 - Fixed Walk and Sprint distances.  From 120/200 to 140/240.
+movedef_crab_CRB-27 - Fixed Walk and Sprint distances.  From 120/200 to 140/240
 
 ### /data/pilot/
 pilot_backer_Brown - Typo in bio "ambivalence" corrected to "ambivalent."
