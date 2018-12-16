@@ -7,7 +7,7 @@
     "Author": "Team Banzai",
 
     "DependsOn": [],
-    "ConflictsWith": []
+    "ConflictsWith": [],
 	
     "Manifest": [
 	{ "Type": "ChassisDef", "Path": "chassis\\", "AddToDB": true },
