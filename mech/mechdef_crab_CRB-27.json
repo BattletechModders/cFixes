@@ -3,8 +3,8 @@
         "items": [
             "unit_mech",
             "unit_medium",
-	    "unit_release",
-	    "unit_dlc"
+            "unit_release",
+            "unit_dlc"
         ],
         "tagSetSourceFile": ""
     },
