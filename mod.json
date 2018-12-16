@@ -8,4 +8,9 @@
 
     "DependsOn": [],
     "ConflictsWith": []
+	
+    "Manifest": [
+	{ "Type": "ChassisDef", "Path": "chassis\\", "AddToDB": true },
+	{ "Type": "MechDef", "Path": "mech\\", "AddToDB": true },
+    ]
 }
