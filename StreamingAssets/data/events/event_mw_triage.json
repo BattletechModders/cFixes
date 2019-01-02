@@ -1,55 +1,4 @@
 {
-    "Description" : {
-        "Id" : "event_mw_triage",
-        "Name" : "Triage",
-        "Details" : "Darius shows up at your door in the middle of the night. He looks worn to the bone. \"Commander, [[TGT_MW,{TGT_MW.Callsign}]] has slipped into a coma. The MedTechs don't expect {TGT_MW.Obj} to survive the night.\"",
-        "Icon" : "uixTxrSpot_MedBay.png"
-    },
-    "Scope" : "MechWarrior",
-    "Weight" : 10,
-    "Requirements" : {
-        "Scope" : "MechWarrior",
-        "RequirementTags" : {
-            "tagSetSourceFile" : "",
-            "items" : null
-        },
-        "ExclusionTags" : {
-            "tagSetSourceFile" : "",
-            "items" : null
-        },
-        "RequirementComparisons" : [
-            {
-                "obj" : "Injuries",
-                "op" : "GreaterThanOrEqual",
-                "val" : 3,
-                "valueConstant" : "3"
-            }
-        ]
-    },
-    "AdditionalRequirements" : [
-        {
-            "Scope" : "Company",
-            "RequirementTags" : {
-                "tagSetSourceFile" : "",
-                "items" : null
-            },
-            "ExclusionTags" : {
-                "tagSetSourceFile" : "Tags/CompanyTags",
-                "items" : [
-                    "MODIFIED_STAT_MedTechSkill"
-                ]
-            },
-            "RequirementComparisons" : [
-                {
-                    "obj" : "MedTechSkill",
-                    "op" : "GreaterThanOrEqual",
-                    "val" : 7,
-                    "valueConstant" : "7"
-                }
-            ]
-        }
-    ],
-    "AdditionalObjects" : [],
     "Options" : [
         {
             "Description" : {
@@ -597,8 +546,5 @@
                 "RequirementComparisons" : []
             }
         }
-    ],
-    "PublishState" : "PUBLISHED",
-    "ValidationState" : "UNTESTED",
-    "EventType" : "NORMAL"
+    ]
 }
