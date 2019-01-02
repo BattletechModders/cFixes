@@ -30,6 +30,8 @@ chassisdef_blackknight_BL-6b-KNT.json - fixed reference to BK-7-KNT
 
 chassisdef_commando_COM-1B.json - fixed typo: "IB" changed to "1B"
 
+chassisdef_crab_CRB-27.json - fixed variant name to CRB-20
+
 chassisdef_griffin_GRF-4N.json - fixed variant name to GRF-2N
 
 chassisdef_thunderbolt_TDR-5S.json - fixed typo: "well armored and" changed to "well armed and"
@@ -40,6 +42,10 @@ chassisdef_zeus_ZEU-6S.json - fixed value: Jump Jets 3 changed to 4
 
 ### /data/contracts/
 DefendBase_Bodyguards.json - removed redundant "the" in dialogs
+
+FireMission_DataLiberation.json - Typos and missing Faction Tag Calls
+
+FireMission_DataLiberation_Hard.json - Typos and missing Faction Tag Calls
 
 ### /descriptions/Lore/
 LoreGreatHouses.json - Ordered Houses "Around the Sphere"
@@ -66,6 +72,8 @@ mechdef_cataphract_CTF-1X.json - removed tag: "unit_jumpOK",
 mechdef_catapult_CPLT-C1.json - added tag: "unit_jumpOK", - added tag: "unit_indirectFire",
 
 mechdef_centurion_CN9-AL.json - added tag: "unit_indirectFire",
+
+mechdef_crab_CRB-27.json - fixed variant name to CRB-20, given Role - Brawler and Lance - Tank tags
 
 mechdef_commando_COM-1B.json - fixed typo: "IB" changed to "1B"
 
