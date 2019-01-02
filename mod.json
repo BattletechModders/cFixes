@@ -7,7 +7,5 @@
     "Author": "Team Banzai",
 
     "DependsOn": [],
-    "ConflictsWith": [],
-	
-    "Manifest": []
+    "ConflictsWith": []
 }
