@@ -49,7 +49,7 @@ LoreSuccessorState.json - Ordered Houses "Around the Sphere"
 ### /data/events/
 event_mw_arcadeMercenaries.json - fixed typo: "his" changed to "{TGT_MW.Gender?Male:his|Female:her|NonBinary:their}"
 
-event_mw_librarySelfImprovement - fixed typo: "his" changed to "{TGT_MW.Gender?Male:his|Female:her|NonBinary:their}"
+event_mw_librarySelfImprovement.json - fixed typo: "his" changed to "{TGT_MW.Gender?Male:his|Female:her|NonBinary:their}"
 
 event_mw_triage.json - missing commas
 
