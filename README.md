@@ -15,6 +15,18 @@ Special thanks to Ark Evensong for providing the fixes to various pilots.
 The authors do not claim any intellectual or legal property on the content of these files. 
 They are intended for free use and re-use.
 
+### Instructions:
+
+    Copy cFixes folder in to Mods folder created for ModTek.
+    
+### ModTek/BTML
+This mod needs ModTek and BTML to work:
+
+https://github.com/BattletechModders/ModTek/releases
+
+https://github.com/BattletechModders/BattleTechModLoader/releases
+
+
 ## List of Fixes
 (by directory)
 
