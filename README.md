@@ -51,7 +51,7 @@ https://github.com/BattletechModders/BattleTechModLoader/releases
     LoreGreatHouses.json - Ordered Houses "Around the Sphere"
     LoreSuccessorState.json - Ordered Houses "Around the Sphere"
     
-### StreamingAssets/descriptions/MechwarriorData/
+### StreamingAssets/descriptions/MechWarriorData/
     TypeMechWarriorBrawler.json - Sure Footing description added
     TypeMechWarriorDefenderAdvanced.json - Sure Footing description added
     TypeMechWarriorFlanker.json - Sure Footing description added
