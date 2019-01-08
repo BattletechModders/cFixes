@@ -8,6 +8,7 @@ These files are the result of the combined work of several community modders, na
 - Dr. Banzai, Germany, bug fixing and configuration management.
 - scJazz, US East Coast, bug fixes and code review.
 - JustinKaseToo, US East Coast (living on West Coast time according to his wife), bug and formatting fixes.
+- Sheepy, bug fixes and code review.
 
 Credits:
 
