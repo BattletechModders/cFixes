@@ -76,6 +76,9 @@ https://github.com/BattletechModders/BattleTechModLoader/releases
 
 ### StreamingAssets/data/factions/
     faction_MagistracyOfCanopus.json - fixed typo: "conservation" changed to "compensation"
+    
+### StreamingAssets/data/hardpoints/
+    hardpointdatadef_crab.json - fixed head hardpoints
 
 ### StreamingAssets/data/mech/
     mechdef_atlas_AS7-D.json - reduced CenterTorso internal structure to 155, moved ammo from Legs to RT
