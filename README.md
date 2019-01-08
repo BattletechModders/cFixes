@@ -15,8 +15,8 @@ Special thanks to Ark Evensong for providing the fixes to various pilots.
 The authors do not claim any intellectual or legal property on the content of these files. 
 They are intended for free use and re-use.
 
+=======
 ### Instructions:
-
     Copy cFixes folder in to Mods folder created for ModTek.
     
 ### ModTek/BTML
@@ -36,6 +36,7 @@ https://github.com/BattletechModders/BattleTechModLoader/releases
     chassisdef_blackknight_BL-6-KNT.json - fixed variant name to BK-7-KNT
     chassisdef_blackknight_BL-6b-KNT.json - fixed reference to BK-7-KNT
     chassisdef_commando_COM-1B.json - fixed typo: "IB" changed to "1B"
+    chassisdef_crab_CRB-27.json - fixed variant name to CRB-20
     chassisdef_griffin_GRF-4N.json - fixed variant name to GRF-2N
     chassisdef_thunderbolt_TDR-5S.json - fixed typo: "well armored and" changed to "well armed and"
     chassisdef_trebuchet_TBT-5N.json - fixed value: CT max Armor 120 changed to 160
@@ -43,6 +44,8 @@ https://github.com/BattletechModders/BattleTechModLoader/releases
 
 ### StreamingAssets/data/contracts/
     DefendBase_Bodyguards.json - removed redundant "the" in dialogs
+    FireMission_DataLiberation.json - Typos and missing Faction Tag Calls
+    FireMission_DataLiberation_Hard.json - Typos and missing Faction Tag Calls
 
 ### StreamingAssets/descriptions/Lore/
     LoreGreatHouses.json - Ordered Houses "Around the Sphere"
@@ -65,8 +68,12 @@ https://github.com/BattletechModders/BattleTechModLoader/releases
     mechdef_catapult_CPLT-C1.json - added tag: "unit_jumpOK", - added tag: "unit_indirectFire",
     mechdef_centurion_CN9-AL.json - added tag: "unit_indirectFire",
     mechdef_commando_COM-1B.json - fixed typo: "IB" changed to "1B"
+    mechdef_crab_CRB-27.json - fixed variant name to CRB-20, given Role - Brawler and Lance - Tank tags
+    mechdef_cyclops_CP-10-Q - given Role - Sniper and Lance - Support tags
+    mechdef_cyclops_CP-10-Z - given Role - Sniper and Lance - Support tags
     mechdef_griffin_GRF-4N.json - fixed variant name to GRF-2N, JJ from Leg to Torso, moved DHS from illegal Leg slots to torsos to match "Greed"
     mechdef_griffin_GRF-4N_fp_greed.json - fixed variant name to GRF-2N, JJ from Leg to Torso
+    mechdef_hatchetman_HCT-3F - given Lance - Assassin tag
     mechdef_highlander_HGN-732b.json - Adjusted Torso Front Armor to match Record Sheets
     mechdef_highlander_HGN-733.json - Adjusted Center Torso Front Armor to match Record Sheets, allocated "spare" armor point to CTR
     mechdef_highlander_HGN-733P.json - added tag: "unit_indirectFire", adjusted Torso Front Armor and HS+ammo locations to match Record Sheets
