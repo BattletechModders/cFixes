@@ -10,7 +10,9 @@ These files are the result of the combined work of several community modders, na
 - JustinKaseToo, US East Coast (living on West Coast time according to his wife), bug and formatting fixes.
 
 Credits:
+
 Special thanks to Ark Evensong for providing the fixes to various pilots.
+
 Special thanks to ShadowStalker88 for providing the fix to CRB-27 head hardpoints.
 
 The authors do not claim any intellectual or legal property on the content of these files. 
