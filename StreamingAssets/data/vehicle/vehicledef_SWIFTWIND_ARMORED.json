@@ -1,27 +1,4 @@
 {
-   "Version" : 1,
-   "Description" : {
-      "Id" : "vehicledef_SWIFTWIND_ARMORED",
-      "Name" : "Armored Swift Wind",
-      "Details" : "",
-      "Icon" : "",
-      "Cost" : 564,
-      "Rarity" : 0,
-      "Purchasable" : false,
-	  "UIName" : "Armored Swiftwind"
-   },
-   "ChassisID" : "vehiclechassisdef_SWIFTWIND_ARMORED",
-   "VehicleTags": {
-      "items": [
-         "unit_vehicle",
-         "unit_light",
-         "unit_wheels",
-		 "unit_weaponless",
-		 "unit_noncombatant",
-		 "BLACKLISTED"
-      ],
-      "tagSetSourceFile": ""
-   },
    "Locations" : [
 		{
 			"Location" : "Front",
@@ -51,7 +28,5 @@
 			"AssignedArmor" : 100,
 			"DamageLevel" : "Functional"
 		}
-   ],
-   "inventory" : [
    ]
 }
