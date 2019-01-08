@@ -125,11 +125,17 @@ https://github.com/BattletechModders/BattleTechModLoader/releases
 ### StreamingAssets/data/vehicle/
     vehicledef_BULLDOG.json - added Front MG and ammo
     vehicledef_DEMOLISHER.json - added missing 4th ton of AC/20 ammo
+    vehicledef_MOBILEHQ_ARMORED.json - Fixed armor to match TT values
     vehicledef_SCORPION.json - moved MG from Turret to Front
     vehicledef_STRIKER.json - fixed value: Turret Armor 120 changed to 110
+    vehicledef_SWIFTWIND_ARMORED.json - fixed tonnage and armor to match possible TT config
 
 ### StreamingAssets/data/vehicleChassis/
+    vehiclechassisdef_MANTICORE.json - Fixed armor and internals
     vehiclechassisdef_SCORPION - moved AP hardpoint from Turret to Front
+    vehiclechassisdef_STRIKER.json - Fixed armor and internals
+    vehiclechassisdef_SWIFTWIND.json - Fixed armor and internals
+    vehiclechassisdef_SWIFTWIND_ARMORED.json - Fixed Tonnage and armor and internals
 
 ### StreamingAssets/data/weapon/
     Weapon_LRM_LRM5_2-Delta.json - fixed value: "Instability" : 5, changed to "Instability" : 4,
