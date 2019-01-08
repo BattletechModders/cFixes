@@ -141,16 +141,11 @@ https://github.com/BattletechModders/BattleTechModLoader/releases
     vehiclechassisdef_SWIFTWIND_ARMORED.json - Fixed Tonnage and armor and internals
 
 ### StreamingAssets/data/weapon/
+    Weapon_Gauss_Gauss_1-M7.json - added weapon bonus description
+    Weapon_Gauss_Gauss_2-M9.json - added weapon bonus description
     Weapon_LRM_LRM5_2-Delta.json - fixed value: "Instability" : 5, changed to "Instability" : 4,
     Weapon_LRM_LRM10_2-Delta.json - fixed value: "Instability" : 5, changed to "Instability" : 4,
     Weapon_LRM_LRM15_2-Delta.json - fixed value: "Instability" : 5, changed to "Instability" : 4,
-    Weapon_PPC_PPCER_0-STOCK.json - added general PPC status debuff "sensors impaired"
-    Weapon_PPC_PPCER_1-MagnaFirestar.json - added general PPC status debuff "sensors impaired"
-    Weapon_PPC_PPCER_1-MagnaFirestar.json - added weapon bonus description
-    Weapon_PPC_PPCER_2-TiegartMagnum.json - added general PPC status debuff "sensors impaired"
-    Weapon_PPC_PPCER_2-TiegartMagnum.json - added weapon bonus description
-    Weapon_Gauss_Gauss_1-M7.json - added weapon bonus description
-    Weapon_Gauss_Gauss_2-M9.json - added weapon bonus description
     Weapon_Laser_LargeLaserER_1-Blankenburg25.json - added weapon bonus description
     Weapon_Laser_LargeLaserER_2-BlazeFire.json - added weapon bonus description
     Weapon_Laser_LargeLaserPulse_1-Thunderbolt12.json - added weapon bonus description
@@ -163,3 +158,8 @@ https://github.com/BattletechModders/BattleTechModLoader/releases
     Weapon_Laser_SmallLaserER_2-BlazeFire.json - added weapon bonus description
     Weapon_Laser_SmallLaserPulse_1-Maxell.json - added weapon bonus description
     Weapon_Laser_SmallLaserPulse_2-Magna200P.json - added weapon bonus description
+    Weapon_PPC_PPCER_0-STOCK.json - added general PPC status debuff "sensors impaired"
+    Weapon_PPC_PPCER_1-MagnaFirestar.json - added general PPC status debuff "sensors impaired"
+    Weapon_PPC_PPCER_1-MagnaFirestar.json - added weapon bonus description
+    Weapon_PPC_PPCER_2-TiegartMagnum.json - added general PPC status debuff "sensors impaired"
+    Weapon_PPC_PPCER_2-TiegartMagnum.json - added weapon bonus description
