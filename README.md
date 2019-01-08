@@ -15,7 +15,6 @@ Special thanks to Ark Evensong for providing the fixes to various pilots.
 The authors do not claim any intellectual or legal property on the content of these files. 
 They are intended for free use and re-use.
 
-=======
 ### Instructions:
     Copy cFixes folder in to Mods folder created for ModTek.
     
