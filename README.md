@@ -50,6 +50,22 @@ https://github.com/BattletechModders/BattleTechModLoader/releases
 ### StreamingAssets/descriptions/Lore/
     LoreGreatHouses.json - Ordered Houses "Around the Sphere"
     LoreSuccessorState.json - Ordered Houses "Around the Sphere"
+    
+### StreamingAssets/descriptions/MechwarriorData/
+    TypeMechWarriorBrawler.json - Sure Footing description added
+    TypeMechWarriorDefenderAdvanced.json - Sure Footing description added
+    TypeMechWarriorFlanker.json - Sure Footing description added
+    TypeMechWarriorGladiator.json - Sure Footing description added
+    TypeMechWarriorOutrider.json - Sure Footing description added
+    TypeMechWarriorPilot.json - Sure Footing description added
+    TypeMechWarriorPilotAdvanced.json - Sure Footing description added
+    TypeMechWarriorRecon.json - Sure Footing description added
+    TypeMechWarriorScout.json - Sure Footing description added
+    TypeMechWarriorSentinel.json - Sure Footing description added
+    TypeMechWarriorSkirmisher.json - Sure Footing description added
+    TypeMechWarriorStriker.json - Sure Footing description added
+    TypeMechWarriorTacticianAdvanced.json - Sure Footing description added
+    TypeMechWarriorVanguard.json - Sure Footing description added
 
 ### StreamingAssets/data/events/
     event_mw_arcadeMercenaries.json - fixed typo: "his" changed to "{TGT_MW.Gender?Male:his|Female:her|NonBinary:their}"
