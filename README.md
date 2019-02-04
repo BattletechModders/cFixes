@@ -128,6 +128,9 @@ https://github.com/BattletechModders/BattleTechModLoader/releases
     starsystemdef_Renfield.json - fixed typo: "Concordant" changed to "Concordat"
     starsystemdef_Samantha.json - fixed typo: "Concordant" changed to "Concordat"
     starsystemdef_Taurus.json - fixed typo: "Concordant" changed to "Concordat"
+	
+### StreamingAssets/data/upgrades/cockpitMods/
+	Gear_Cockpit_StarCorps_Dalban.json = fixed typo: "Morale" changed to "Resolve"
 
 ### StreamingAssets/data/vehicle/
     vehicledef_BULLDOG.json - added Front MG and ammo
