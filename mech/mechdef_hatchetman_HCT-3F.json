@@ -1,4 +1,10 @@
 {
+    "MinAppearanceDate" : "3023-06-28T00:00:00Z",
+	"RequiredToSpawnCompanyTags": {
+	    "items": [
+		    "flashpoint_longRoad_complete"
+		]
+    },
     "MechTags": {
         "items": [
             "unit_mech",
@@ -6,8 +12,9 @@
             "unit_role_brawler",
             "unit_lance_assassin",
             "unit_jumpOK",
-	    "unit_release",
-            "unit_dlc"
+			"unit_release",
+            "unit_dlc",
+            "unit_hatchetman"
         ],
         "tagSetSourceFile": ""
     },
