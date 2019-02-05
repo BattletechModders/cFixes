@@ -14,6 +14,7 @@
 	{ "Type": "ContractOverride", "Path": "contracts", "AddToDB": true },    
 	{ "Type": "MechDef", "Path": "mech", "AddToDB": true },
 	{ "Path": "constantsMerge", "Type": "AdvancedJSONMerge" },
+	{ "Path": "contractsMerge", "Type": "AdvancedJSONMerge" },
 	{ "Path": "heatsinksMerge", "Type": "AdvancedJSONMerge" }
     ]
 }
