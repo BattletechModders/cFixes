@@ -48,9 +48,9 @@ Thanks to mpstark and the entire ModTek team for making this mod possible!
 
 ### StreamingAssets/data/contracts/
     DefendBase_Bodyguards.json - removed redundant "the" in dialogs
+    CaptureBase_AbandonedFactory.json - DropShip name edit
     FireMission_DataLiberation.json - Typos and missing Faction Tag Calls
     FireMission_DataLiberation_Hard.json - Typos and missing Faction Tag Calls
-    Rescue_PayrollSeizure.json - Removed AC/2 Atlas from spawning
     Story_5_ServedCold_Default.json - Missing space between "Newgrange" and "is"
     Story_5_ServedCold_Template.json - Missing space between "Newgrange" and "is"
 
