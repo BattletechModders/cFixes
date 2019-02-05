@@ -81,6 +81,14 @@ Thanks to mpstark and the entire ModTek team for making this mod possible!
     
 ### StreamingAssets/data/hardpoints/
     hardpointdatadef_crab.json - fixed head hardpoints
+    
+### StreamingAssets/data/heatsinks/
+    Gear_HeatSink_Generic_Bulk-Bank.json - fixed [AMT] value in StatusEffect Description Details
+    Gear_HeatSink_Generic_Improved-Bank.json - fixed [AMT] value in StatusEffect Description Details
+    Gear_HeatSink_Generic_Standard-Bank.json - fixed [AMT] value in StatusEffect Description Details
+    Gear_HeatSink_Generic_Thermal-Exchanger-I.json - fixed [AMT] value in StatusEffect Description Details
+    Gear_HeatSink_Generic_Thermal-Exchanger-II.json - fixed [AMT] value in StatusEffect Description Details
+    Gear_HeatSink_Generic_Thermal-Exchanger-III.json - fixed [AMT] value in StatusEffect Description Details
 
 ### StreamingAssets/data/mech/
     mechdef_atlas_AS7-D.json - reduced CenterTorso internal structure to 155, moved ammo from Legs to RT
