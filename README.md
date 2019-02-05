@@ -12,9 +12,7 @@ These files are the result of the combined work of several community modders, na
 
 Credits:
 
-Special thanks to Ark Evensong for providing the fixes to various pilots.
-
-Special thanks to ShadowStalker88 for providing the fix to CRB-27 head hardpoints.
+Special thanks to Ark Evensong for providing the fixes to various pilots and ShadowStalker88 for providing the fix to CRB-27 head hardpoints.
 
 The authors do not claim any intellectual or legal property on the content of these files. 
 They are intended for free use and re-use.
@@ -23,11 +21,11 @@ They are intended for free use and re-use.
     Copy cFixes folder in to Mods folder created for ModTek.
     
 ### ModTek/BTML
-This mod needs ModTek and BTML to work:
+This mod needs ModTek to work:
 
 https://github.com/BattletechModders/ModTek/releases
 
-https://github.com/BattletechModders/BattleTechModLoader/releases
+Thanks to mpstark and the entire ModTek team for making this mod possible!
 
 
 ## List of Fixes
@@ -111,11 +109,11 @@ https://github.com/BattletechModders/BattleTechModLoader/releases
     movedef_crab_CRB-27 - Fixed Walk and Sprint distances.  From 120/200 to 140/240
 
 ### StreamingAssets/data/pilot/
+All pilot files have been refactored to stock passive traits, this is over 90+ files and summerized here for brevity.  Any missing passive traits have been added to conform to the standard progressions.  Story pilots with more than the normal amount of abilities have been retained, but their passive traits have been brought up to standard.  Turret "pilots" have not been touched.
+    
+    Pilot Edits Other Than Passive Traits
+    
     pilot_backer_Brown - Typo in bio "ambivalence" corrected to "ambivalent."
-    pilot_kbeta_apex - Added missing "TraitDefWeaponHit7"
-    pilot_kbeta_arclight.json - Removed Piloting 7 Sprint Bonus, added Piloting 6 Evasive Charge Max +1
-    pilot_kbeta_ozone.json - Removed Piloting 7 Sprint Bonus, added Piloting 6 Evasive Charge Max +1
-    pilot_kbeta_showboat.json - Removed Piloting 7 Sprint Bonus, added Piloting 6 Evasive Charge Max +1
 
 ### StreamingAssets/data/simGameConstants
     SimGameConstants.json - Various extra commas, missing comma after "uixSvgIcon_contract_Travel"
