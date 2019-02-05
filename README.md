@@ -44,7 +44,7 @@ Thanks to mpstark and the entire ModTek team for making this mod possible!
     chassisdef_zeus_ZEU-6S.json - fixed value: Jump Jets 3 changed to 4
 
 ### StreamingAssets/data/constants/
-    CombatGameConstants.json - 7th Pip of Evasion fixes AI ASSERT lock from Sure Footed+10Piloting unit moves for 6Pips
+    CombatGameConstants.json - 7th Evasion Pip fixes AI ASSERT lock from Sure Footed+10Piloting unit moves for 6Pips
 
 ### StreamingAssets/data/contracts/
     DefendBase_Bodyguards.json - removed redundant "the" in dialogs
