@@ -13,6 +13,7 @@
 	{ "Type": "ChassisDef", "Path": "chassis", "AddToDB": true },
 	{ "Type": "ContractOverride", "Path": "contracts", "AddToDB": true },    
 	{ "Type": "MechDef", "Path": "mech", "AddToDB": true },
+	{ "Path": "constants", "Type": "AdvancedJSONMerge" },
 	{ "Path": "heatsinks", "Type": "AdvancedJSONMerge" }
     ]
 }
