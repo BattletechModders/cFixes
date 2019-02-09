@@ -47,8 +47,9 @@ Thanks to mpstark and the entire ModTek team for making this mod possible!
     CombatGameConstants.json - 7th Evasion Pip fixes AI ASSERT lock from Sure Footed+10Piloting unit moves for 6Pips
 
 ### StreamingAssets/data/contracts/
+All Escort and Capture Base contracts have had the word "Dropship" replaced with "DropShip" as used in the BT writers guide.
+
     DefendBase_Bodyguards.json - removed redundant "the" in dialogs
-    CaptureBase_AbandonedFactory.json - DropShip name edit
     FireMission_DataLiberation.json - Typos and missing Faction Tag Calls
     FireMission_DataLiberation_Hard.json - Typos and missing Faction Tag Calls
     Story_5_ServedCold_Default.json - Missing space between "Newgrange" and "is"
