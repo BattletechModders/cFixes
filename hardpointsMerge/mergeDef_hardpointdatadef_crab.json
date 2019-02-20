@@ -1,0 +1,28 @@
+{
+    "TargetID": "hardpointdatadef_crab",
+    "Instructions": [
+        {
+            "JSONPath": "HardpointData[?(@.location == 'headflamer')]",
+            "Action": "Replace",
+            "Value": {
+				"location" : "head",
+				"weapons" : [
+					[
+						"chrPrfWeap_crab_headflamer_flamer_eh1",
+						"chrPrfWeap_crab_headlaser_laser_eh1"
+					]
+				],
+				"blanks" : [
+					
+				],
+				"mountingPoints" : [
+					
+				]
+			}
+        },
+		{
+            "JSONPath": "HardpointData[?(@.location == 'headlaser')]",
+            "Action": "Remove"
+        },
+    ]
+}

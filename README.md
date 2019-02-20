@@ -84,6 +84,7 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     faction_MagistracyOfCanopus.json - fixed typo: "conservation" changed to "compensation"
     
 ### StreamingAssets/data/hardpoints/
+    hardpointdatadef_battlemaster.json - fixed LA MG hardpoints
     hardpointdatadef_crab.json - fixed head hardpoints
     
 ### StreamingAssets/data/heatsinks/
