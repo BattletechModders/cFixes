@@ -1,0 +1,39 @@
+{
+    "TargetID": "hardpointdatadef_battlemaster",
+    "Instructions": [
+        {
+            "JSONPath": "HardpointData[?(@.location == 'leftarm')].weapons",
+            "Action": "Replace",
+            "Value": [
+                [
+                    "chrPrfWeap_battlemaster_leftarm_ac20_bh1",
+                    "chrPrfWeap_battlemaster_leftarm_ac5_bh1",
+					"chrPrfWeap_battlemaster_leftarm_mg_ah1",
+                    "chrPrfWeap_battlemaster_leftarm_flamer_eh1",
+                    "chrPrfWeap_battlemaster_leftarm_gauss_bh1",
+                    "chrPrfWeap_battlemaster_leftarm_laser_eh1",
+                    "chrPrfWeap_battlemaster_leftarm_lbx_bh1",
+                    "chrPrfWeap_battlemaster_leftarm_lrm15_mh1", 
+                    "chrPrfWeap_battlemaster_leftarm_narc_mh1",
+                    "chrPrfWeap_battlemaster_leftarm_ppc_eh1",
+                    "chrPrfWeap_battlemaster_leftarm_srm2_mh1",
+                    "chrPrfWeap_battlemaster_leftarm_srm4_mh1",
+                    "chrPrfWeap_battlemaster_leftarm_srm6_mh1",
+                    "chrPrfWeap_battlemaster_leftarm_uac5_bh1"
+                ],
+                [
+                    "chrPrfWeap_battlemaster_leftarm_ac5_bh2"
+                ],
+                [
+                    "chrPrfWeap_battlemaster_leftarm_ac5_bh3"   
+                ],
+				[
+					"chrPrfWeap_battlemaster_leftarm_mg_ah2"
+				],
+				[
+					"chrPrfWeap_battlemaster_leftarm_mg_ah3"
+				]
+            ]
+         }
+    ]
+}
