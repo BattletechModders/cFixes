@@ -86,6 +86,7 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
 ### StreamingAssets/data/hardpoints/
     hardpointdatadef_battlemaster.json - fixed LA MG hardpoints
     hardpointdatadef_crab.json - fixed head hardpoints
+    hardpointdatadef_trebuchet.json - fixed LA Energy + Missile hardpoints overlapping
     
 ### StreamingAssets/data/heatsinks/
     Gear_HeatSink_Generic_Bulk-Bank.json - fixed [AMT] value in StatusEffect Description Details
