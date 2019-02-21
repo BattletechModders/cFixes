@@ -1,0 +1,31 @@
+{
+    "TargetID": "hardpointdatadef_trebuchet",
+    "Instructions": [
+        {
+            "JSONPath": "HardpointData[?(@.location == 'leftarm')].weapons",
+            "Action": "Replace",
+            "Value": [
+                [
+                    "chrPrfWeap_trebuchet_leftarm_lrm10_mh1",
+                    "chrPrfWeap_trebuchet_leftarm_lrm15_mh1",
+                    "chrPrfWeap_trebuchet_leftarm_lrm5_mh1",
+                    "chrPrfWeap_trebuchet_leftarm_narc_mh1",
+                    "chrPrfWeap_trebuchet_leftarm_srm20_mh1",
+                    "chrPrfWeap_trebuchet_leftarm_srm2_mh1",
+                    "chrPrfWeap_trebuchet_leftarm_srm4_mh1",
+                    "chrPrfWeap_trebuchet_leftarm_srm6_mh1"
+                ],
+				[
+                    "chrPrfWeap_trebuchet_leftarm_flamer_eh1",
+					"chrPrfWeap_trebuchet_leftarm_laser_eh1",
+                    "chrPrfWeap_trebuchet_leftarm_ppc_eh1"
+				],
+                [
+                    "chrPrfWeap_trebuchet_leftarm_flamer_eh2",
+                    "chrPrfWeap_trebuchet_leftarm_laser_eh2",
+                    "chrPrfWeap_trebuchet_leftarm_ppc_eh2"
+                ]
+            ]
+         }
+    ]
+}
