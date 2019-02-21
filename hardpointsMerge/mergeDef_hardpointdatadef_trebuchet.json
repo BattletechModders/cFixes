@@ -26,6 +26,13 @@
                     "chrPrfWeap_trebuchet_leftarm_ppc_eh2"
                 ]
             ]
-         }
+        },
+	{
+            "JSONPath": "HardpointData[?(@.location == 'rightarm')].blanks",
+            "Action": "Replace",
+            "Value": [
+		    "chrPrfWeap_trebuchet_rightarm_hardpoint_eh2"
+            ]
+        }
     ]
 }
