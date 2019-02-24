@@ -1,0 +1,10 @@
+{
+    "TargetID": "Story_5_ServedCold_Default",
+    "Instructions": [
+        {
+            "JSONPath": "$.dialogueList[?(@.name== 'MissionStartDialogue')].dialogueContent[1].words",
+            "Action": "Replace",
+            "Value": "\u2026it looks like the <i>Newgrange</i> is being prepped for launch. You're going to have a tight timetable to get in there and blow station's fuel reservoir before it lifts off."
+        }
+    ]
+}
