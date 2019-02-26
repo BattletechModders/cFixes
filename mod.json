@@ -16,6 +16,7 @@
 	{ "Type": "MechDef", "Path": "mech", "AddToDB": true },
 	{ "Path": "constantsMerge", "Type": "AdvancedJSONMerge" },
 	{ "Path": "contractsMerge", "Type": "AdvancedJSONMerge" },
+	{ "Path": "eventsMerge", "Type": "AdvancedJSONMerge" },
 	{ "Path": "factionsMerge", "Type": "AdvancedJSONMerge" },
 	{ "Path": "hardpointsMerge", "Type": "AdvancedJSONMerge" },
 	{ "Path": "heatsinksMerge", "Type": "AdvancedJSONMerge" }
