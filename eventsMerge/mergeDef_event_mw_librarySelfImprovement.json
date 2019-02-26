@@ -1,0 +1,15 @@
+{
+    "TargetID": "event_mw_librarySelfImprovement",
+    "Instructions": [
+        {
+            "JSONPath": "Options[2].ResultSets[0].Description.Details",
+            "Action": "Replace",
+            "Value": "\"On a combat drop, you're only as good as your weapons. When you're in the middle of a fight, you need to know the capabilities\u2014and the limitations\u2014of whatever 'Mech you're piloting.\"\r\n\r\nYou do a quick search on one of the computers then flip it around for {TGT_MW.Gender?Male:him|Female:her|NonBinary:them} to see. \"Here, start with the tech behind Heat Sinks. Knowing how to push your 'Mech's limits will prove invaluable in every drop I send you on.\"\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] furrows {TGT_MW.DET} brow and bends low over the detailed treatise, already engrossed in the material."
+        },
+		{
+            "JSONPath": "Options[2].ResultSets[1].Description.Details",
+            "Action": "Replace",
+            "Value": "\"On a combat drop, you're only as good as your weapons. When you're in the middle of a fight, you need to know the capabilities\u2014and the limitations\u2014of whatever 'Mech you're piloting.\"\r\n\r\nYou do a quick search on one of the computers then flip it around for {TGT_MW.Gender?Male:him|Female:her|NonBinary:them} to see. \"Here, study these autocannon drop calculations. You'll understand why different classes of autocannons are effective at different ranges. Don't take the shot until you can make it count!\"\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] furrows {TGT_MW.DET} brow and bends low over the detailed treatise, already engrossed in the material."
+		}
+    ]
+}
