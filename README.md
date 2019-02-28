@@ -137,6 +137,7 @@ All pilot files have been refactored to stock passive traits, this is over 90+ f
     
     Pilot Edits Other Than Passive Traits
     
+    pilot_backer_Bozeman.json - Concordat misspelled as Concordant in the description
     pilot_backer_Brown - Typo in bio "ambivalence" corrected to "ambivalent."
 
 ### StreamingAssets/data/simGameConstants
