@@ -153,7 +153,7 @@ All pilot files have been refactored to stock passive traits, this is over 90+ f
     starsystemdef_Taurus.json - fixed typo: "Concordant" changed to "Concordat"
 	
 ### StreamingAssets/data/upgrades/cockpitMods/
-	Gear_Cockpit_StarCorps_Dalban.json = fixed typo: "Morale" changed to "Resolve"
+	Gear_Cockpit_StarCorps_Dalban.json - fixed typo: "Morale" changed to "Resolve"
 
 ### StreamingAssets/data/vehicle/
     vehicledef_BULLDOG.json - added Front MG and ammo
@@ -189,7 +189,5 @@ All pilot files have been refactored to stock passive traits, this is over 90+ f
     Weapon_Laser_SmallLaserPulse_1-Maxell.json - added weapon bonus description
     Weapon_Laser_SmallLaserPulse_2-Magna200P.json - added weapon bonus description
     Weapon_PPC_PPCER_0-STOCK.json - added general PPC status debuff "sensors impaired"
-    Weapon_PPC_PPCER_1-MagnaFirestar.json - added general PPC status debuff "sensors impaired"
-    Weapon_PPC_PPCER_1-MagnaFirestar.json - added weapon bonus description
-    Weapon_PPC_PPCER_2-TiegartMagnum.json - added general PPC status debuff "sensors impaired"
-    Weapon_PPC_PPCER_2-TiegartMagnum.json - added weapon bonus description
+    Weapon_PPC_PPCER_1-MagnaFirestar.json - added bonus description, general PPC status debuff "sensors impaired"
+    Weapon_PPC_PPCER_2-TiegartMagnum.json - added bonus description, general PPC status debuff "sensors impaired"
