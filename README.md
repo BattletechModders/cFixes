@@ -60,6 +60,13 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
 
 ### StreamingAssets/descriptions/Lore/
     LoreGreatHouses.json - Ordered Houses "Around the Sphere"
+    LoreJustinAllard.json - Capellan mispelled as Cappellan
+    LoreKellHounds.json - religious mispelled as relgious
+    LoreLocura.json - tangentially mispelled as tangentally
+    LoreRepKurita.json - The word "embarrassment" is spelled embarassment
+    LoreRepLocals.json - The word "liaison" is spelled "liasion"
+    LoreRepMarik.json - The word "liaison" is spelled "liasion"
+    LoreRepPirates.json -The word "governments" is spelled "goverments"
     LoreSuccessorState.json - Ordered Houses "Around the Sphere"
     
 ### StreamingAssets/descriptions/MechWarriorData/
