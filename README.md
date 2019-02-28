@@ -145,7 +145,7 @@ All pilot files have been refactored to stock passive traits, this is over 90+ f
 
 ### StreamingAssets/data/starsystem/
     starsystemdef_Camadeirre.json - fixed typo: "Camadeirre" change to "Camadeierre"
-    starsystemdef_MacLeodsLand.json - fixed typo: "Concordant" changed to "Concordat"
+    starsystemdef_MacLeodsLand.json - fixed typo: "Concordant" changed to "Concordat" and extra space removed
     starsystemdef_NewGanymede.json - fixed typo: "Concordant" changed to "Concordat"
     starsystemdef_NewVandenburg.json - fixed typo: "Concordant" changed to "Concordat"
     starsystemdef_Renfield.json - fixed typo: "Concordant" changed to "Concordat"
