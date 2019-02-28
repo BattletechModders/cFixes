@@ -1,6 +1,6 @@
 # cFixes - Community fixes to HBS BATTLETECH
 Bugs fixed as reported here:
-https://forum.paradoxplaza.com/forum/index.php?threads/simple-json-typo-fixes-for-1-3.1126334/
+https://forum.paradoxplaza.com/forum/index.php?threads/simple-json-typo-fixes-post-1-4-0.1126334/
 
 These files are the result of the combined work of several community modders, namely:
 
@@ -54,6 +54,9 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     FireMission_DataLiberation_Hard.json - Typos and missing Faction Tag Calls
     Story_5_ServedCold_Default.json - Missing space between "Newgrange" and "is"
     Story_5_ServedCold_Template.json - Missing space between "Newgrange" and "is"
+    
+### StreamingAssets/data/flashpoints
+    fp_flattenedEarth.json - Changed "Commonwealth" to "Confederation"
 
 ### StreamingAssets/descriptions/Lore/
     LoreGreatHouses.json - Ordered Houses "Around the Sphere"
