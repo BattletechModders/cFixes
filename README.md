@@ -32,16 +32,12 @@ Thanks to mpstark and the entire ModTek team for making this mod possible!
 (by directory)
 
 ### StreamingAssets/data/chassis/
-    chassisdef_atlas_AS7-D.json - reduced CenterTorso internal structure to 155, max CT armor to match
-    chassisdef_atlas_AS7-D-HT.json - reduced CenterTorso internal structure to 155, max CT armor to match
     chassisdef_blackknight_BL-6-KNT.json - fixed variant name to BK-7-KNT
     chassisdef_blackknight_BL-6b-KNT.json - fixed reference to BK-7-KNT
     chassisdef_commando_COM-1B.json - fixed typo: "IB" changed to "1B"
     chassisdef_crab_CRB-27.json - fixed variant name to CRB-20
     chassisdef_griffin_GRF-4N.json - fixed variant name to GRF-2N
     chassisdef_thunderbolt_TDR-5S.json - fixed typo: "well armored and" changed to "well armed and"
-    chassisdef_trebuchet_TBT-5N.json - fixed value: CT max Armor 120 changed to 160
-    chassisdef_zeus_ZEU-6S.json - fixed value: Jump Jets 3 changed to 4
 
 ### StreamingAssets/data/constants/
     CombatGameConstants.json - 7th Evasion Pip fixes AI ASSERT lock from Sure Footed+10Piloting unit moves for 6Pips
@@ -95,7 +91,6 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     
 ### StreamingAssets/data/hardpoints/
     hardpointdatadef_battlemaster.json - fixed LA MG hardpoints
-    hardpointdatadef_crab.json - fixed head hardpoints
     hardpointdatadef_trebuchet.json - fixed LA Energy + Missile hardpoints overlapping
     
 ### StreamingAssets/data/heatsinks/
@@ -107,9 +102,7 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     Gear_HeatSink_Generic_Thermal-Exchanger-III.json - fixed [AMT] value in StatusEffect Description Details
 
 ### StreamingAssets/data/mech/
-    mechdef_atlas_AS7-D.json - reduced CenterTorso internal structure to 155, moved ammo from Legs to RT
-    mechdef_atlas_AS7-D-HT.json - reduced CenterTorso internal structure to 155
-    mechdef_blackknight_BL-6-KNT.json - fixed variant name to BK-7-KNT, fixed PPC in wrong HardpointSlot
+    mechdef_blackknight_BL-6-KNT.json - fixed variant name to BK-7-KNT
     mechdef_blackknight_BL-6b-KNT.json - fixed reference to BK-7-KNT, moved DHS from illegal Leg slots to torsos and arms
     mechdef_cataphract_CTF-1X.json - removed tag: "unit_jumpOK", 
     mechdef_catapult_CPLT-C1.json - added tag: "unit_jumpOK", - added tag: "unit_indirectFire",
@@ -128,9 +121,6 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     mechdef_orion_ON1-K.json - added tag: "unit_indirectFire",
     mechdef_quickdraw_QKD-5A.json - removed tag: "unit_indirectFire",
     mechdef_zeus_ZEU-6S.json - added tag: "unit_indirectFire",
-
-### StreamingAssets/data/movement/
-    movedef_crab_CRB-27 - Fixed Walk and Sprint distances.  From 120/200 to 140/240
 
 ### StreamingAssets/data/pilot/
 All pilot files have been refactored to stock passive traits, this is over 90+ files and summerized here for brevity.  Any missing passive traits have been added to conform to the standard progressions.  Story pilots with more than the normal amount of abilities have been retained, but their passive traits have been brought up to standard.  Turret "pilots" have not been touched.
@@ -173,9 +163,6 @@ All pilot files have been refactored to stock passive traits, this is over 90+ f
 ### StreamingAssets/data/weapon/
     Weapon_Gauss_Gauss_1-M7.json - added weapon bonus description
     Weapon_Gauss_Gauss_2-M9.json - added weapon bonus description
-    Weapon_LRM_LRM5_2-Delta.json - fixed value: "Instability" : 5, changed to "Instability" : 4,
-    Weapon_LRM_LRM10_2-Delta.json - fixed value: "Instability" : 5, changed to "Instability" : 4,
-    Weapon_LRM_LRM15_2-Delta.json - fixed value: "Instability" : 5, changed to "Instability" : 4,
     Weapon_Laser_LargeLaserER_1-Blankenburg25.json - added weapon bonus description
     Weapon_Laser_LargeLaserER_2-BlazeFire.json - added weapon bonus description
     Weapon_Laser_LargeLaserPulse_1-Thunderbolt12.json - added weapon bonus description
@@ -188,6 +175,5 @@ All pilot files have been refactored to stock passive traits, this is over 90+ f
     Weapon_Laser_SmallLaserER_2-BlazeFire.json - added weapon bonus description
     Weapon_Laser_SmallLaserPulse_1-Maxell.json - added weapon bonus description
     Weapon_Laser_SmallLaserPulse_2-Magna200P.json - added weapon bonus description
-    Weapon_PPC_PPCER_0-STOCK.json - added general PPC status debuff "sensors impaired"
-    Weapon_PPC_PPCER_1-MagnaFirestar.json - added bonus description, general PPC status debuff "sensors impaired"
-    Weapon_PPC_PPCER_2-TiegartMagnum.json - added bonus description, general PPC status debuff "sensors impaired"
+    Weapon_PPC_PPCER_1-MagnaFirestar.json - added bonus description
+    Weapon_PPC_PPCER_2-TiegartMagnum.json - added bonus description
