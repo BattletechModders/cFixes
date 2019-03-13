@@ -12,7 +12,7 @@ These files are the result of the combined work of several community modders, na
 
 Credits:
 
-Special thanks to Ark Evensong for providing the fixes to various pilots and ShadowStalker88 for providing the fix to CRB-27 head hardpoints.
+Thanks to the community at large for helping bring these bugs to HBS's attention!
 
 The authors do not claim any intellectual or legal property on the content of these files. 
 They are intended for free use and re-use.
