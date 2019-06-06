@@ -48,30 +48,7 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
 
 ### StreamingAssets/descriptions/Lore/
     LoreGreatHouses.json - Ordered Houses "Around the Sphere"
-    LoreJustinAllard.json - Capellan mispelled as Cappellan
-    LoreKellHounds.json - religious mispelled as relgious
-    LoreLocura.json - tangentially mispelled as tangentally
-    LoreRepKurita.json - The word "embarrassment" is spelled embarassment
-    LoreRepLocals.json - The word "liaison" is spelled "liasion"
-    LoreRepMarik.json - The word "liaison" is spelled "liasion"
-    LoreRepPirates.json -The word "governments" is spelled "goverments"
     LoreSuccessorState.json - Ordered Houses "Around the Sphere"
-    
-### StreamingAssets/descriptions/MechWarriorData/
-    TypeMechWarriorBrawler.json - Sure Footing description added
-    TypeMechWarriorDefenderAdvanced.json - Sure Footing description added
-    TypeMechWarriorFlanker.json - Sure Footing description added
-    TypeMechWarriorGladiator.json - Sure Footing description added
-    TypeMechWarriorOutrider.json - Sure Footing description added
-    TypeMechWarriorPilot.json - Sure Footing description added
-    TypeMechWarriorPilotAdvanced.json - Sure Footing description added
-    TypeMechWarriorRecon.json - Sure Footing description added
-    TypeMechWarriorScout.json - Sure Footing description added
-    TypeMechWarriorSentinel.json - Sure Footing description added
-    TypeMechWarriorSkirmisher.json - Sure Footing description added
-    TypeMechWarriorStriker.json - Sure Footing description added
-    TypeMechWarriorTacticianAdvanced.json - Sure Footing description added
-    TypeMechWarriorVanguard.json - Sure Footing description added
 
 ### StreamingAssets/data/events/
     event_mw_leadershipMoment.json - Added contextual words to fix "they rises" error
