@@ -1,4 +1,24 @@
 {
+    "MechTags": {
+        "items": [
+            "unit_jumpOK",
+            "unit_mech",
+            "unit_medium",
+            "unit_ready",
+            "unit_lance_support",
+            "unit_lance_vanguard",
+            "unit_role_sniper",
+            "BLACKLISTED",
+            "Davion",
+            "Kurita",
+            "NotLiao",
+            "Marik",
+            "Steiner",
+            "MagistracyOfCanopus",
+            "TaurianConcordat",
+            "unit_common"
+        ]
+    },
     "inventory": [
         {
             "MountedLocation": "LeftTorso",
