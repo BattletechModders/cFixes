@@ -39,8 +39,8 @@ Thanks to mpstark and the entire ModTek team for making this mod possible!
 ### StreamingAssets/data/contracts/
 All Escort and Capture Base contracts have had the word "Dropship" replaced with "DropShip" as used in the BT writers guide.
 
-    FireMission_DataLiberation.json - Typos and missing Faction Tag Calls
-    FireMission_DataLiberation_Hard.json - Typos and missing Faction Tag Calls
+    FireMission_DataLiberation.json - Typos (Reinforments and DropShip)
+    FireMission_DataLiberation_Hard.json - Typos (Reinforments and DropShip)
     FireMission_Fireworks.json - "WarShip" changed to "Pocket WarShip" as no true WarShips should be available.
     
 ### StreamingAssets/data/flashpoints
