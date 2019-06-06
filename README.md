@@ -74,7 +74,7 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     TypeMechWarriorVanguard.json - Sure Footing description added
 
 ### StreamingAssets/data/events/
-    event_mw_leadershipMoment.json Added contextual words to fix "they rises" error
+    event_mw_leadershipMoment.json - Added contextual words to fix "they rises" error
     event_mw_triage.json - missing commas
     
 ### StreamingAssets/data/hardpoints/
