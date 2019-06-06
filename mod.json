@@ -2,7 +2,7 @@
     "Name": "cFixes",
     "Enabled": true,
 	
-    "Version": "1.5.0.1",
+    "Version": "1.6.0.1",
 
     "Author": "Team Banzai",
 
@@ -11,16 +11,14 @@
 
     "Manifest": [
 
-	{ "Type": "ChassisDef", "Path": "chassis", "AddToDB": true },
 	{ "Type": "ContractOverride", "Path": "contracts", "AddToDB": true },
-	{ "Type": "FlashpointDef", "Path": "flashpoints", "AddToDB": true },
-	{ "Type": "MechDef", "Path": "mech", "AddToDB": true },
-	{ "Path": "constantsMerge", "Type": "AdvancedJSONMerge" },
 	{ "Path": "contractsMerge", "Type": "AdvancedJSONMerge" },
 	{ "Path": "eventsMerge", "Type": "AdvancedJSONMerge" },
-	{ "Path": "factionsMerge", "Type": "AdvancedJSONMerge" },
+	{ "Type": "FlashpointDef", "Path": "flashpoints", "AddToDB": true },
 	{ "Path": "hardpointsMerge", "Type": "AdvancedJSONMerge" },
-	{ "Path": "heatsinksMerge", "Type": "AdvancedJSONMerge" }
+	{ "Path": "heatsinksMerge", "Type": "AdvancedJSONMerge" },
+	{ "Type": "MechDef", "Path": "mech", "AddToDB": true },
+	{ "Path": "milestoneMerge", "Type": "AdvancedJSONMerge" }
 
     ]
 }
