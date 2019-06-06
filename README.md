@@ -42,11 +42,8 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     FireMission_DataLiberation.json - Typos (Reinforments and DropShip)
     FireMission_DataLiberation_Hard.json - Typos (Reinforments and DropShip)
     FireMission_Fireworks.json - "WarShip" changed to "Pocket WarShip" as no true WarShips should be available.
-    
-### StreamingAssets/data/flashpoints
-    fp_flattenedEarth.json - Changed "Commonwealth" to "Confederation"
 
-### StreamingAssets/descriptions/Lore/
+### StreamingAssets/data/descriptions/Lore/
     LoreGreatHouses.json - Ordered Houses "Around the Sphere"
     LoreSuccessorState.json - Ordered Houses "Around the Sphere"
 
@@ -54,6 +51,12 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     event_mw_leadershipMoment.json - Added contextual words to fix "they rises" error
     event_mw_triage.json - missing commas
     
+### StreamingAssets/data/factions
+    faction_KellHounds.json - Demonym fixed missing space between "KellHounds"
+
+### StreamingAssets/data/flashpoints
+    fp_flattenedEarth.json - Changed "Commonwealth" to "Confederation"
+
 ### StreamingAssets/data/hardpoints/
     hardpointdatadef_trebuchet.json - fixed RA blank slot in hardpoint 2 (slot 1)
     
@@ -68,43 +71,25 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
 ### StreamingAssets/data/mech/
     mechdef_blackknight_BL-6-KNT.json - fixed variant name to BK-7-KNT
     mechdef_blackknight_BL-6b-KNT.json - fixed reference to BK-7-KNT, moved DHS from illegal Leg slots to torsos and arms
-    mechdef_cataphract_CTF-1X.json - removed tag: "unit_jumpOK", 
-    mechdef_catapult_CPLT-C1.json - added tag: "unit_jumpOK", - added tag: "unit_indirectFire",
-    mechdef_centurion_CN9-AL.json - added tag: "unit_indirectFire",
-    mechdef_commando_COM-1B.json - fixed typo: "IB" changed to "1B"
     mechdef_crab_CRB-27.json - fixed variant name to CRB-20, given Role - Brawler and Lance - Tank tags
     mechdef_cyclops_CP-10-Q - given Role - Sniper and Lance - Support tags
     mechdef_cyclops_CP-10-Z - given Role - Sniper and Lance - Support tags
-    mechdef_griffin_GRF-4N.json - fixed variant name to GRF-2N, JJ from Leg to Torso, moved DHS from illegal Leg slots to torsos to match "Greed"
-    mechdef_griffin_GRF-4N_fp_greed.json - fixed variant name to GRF-2N, JJ from Leg to Torso
+    mechdef_griffin_GRF-4N.json - fixed JJ from Leg to Torso, moved DHS from illegal Leg slots to torsos to match "Greed"
+    mechdef_griffin_GRF-4N_fp_greed.json - fixed JJ from Leg to Torso
     mechdef_hatchetman_HCT-3F - given Lance - Assassin tag
-    mechdef_highlander_HGN-732b.json - Adjusted Torso Front Armor to match Record Sheets
+    mechdef_highlander_HGN-732b.json - Adjusted Torso Front Armor to match Record Sheets, 1b from 1B typos
     mechdef_highlander_HGN-733.json - Adjusted Center Torso Front Armor to match Record Sheets, allocated "spare" armor point to CTR
-    mechdef_highlander_HGN-733P.json - added tag: "unit_indirectFire", adjusted Torso Front Armor and HS+ammo locations to match Record Sheets
-    mechdef_jagermech_JM6-A.json - added tag: "unit_indirectFire",
-    mechdef_orion_ON1-K.json - added tag: "unit_indirectFire",
-    mechdef_quickdraw_QKD-5A.json - removed tag: "unit_indirectFire",
-    mechdef_zeus_ZEU-6S.json - added tag: "unit_indirectFire",
+    mechdef_highlander_HGN-733P.json - adjusted Torso Front Armor and HS+ammo locations to match Record Sheets
+    mechdef_quickdraw_QKD-5A.json - removed tag: "unit_indirectFire"
 
 ### StreamingAssets/data/pilot/
 All pilot files have been refactored to stock passive traits, this is over 90+ files and summerized here for brevity.  Any missing passive traits have been added to conform to the standard progressions.  Story pilots with more than the normal amount of abilities have been retained, but their passive traits have been brought up to standard.  Turret "pilots" have not been touched.
-    
-    Pilot Edits Other Than Passive Traits
-    
-    pilot_backer_Bozeman.json - Concordat misspelled as Concordant in the description
-    pilot_backer_Brown - Typo in bio "ambivalence" corrected to "ambivalent."
 
 ### StreamingAssets/data/simGameConstants
     SimGameConstants.json - Various extra commas, missing comma after "uixSvgIcon_contract_Travel"
 
 ### StreamingAssets/data/starsystem/
     starsystemdef_Camadeirre.json - fixed typo: "Camadeirre" change to "Camadeierre"
-    starsystemdef_MacLeodsLand.json - fixed typo: "Concordant" changed to "Concordat" and extra space removed
-    starsystemdef_NewGanymede.json - fixed typo: "Concordant" changed to "Concordat"
-    starsystemdef_NewVandenburg.json - fixed typo: "Concordant" changed to "Concordat"
-    starsystemdef_Renfield.json - fixed typo: "Concordant" changed to "Concordat"
-    starsystemdef_Samantha.json - fixed typo: "Concordant" changed to "Concordat"
-    starsystemdef_Taurus.json - fixed typo: "Concordant" changed to "Concordat"
 	
 ### StreamingAssets/data/upgrades/cockpitMods/
 	Gear_Cockpit_StarCorps_Dalban.json - fixed typo: "Morale" changed to "Resolve"
