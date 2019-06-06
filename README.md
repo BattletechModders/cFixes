@@ -34,22 +34,13 @@ Thanks to mpstark and the entire ModTek team for making this mod possible!
 ### StreamingAssets/data/chassis/
     chassisdef_blackknight_BL-6-KNT.json - fixed variant name to BK-7-KNT
     chassisdef_blackknight_BL-6b-KNT.json - fixed reference to BK-7-KNT
-    chassisdef_commando_COM-1B.json - fixed typo: "IB" changed to "1B"
-    chassisdef_crab_CRB-27.json - fixed variant name to CRB-20
-    chassisdef_griffin_GRF-4N.json - fixed variant name to GRF-2N
-    chassisdef_thunderbolt_TDR-5S.json - fixed typo: "well armored and" changed to "well armed and"
-
-### StreamingAssets/data/constants/
-    CombatGameConstants.json - 7th Evasion Pip fixes AI ASSERT lock from Sure Footed+10Piloting unit moves for 6Pips
+    chassisdef_highlander_HGN-732b.json - fixed "732B" to "732b"
 
 ### StreamingAssets/data/contracts/
 All Escort and Capture Base contracts have had the word "Dropship" replaced with "DropShip" as used in the BT writers guide.
 
-    DefendBase_Bodyguards.json - removed redundant "the" in dialogs
     FireMission_DataLiberation.json - Typos and missing Faction Tag Calls
     FireMission_DataLiberation_Hard.json - Typos and missing Faction Tag Calls
-    Story_5_ServedCold_Default.json - Missing space between "Newgrange" and "is"
-    Story_5_ServedCold_Template.json - Missing space between "Newgrange" and "is"
     
 ### StreamingAssets/data/flashpoints
     fp_flattenedEarth.json - Changed "Commonwealth" to "Confederation"
@@ -82,8 +73,7 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     TypeMechWarriorVanguard.json - Sure Footing description added
 
 ### StreamingAssets/data/events/
-    event_mw_arcadeMercenaries.json - fixed typo: "his" changed to "{TGT_MW.Gender?Male:his|Female:her|NonBinary:their}"
-    event_mw_librarySelfImprovement.json - fixed typo: "his" changed to "{TGT_MW.Gender?Male:his|Female:her|NonBinary:their}"
+    event_mw_leadershipMoment.json Added contextual words to fix "they rises" error
     event_mw_triage.json - missing commas
 
 ### StreamingAssets/data/factions/
@@ -161,19 +151,19 @@ All pilot files have been refactored to stock passive traits, this is over 90+ f
     vehiclechassisdef_SWIFTWIND_ARMORED.json - Fixed Tonnage and armor and internals
 
 ### StreamingAssets/data/weapon/
-    Weapon_Gauss_Gauss_1-M7.json - added weapon bonus description
-    Weapon_Gauss_Gauss_2-M9.json - added weapon bonus description
-    Weapon_Laser_LargeLaserER_1-Blankenburg25.json - added weapon bonus description
-    Weapon_Laser_LargeLaserER_2-BlazeFire.json - added weapon bonus description
-    Weapon_Laser_LargeLaserPulse_1-Thunderbolt12.json - added weapon bonus description
-    Weapon_Laser_LargeLaserPulse_2-Exostar.json - added weapon bonus description
-    Weapon_Laser_MediumLaserER_1-MagnaVI.json - added weapon bonus description
-    Weapon_Laser_MediumLaserER_2-BrightBloom.json - added weapon bonus description
-    Weapon_Laser_MediumLaserPulse_1-RakerIV.json - added weapon bonus description
-    Weapon_Laser_MediumLaserPulse_2-Magna400P.json - added weapon bonus description
-    Weapon_Laser_SmallLaserER_1-Diverse_Optics.json - added weapon bonus description
-    Weapon_Laser_SmallLaserER_2-BlazeFire.json - added weapon bonus description
-    Weapon_Laser_SmallLaserPulse_1-Maxell.json - added weapon bonus description
-    Weapon_Laser_SmallLaserPulse_2-Magna200P.json - added weapon bonus description
-    Weapon_PPC_PPCER_1-MagnaFirestar.json - added bonus description
-    Weapon_PPC_PPCER_2-TiegartMagnum.json - added bonus description
+    Weapon_Gauss_Gauss_1-M7.json - tag fixes
+    Weapon_Gauss_Gauss_2-M9.json - tag fixes
+    Weapon_Laser_LargeLaserER_1-Blankenburg25.json - tag fixes
+    Weapon_Laser_LargeLaserER_2-BlazeFire.json - tag fixes
+    Weapon_Laser_LargeLaserPulse_1-Thunderbolt12.json - tag fixes
+    Weapon_Laser_LargeLaserPulse_2-Exostar.json - tag fixes
+    Weapon_Laser_MediumLaserER_1-MagnaVI.json - tag fixes
+    Weapon_Laser_MediumLaserER_2-BrightBloom.json - tag fixes
+    Weapon_Laser_MediumLaserPulse_1-RakerIV.json - tag fixes
+    Weapon_Laser_MediumLaserPulse_2-Magna400P.json - tag fixes
+    Weapon_Laser_SmallLaserER_1-Diverse_Optics.json - tag fixes
+    Weapon_Laser_SmallLaserER_2-BlazeFire.json - tag fixes
+    Weapon_Laser_SmallLaserPulse_1-Maxell.json - tag fixes
+    Weapon_Laser_SmallLaserPulse_2-Magna200P.json - tag fixes
+    Weapon_PPC_PPCER_1-MagnaFirestar.json - tag fixes
+    Weapon_PPC_PPCER_2-TiegartMagnum.json - tag fixes
