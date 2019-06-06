@@ -1,7 +1,7 @@
 {
     "TargetID": "hardpointdatadef_trebuchet",
     "Instructions": [
-	    {
+	{
             "JSONPath": "HardpointData[?(@.location == 'rightarm')].blanks",
             "Action": "Replace",
             "Value": [
