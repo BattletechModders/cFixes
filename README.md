@@ -41,6 +41,7 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
 
     FireMission_DataLiberation.json - Typos and missing Faction Tag Calls
     FireMission_DataLiberation_Hard.json - Typos and missing Faction Tag Calls
+    FireMission_Fireworks.json - "WarShip" changed to "Pocket WarShip" as no true WarShips should be available.
     
 ### StreamingAssets/data/flashpoints
     fp_flattenedEarth.json - Changed "Commonwealth" to "Confederation"
@@ -75,13 +76,9 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
 ### StreamingAssets/data/events/
     event_mw_leadershipMoment.json Added contextual words to fix "they rises" error
     event_mw_triage.json - missing commas
-
-### StreamingAssets/data/factions/
-    faction_MagistracyOfCanopus.json - fixed typo: "conservation" changed to "compensation"
     
 ### StreamingAssets/data/hardpoints/
-    hardpointdatadef_battlemaster.json - fixed LA MG hardpoints
-    hardpointdatadef_trebuchet.json - fixed LA Energy + Missile hardpoints overlapping
+    hardpointdatadef_trebuchet.json - fixed RA blank slot in hardpoint 2 (slot 1)
     
 ### StreamingAssets/data/heatsinks/
     Gear_HeatSink_Generic_Bulk-Bank.json - fixed [AMT] value in StatusEffect Description Details
