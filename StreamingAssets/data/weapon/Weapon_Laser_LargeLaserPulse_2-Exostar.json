@@ -1,4 +1,12 @@
 {
-    "BonusValueA" : "Lightweight,",
-    "BonusValueB" : "+ 1 Acc."
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant2",
+            "component_type_lostech",
+            "range_standard",
+			"BLACKLISTED"
+        ],
+        "tagSetSourceFile" : ""
+    }
 }
