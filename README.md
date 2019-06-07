@@ -86,7 +86,7 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
 All pilot files have been refactored to stock passive traits, this is over 90+ files and summerized here for brevity.  Any missing passive traits have been added to conform to the standard progressions.  Story pilots with more than the normal amount of abilities have been retained, but their passive traits have been brought up to standard.  Turret "pilots" have not been touched.
 
 ### StreamingAssets/data/simGameConstants
-    SimGameConstants.json - Various extra commas, missing commas
+    SimGameConstants.json - Max contract fixes for 5+ skull contracts, various extra commas, missing commas
 
 ### StreamingAssets/data/starsystem/
     starsystemdef_Camadeirre.json - fixed typo: "Camadeirre" change to "Camadeierre"
