@@ -3,10 +3,19 @@
         "items": [
             "unit_mech",
             "unit_medium",
-            "unit_release",
+			"unit_release",
+			"unit_dlc",
             "unit_lance_tank",
             "unit_role_brawler",
-            "unit_dlc"
+			"unit_range_long",
+			"unit_armor_high",
+			"NotDavion",
+			"Kurita",
+			"NotLiao",
+			"NotMarik",
+			"NotSteiner",
+			"NotMagistracyOfCanopus",
+			"NotTaurianConcordat"
         ],
         "tagSetSourceFile": ""
     },
