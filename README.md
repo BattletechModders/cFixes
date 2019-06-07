@@ -71,16 +71,20 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
 ### StreamingAssets/data/mech/
     mechdef_blackknight_BL-6-KNT.json - fixed variant name to BK-7-KNT
     mechdef_blackknight_BL-6b-KNT.json - fixed reference to BK-7-KNT, moved DHS from illegal Leg slots to torsos and arms
-    mechdef_crab_CRB-27.json - fixed variant name to CRB-20, given Role - Brawler and Lance - Tank tags
-    mechdef_cyclops_CP-10-Q - given Role - Sniper and Lance - Support tags
-    mechdef_cyclops_CP-10-Z - given Role - Sniper and Lance - Support tags
+    mechdef_crab_CRB-27.json - given Role - Brawler and Lance - Tank tags, 
+    mechdef_cyclops_CP-10-Q.json - given Role - Sniper and Lance - Support tags, removed duplicate IDF tag
+    mechdef_cyclops_CP-10-Z.json - given Role - Sniper and Lance - Support tags, removed duplicate IDF tag
     mechdef_griffin_GRF-4N.json - fixed JJ from Leg to Torso, moved DHS from illegal Leg slots to torsos to match "Greed"
     mechdef_griffin_GRF-4N_fp_greed.json - fixed JJ from Leg to Torso
-    mechdef_hatchetman_HCT-3F - given Lance - Assassin tag
+    mechdef_hatchetman_HCT-3F.json - given Lance - Assassin tag, removed duplicate jumpOK tag
+    mechdef_hatchetman_HCT-3X.json - given Lance - Assassin tag, removed duplicate jumpOK tag, changed faction tag
     mechdef_highlander_HGN-732b.json - Adjusted Torso Front Armor to match Record Sheets, 1b from 1B typos
     mechdef_highlander_HGN-733.json - Adjusted Center Torso Front Armor to match Record Sheets, allocated "spare" armor point to CTR
     mechdef_highlander_HGN-733P.json - adjusted Torso Front Armor and HS+ammo locations to match Record Sheets
+    mechdef_javlin_JVN-10F.json - given Lance - Assassin/Vanguard tag, removed duplicate jumpOK tag
+    mechdef_javlin_JVN-10N.json - given Lance - Assassin/Vanguard tag, removed duplicate jumpOK tag
     mechdef_quickdraw_QKD-5A.json - removed tag: "unit_indirectFire"
+    mechdef_raven_RVN-1X.json - Typo "excells" fixed, added FP complete tag to prevent spawning before "The Prototype"
 
 ### StreamingAssets/data/pilot/
 All pilot files have been refactored to stock passive traits, this is over 90+ files and summerized here for brevity.  Any missing passive traits have been added to conform to the standard progressions.  Story pilots with more than the normal amount of abilities have been retained, but their passive traits have been brought up to standard.  Turret "pilots" have not been touched.
