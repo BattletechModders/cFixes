@@ -35,6 +35,7 @@ Thanks to mpstark and the entire ModTek team for making this mod possible!
     chassisdef_blackknight_BL-6-KNT.json - fixed variant name to BK-7-KNT
     chassisdef_blackknight_BL-6b-KNT.json - fixed reference to BK-7-KNT
     chassisdef_highlander_HGN-732b.json - fixed "732B" to "732b"
+    chassisdef_raven_RVN-1X.json - fixed "Cappellans" and "excells" typo
 
 ### StreamingAssets/data/contracts/
 All Escort and Capture Base contracts have had the word "Dropship" replaced with "DropShip" as used in the BT writers guide.
