@@ -20,7 +20,9 @@
 	{ "Path": "heatsinksMerge", "Type": "AdvancedJSONMerge" },
 	{ "Type": "MechDef", "Path": "mech", "AddToDB": true },
 	{ "Type": "MovementCapabilitiesDef", "Path": "movement", "AddToDB": true },
-	{ "Path": "milestoneMerge", "Type": "AdvancedJSONMerge" }
+	{ "Path": "milestoneMerge", "Type": "AdvancedJSONMerge" },
+	{ "Type": "VehicleChassisDef", "Path": "vehicleChassis", "AddToDB": true },
+	{ "Type": "VehicleDef", "Path": "vehicle", "AddToDB": true }
 
     ]
 }
