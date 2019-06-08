@@ -92,6 +92,9 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     mechdef_raven_RVN-1X.json - Typo "excells" fixed, added FP complete tag to prevent spawning before "The Prototype"
     mechdef_urbanmech_UM-R60L.json - given Lance - Tank tag, removed duplicate jumpOK tag
     
+### StreamingAssets/data/milestoneSets/    
+    ms_fp_doubleAgent.json - fixed Taurian rep (was Steiner) in reward ms for all branches
+    
 ### StreamingAssets/data/movement/
     movedef_PACKRAT.json - max walk 210 from 200
     movedef_GALLANT.json - slowed down Gallant to TT speeds
