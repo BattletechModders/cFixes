@@ -40,30 +40,27 @@ Thanks to mpstark and the entire ModTek team for making this mod possible!
 ### StreamingAssets/data/contracts/
 All Escort and Capture Base contracts have had the word "Dropship" replaced with "DropShip" as used in the BT writers guide.
 
-    AttackDefend_Reconquest.json - Typos (Goddness and DropShip)
-    AttackDefend_Retaliation.json - Typos (Goddness and DropShip)
-    doubleAgent_a1_3wayBattle.json - Typos (Dropship, unexpeted, additonal, accodingly and suprise)
-    doubleAgent_b1_3wayBattle.json - Typos (Dropship, unexpeted, additonal, accodingly and suprise)
-    doubleAgent_c1_3wayBattle.json - Typos (Dropship, unexpeted, additonal, accodingly and suprise)
-    FireMission_DataLiberation.json - Typos (Reinforments and DropShip)
-    FireMission_DataLiberation_Hard.json - Typos (Reinforments and DropShip)
+    AttackDefend_Reconquest.json - typos (Goddness and DropShip)
+    AttackDefend_Retaliation.json - typos (Goddness and DropShip)
+    doubleAgent_a1_3wayBattle.json - typos (Dropship, unexpeted, additonal, accodingly and suprise)
+    doubleAgent_b1_3wayBattle.json - typos (Dropship, unexpeted, additonal, accodingly and suprise)
+    doubleAgent_c1_3wayBattle.json - typos (Dropship, unexpeted, additonal, accodingly and suprise)
+    FireMission_DataLiberation.json - typos (Reinforments and DropShip)
+    FireMission_DataLiberation_Hard.json - typos (Reinforments and DropShip)
     FireMission_Fireworks.json - "WarShip" changed to "Pocket WarShip" as no true WarShips should be available.
-    succession_1_assassinate - Typos (commision and intitial)
-    succession_a1_assassinate.json - Typos (commision and intitial)
+    succession_1_assassinate - typos (commision and intitial)
+    succession_a1_assassinate.json - typos (commision and intitial)
 
 ### StreamingAssets/data/descriptions/Lore/
-    LoreGreatHouses.json - Ordered Houses "Around the Sphere"
-    LoreSuccessorState.json - Ordered Houses "Around the Sphere"
+    LoreGreatHouses.json - ordered Houses "Around the Sphere"
+    LoreSuccessorState.json - ordered Houses "Around the Sphere"
 
 ### StreamingAssets/data/events/
-    event_mw_leadershipMoment.json - Added contextual words to fix "they rises" error
+    event_mw_leadershipMoment.json - added contextual words to fix "they rises" error
     event_mw_triage.json - missing commas
     
 ### StreamingAssets/data/factions
     faction_KellHounds.json - Demonym fixed missing space between "KellHounds"
-
-### StreamingAssets/data/flashpoints
-    fp_flattenedEarth.json - Changed "Commonwealth" to "Confederation"
 
 ### StreamingAssets/data/hardpoints/
     hardpointdatadef_trebuchet.json - fixed RA blank slot in hardpoint 2 (slot 1)
@@ -94,6 +91,9 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     mechdef_quickdraw_QKD-5A.json - removed duplicate tags "unit_indirectFire" and jumpOK
     mechdef_raven_RVN-1X.json - Typo "excells" fixed, added FP complete tag to prevent spawning before "The Prototype"
     mechdef_urbanmech_UM-R60L.json - given Lance - Tank tag, removed duplicate jumpOK tag
+    
+### StreamingAssets/data/movement/
+    movedef_PACKRAT.json - max walk 210 from 200
 
 ### StreamingAssets/data/pilot/
 All pilot files have been refactored to stock passive traits, this is over 90+ files and summerized here for brevity.  Any missing passive traits have been added to conform to the standard progressions.  Story pilots with more than the normal amount of abilities have been retained, but their passive traits have been brought up to standard.  Turret "pilots" have not been touched.
@@ -102,13 +102,13 @@ All pilot files have been refactored to stock passive traits, this is over 90+ f
     regionDef_Positive.json - typo (Positve)
 
 ### StreamingAssets/data/simGameConstants
-    SimGameConstants.json - Max contract fixes for 5+ skull contracts, various extra commas, missing commas
+    SimGameConstants.json - max contract fixes for 5+ skull contracts, various extra commas, missing commas
 
 ### StreamingAssets/data/starsystem/
     starsystemdef_Camadeirre.json - fixed typo: "Camadeirre" change to "Camadeierre"
     
 ### StreamingAssets/data/turrets
-    turretdef_Standard_Laser.json - Renamed "Standard Laser Turret" from "Light Standard Turret"
+    turretdef_Standard_Laser.json - renamed "Standard Laser Turret" from "Light Standard Turret"
 	
 ### StreamingAssets/data/upgrades/cockpitMods/
 	Gear_Cockpit_StarCorps_Dalban.json - fixed typo: "Morale" changed to "Resolve"
@@ -116,17 +116,19 @@ All pilot files have been refactored to stock passive traits, this is over 90+ f
 ### StreamingAssets/data/vehicle/
     vehicledef_BULLDOG.json - added Front MG and ammo
     vehicledef_DEMOLISHER.json - added missing 4th ton of AC/20 ammo
-    vehicledef_MOBILEHQ_ARMORED.json - Fixed armor to match TT values
+    vehicledef_GALLANT.json - fixed armor to TT values, LRM hardpoint slot adjustment
+    vehicledef_MOBILEHQ_ARMORED.json - fixed armor to match TT values
     vehicledef_SCORPION.json - moved MG from Turret to Front
     vehicledef_STRIKER.json - fixed value: Turret Armor 120 changed to 110
     vehicledef_SWIFTWIND_ARMORED.json - fixed tonnage and armor to match possible TT config
 
 ### StreamingAssets/data/vehicleChassis/
-    vehiclechassisdef_MANTICORE.json - Fixed armor and internals
+    vehiclechassisdef_GALLANT.json - fixed weight class to Heavy
+    vehiclechassisdef_MANTICORE.json - fixed armor and internals
     vehiclechassisdef_SCORPION - moved AP hardpoint from Turret to Front
-    vehiclechassisdef_STRIKER.json - Fixed armor and internals
-    vehiclechassisdef_SWIFTWIND.json - Fixed armor and internals
-    vehiclechassisdef_SWIFTWIND_ARMORED.json - Fixed Tonnage and armor and internals
+    vehiclechassisdef_STRIKER.json - fixed armor and internals
+    vehiclechassisdef_SWIFTWIND.json - fixed armor and internals
+    vehiclechassisdef_SWIFTWIND_ARMORED.json - fixed Tonnage and armor and internals
 
 ### StreamingAssets/data/weapon/
     Weapon_Gauss_Gauss_1-M7.json - tag fixes
