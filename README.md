@@ -18,6 +18,7 @@ The authors do not claim any intellectual or legal property on the content of th
 They are intended for free use and re-use.
 
 ### Instructions:
+    Remove older editions of cFixes.
     Copy cFixes folder in to Mods folder created for ModTek.
     
 ### ModTek/BTML
@@ -29,7 +30,6 @@ Thanks to mpstark and the entire ModTek team for making this mod possible!
 
 
 ## List of Fixes
-(by directory)
 
 ### StreamingAssets/data/chassis/
     chassisdef_blackknight_BL-6-KNT.json - fixed variant name to BK-7-KNT
@@ -96,6 +96,9 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
 
 ### StreamingAssets/data/pilot/
 All pilot files have been refactored to stock passive traits, this is over 90+ files and summerized here for brevity.  Any missing passive traits have been added to conform to the standard progressions.  Story pilots with more than the normal amount of abilities have been retained, but their passive traits have been brought up to standard.  Turret "pilots" have not been touched.
+
+### StreamingAssets/data/regions/
+    regionDef_Positive.json - typo (Positve)
 
 ### StreamingAssets/data/simGameConstants
     SimGameConstants.json - Max contract fixes for 5+ skull contracts, various extra commas, missing commas
