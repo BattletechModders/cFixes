@@ -40,9 +40,16 @@ Thanks to mpstark and the entire ModTek team for making this mod possible!
 ### StreamingAssets/data/contracts/
 All Escort and Capture Base contracts have had the word "Dropship" replaced with "DropShip" as used in the BT writers guide.
 
+    AttackDefend_Reconquest.json - Typos (Goddness and DropShip)
+    AttackDefend_Retaliation.json - Typos (Goddness and DropShip)
+    doubleAgent_a1_3wayBattle.json - Typos (Dropship, unexpeted, additonal, accodingly and suprise)
+    doubleAgent_b1_3wayBattle.json - Typos (Dropship, unexpeted, additonal, accodingly and suprise)
+    doubleAgent_c1_3wayBattle.json - Typos (Dropship, unexpeted, additonal, accodingly and suprise)
     FireMission_DataLiberation.json - Typos (Reinforments and DropShip)
     FireMission_DataLiberation_Hard.json - Typos (Reinforments and DropShip)
     FireMission_Fireworks.json - "WarShip" changed to "Pocket WarShip" as no true WarShips should be available.
+    succession_1_assassinate - Typos (commision and intitial)
+    succession_a1_assassinate.json - Typos (commision and intitial)
 
 ### StreamingAssets/data/descriptions/Lore/
     LoreGreatHouses.json - Ordered Houses "Around the Sphere"
