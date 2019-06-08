@@ -11,7 +11,7 @@
     "missionSuccessStatementOverride" : null,
     "badFaithStatementOverride" : null,
     "goodFaithStatementOverride" : null,
-    "shortDescription" : "We've received your message, and MIM operatives are on their way to reclaim our wounded agent. Be advised that our long-range sensors have detected Taurian and Liao military DropShips en route to an AO near your position. To better protect our agent, we suggest that you engage them there, away from the facility. We'll supply you with reinforcements of our own as soon as we can.",
+    "shortDescription" : "We've received your message, and MIM operatives are on their way to reclaim our wounded agent. Be advised that our long-range sensors have detected Liao and Taurian military DropShips en route to an AO near your position. To better protect our agent, we suggest that you engage them there, away from the facility. We'll supply you with reinforcements of our own as soon as we can.",
     "longDescription" : "Get ready, {COMMANDER.FirstName}. This is shaping up to be an interesting day.",
     "salvagePotential" : 12,
     "requirementList" : [],
@@ -67,7 +67,7 @@
             "objective" : {
                 "EncounterObjectGuid" : "d5ee674b-8993-4804-9fa2-b0a73be466e4"
             },
-            "title" : "Eliminate Taurian Battle Lance",
+            "title" : "Eliminate Liao Battle Lance",
             "description" : "ATTN ANDREW main enemy lance",
             "isPrimary" : true,
             "OnSuccessResults" : [],
@@ -79,7 +79,7 @@
             "objective" : {
                 "EncounterObjectGuid" : "cb9c173c-89b3-4447-b3a0-26193cbeb601"
             },
-            "title" : "Eliminate Liao Battle Lance",
+            "title" : "Eliminate Taurian Battle Lance",
             "description" : "ATTN ANDREW hostile to all lance",
             "isPrimary" : true,
             "OnSuccessResults" : [],
@@ -2012,7 +2012,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "That Capellan DropShip I told you about has set down 'Mechs, and they're moving on your position with purpose.",
+                    "words" : "That Taurian DropShip I told you about has set down 'Mechs, and they're moving on your position with purpose.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -2580,7 +2580,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "We've got a Capellan DropShip inbound, Commander. Things are about to get hairy down there.",
+                    "words" : "We've got a Taurian DropShip inbound, Commander. Things are about to get hairy down there.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
