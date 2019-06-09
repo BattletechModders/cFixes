@@ -2,21 +2,21 @@
     "Chassis" : null,
     "MechTags" : {
         "items" : [
-            "unit_mech",
-            "unit_light",
-            "unit_role_ewe",
-            "unit_electronicWarfare",
-	        "unit_release",
-            "unit_dlc",
-            "unit_range_medium",
-			"unit_armor_low",
-			"NotDavion",
-			"NotKurita",
-			"Liao",
-			"NotMarik",
-			"NotSteiner",
-			"NotMagistracyOfCanopus",
-			"NotTaurianConcordat"
+	    "unit_mech",
+	    "unit_light",
+	    "unit_role_ewe",
+	    "unit_electronicWarfare",
+	    "unit_release",
+	    "unit_dlc",
+	    "unit_range_medium",
+	    "unit_armor_low",
+	    "NotDavion",
+	    "NotKurita",
+	    "Liao",
+	    "NotMarik",
+	    "NotSteiner",
+	    "NotMagistracyOfCanopus",
+	    "NotTaurianConcordat"
 
         ],
         "tagSetSourceFile" : ""
