@@ -14,8 +14,7 @@ Credits:
 
 Thanks to the community at large for helping bring these bugs to HBS's attention!
 
-The authors do not claim any intellectual or legal property on the content of these files. 
-They are intended for free use and re-use.
+This mod is intended for free use and re-use.
 
 ### Instructions:
     Remove older editions of cFixes.
