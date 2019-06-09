@@ -1,3 +1,12 @@
 {   
-    "BonusValueA" : "- 10% Heat"
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant1",
+            "component_type_lostech",
+            "range_standard",
+			"BLACKLISTED"
+        ],
+        "tagSetSourceFile" : ""
+    }
 }

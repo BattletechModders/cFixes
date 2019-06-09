@@ -1,46 +1,16 @@
 {
-    "ID" : "FireMission_DataLiberation",
-    "contractName" : "Data Liberation",
+    "ID" : "FireMission_Fireworks",
+    "contractName" : "Fireworks",
     "contractDisplayStyle" : "BaseCampaignNormal",
     "difficulty" : 5,
     "difficultyUIModifier" : 0,
     "weight" : 1,
     "scope" : "STANDARD",
     "finalDifficulty" : 0,
-    "representativeCastDefIDOverride" : null,
-    "missionSuccessStatementOverride" : null,
-    "badFaithStatementOverride" : null,
-    "goodFaithStatementOverride" : null,
-    "shortDescription" : "We have an operative in place in a {TEAM_TAR.FactionDef.Demonym} research facility, and for the past year they've been gathering sensitive research data for us. They've notified us that they're ready for us to extract the data, and we need a deniable force to arrange that extraction. The research facility is not connected to any data networks, and all the secure laboratories are far enough underground that wireless data signals are blocked. To get the information out, we're going to need to position a satellite receiver directly above the site. Your task will be to place positioning beacons to allow the satellite to lock on to the research data signal and download it.",
-    "longDescription" : "This sounds like a messy scenario, Commander. That satellite is only going to be overhead for a short time.",
-    "salvagePotential" : 20,
-    "requirementList" : [
-        {
-            "Scope" : "StarSystem",
-            "RequirementTags" : {
-                "items" : [],
-                "tagSetSourceFile" : ""
-            },
-            "ExclusionTags" : {
-                "items" : [],
-                "tagSetSourceFile" : ""
-            },
-            "RequirementComparisons" : [
-                {
-                    "obj" : "Target.IsOwner",
-                    "op" : "Equal",
-                    "val" : 1,
-                    "valueConstant" : null
-                },
-                {
-                    "obj" : "Employer.AuriganPirates",
-                    "op" : "Equal",
-                    "val" : 0,
-                    "valueConstant" : null
-                }
-            ]
-        }
-    ],
+    "shortDescription" : "We are engaged in delicate negotiations with a private manufacturer from {TEAM_TAR.FactionDef.Demonym} space, but we have reached an impasse. Our representative has requested a demonstration. \"Something dramatic,\" she said. So we turn to you. Your team will provide on-site assistance to target an abandoned {TEAM_TAR.FactionDef.Demonym} military base near the trade conference. We'll have a Pocket WarShip standing by to light it up\u2026 dramatically.",
+    "longDescription" : "The time-frame on this is tight, since we need the artillery strike to hit while the {TEAM_EMP.FactionDef.Demonym} representative has everyone looking in the right direction. And Commander, I wouldn't take any bets on that military base actually being abandoned.",
+    "salvagePotential" : 12,
+    "requirementList" : [],
     "OnContractSuccessResults" : [],
     "OnContractFailureResults" : [],
     "contractType" : "FireMission",
@@ -67,7 +37,7 @@
             "contractObjective" : {
                 "EncounterObjectGuid" : "36f0be69-3b56-447e-9374-a7643ed3eca8"
             },
-            "title" : "Set Targeting Beacons for Data Transfer",
+            "title" : "Mark the military base for destruction from orbit",
             "description" : "Attack the Installation and paint the area for a Fire Mission",
             "isPrimary" : true,
             "forPlayer" : "Player1",
@@ -91,37 +61,31 @@
             "objective" : {
                 "EncounterObjectGuid" : "b666957c-c0f2-4ea2-959b-33165d490ba5"
             },
-            "title" : "Place Beacon Alpha",
-            "description" : "Place Beacon Alpha for Artillery Designation",
+            "title" : "Place Beacon Alpha for Artillery Desgination",
+            "description" : "Place Beacon Alpha for Artillery Desgination",
             "isPrimary" : true,
             "OnSuccessResults" : [],
-            "OnFailureResults" : [],
-            "OnSuccessDialogueGUID" : null,
-            "OnFailureDialogueGUID" : null
+            "OnFailureResults" : []
         },
         {
             "objective" : {
                 "EncounterObjectGuid" : "82e56617-5098-4baf-bbb9-ce5dc4ce470f"
             },
-            "title" : "Place Beacon Bravo",
-            "description" : "Place Beacon Bravo for Artillery Designation",
+            "title" : "Place Beacon Bravo for Artillery Desgination",
+            "description" : "Place Beacon Bravo for Artillery Desgination",
             "isPrimary" : true,
             "OnSuccessResults" : [],
-            "OnFailureResults" : [],
-            "OnSuccessDialogueGUID" : null,
-            "OnFailureDialogueGUID" : null
+            "OnFailureResults" : []
         },
         {
             "objective" : {
                 "EncounterObjectGuid" : "92415cd8-d751-455b-8496-b11a09c8d7cd"
             },
-            "title" : "Place Beacon Charlie",
-            "description" : "Place Beacon Charlie for Artillery Designation",
+            "title" : "Place Beacon Charlie for Artillery Desgination",
+            "description" : "Place Beacon Charlie for Artillery Desgination",
             "isPrimary" : true,
             "OnSuccessResults" : [],
-            "OnFailureResults" : [],
-            "OnSuccessDialogueGUID" : null,
-            "OnFailureDialogueGUID" : null
+            "OnFailureResults" : []
         },
         {
             "objective" : {
@@ -131,33 +95,27 @@
             "description" : "Await Further Instructions",
             "isPrimary" : true,
             "OnSuccessResults" : [],
-            "OnFailureResults" : [],
-            "OnSuccessDialogueGUID" : null,
-            "OnFailureDialogueGUID" : null
+            "OnFailureResults" : []
         },
         {
             "objective" : {
                 "EncounterObjectGuid" : "d6b0c5db-ce49-4097-ad2f-97525fa70539"
             },
-            "title" : "DropShip on Approach",
-            "description" : "DropShip on Approach",
+            "title" : "Dropship on Approach",
+            "description" : "Dropship on Approach",
             "isPrimary" : true,
             "OnSuccessResults" : [],
-            "OnFailureResults" : [],
-            "OnSuccessDialogueGUID" : null,
-            "OnFailureDialogueGUID" : null
+            "OnFailureResults" : []
         },
         {
             "objective" : {
                 "EncounterObjectGuid" : "9090acb8-ca3d-4d15-abce-1c520aafe9c0"
             },
-            "title" : "Confirm Data Transmission",
+            "title" : "Get Visual Confirmation of Artillery Effect",
             "description" : "",
             "isPrimary" : true,
             "OnSuccessResults" : [],
-            "OnFailureResults" : [],
-            "OnSuccessDialogueGUID" : null,
-            "OnFailureDialogueGUID" : null
+            "OnFailureResults" : []
         },
         {
             "objective" : {
@@ -167,28 +125,24 @@
             "description" : "",
             "isPrimary" : true,
             "OnSuccessResults" : [],
-            "OnFailureResults" : [],
-            "OnSuccessDialogueGUID" : null,
-            "OnFailureDialogueGUID" : null
+            "OnFailureResults" : []
         },
         {
             "objective" : {
                 "EncounterObjectGuid" : "8ff11c96-4bd9-454e-b883-2f5e089bff1a"
             },
-            "title" : "Extract before additional Enemy Reinforcements Arrive",
+            "title" : "Extract before additional Enemy Reinforcments Arrive",
             "description" : "",
             "isPrimary" : true,
             "OnSuccessResults" : [],
-            "OnFailureResults" : [],
-            "OnSuccessDialogueGUID" : null,
-            "OnFailureDialogueGUID" : null
+            "OnFailureResults" : []
         },
         {
             "objective" : {
                 "EncounterObjectGuid" : "6512b05e-ea0d-4979-af5f-8a8c8d2e0195"
             },
             "title" : "Destroy Enemy Garrison",
-            "description" : "",
+            "description" : "Enemy Garrison Lance",
             "isPrimary" : false,
             "OnSuccessResults" : [
                 {
@@ -217,16 +171,14 @@
                     "ResultDuration" : 0
                 }
             ],
-            "OnFailureResults" : [],
-            "OnSuccessDialogueGUID" : null,
-            "OnFailureDialogueGUID" : null
+            "OnFailureResults" : []
         },
         {
             "objective" : {
                 "EncounterObjectGuid" : "f3e1232a-f769-4479-a606-50020c0350df"
             },
-            "title" : "Destroy Additional {TEAM_TAR.FactionDef.Demonym} Forces",
-            "description" : "",
+            "title" : "Destroy Additional Enemy Forces",
+            "description" : "Enemy Supplemental 1 Lance",
             "isPrimary" : false,
             "OnSuccessResults" : [
                 {
@@ -255,16 +207,14 @@
                     "ResultDuration" : 0
                 }
             ],
-            "OnFailureResults" : [],
-            "OnSuccessDialogueGUID" : null,
-            "OnFailureDialogueGUID" : null
+            "OnFailureResults" : []
         },
         {
             "objective" : {
                 "EncounterObjectGuid" : "6748d641-b9af-4279-a7bb-a85bbf26924d"
             },
-            "title" : "Destroy Additional {TEAM_TAR.FactionDef.Demonym} Forces",
-            "description" : "",
+            "title" : "Destroy Additional Enemy Forces",
+            "description" : "Enemy Supplemental 2 Lance",
             "isPrimary" : false,
             "OnSuccessResults" : [
                 {
@@ -293,16 +243,14 @@
                     "ResultDuration" : 0
                 }
             ],
-            "OnFailureResults" : [],
-            "OnSuccessDialogueGUID" : null,
-            "OnFailureDialogueGUID" : null
+            "OnFailureResults" : []
         },
         {
             "objective" : {
                 "EncounterObjectGuid" : "c02cca7e-6e2c-4a3d-beb0-f9af713a466f"
             },
-            "title" : "Destroy Kurita Special Reinforcements",
-            "description" : "",
+            "title" : "Destroy Enemy Special Reinforcements",
+            "description" : "Enemy Ally Special Reinforcement Lance",
             "isPrimary" : false,
             "OnSuccessResults" : [
                 {
@@ -331,9 +279,7 @@
                     "ResultDuration" : 0
                 }
             ],
-            "OnFailureResults" : [],
-            "OnSuccessDialogueGUID" : null,
-            "OnFailureDialogueGUID" : null
+            "OnFailureResults" : []
         },
         {
             "objective" : {
@@ -369,9 +315,7 @@
                     "ResultDuration" : 0
                 }
             ],
-            "OnFailureResults" : [],
-            "OnSuccessDialogueGUID" : null,
-            "OnFailureDialogueGUID" : null
+            "OnFailureResults" : []
         },
         {
             "objective" : {
@@ -407,45 +351,37 @@
                     "ResultDuration" : 0
                 }
             ],
-            "OnFailureResults" : [],
-            "OnSuccessDialogueGUID" : null,
-            "OnFailureDialogueGUID" : null
+            "OnFailureResults" : []
         },
         {
             "objective" : {
                 "EncounterObjectGuid" : "0bbd4b2b-8b6b-4856-8c6f-c68d282646c2"
             },
-            "title" : "Place Beacons Quickly",
+            "title" : "Place Beacons for Artillery Quickly",
             "description" : "Complete the Fire Mission",
             "isPrimary" : true,
             "OnSuccessResults" : [],
-            "OnFailureResults" : [],
-            "OnSuccessDialogueGUID" : null,
-            "OnFailureDialogueGUID" : null
+            "OnFailureResults" : []
         },
         {
             "objective" : {
                 "EncounterObjectGuid" : "2b78c46d-a854-4288-adeb-c7fc1574f055"
             },
-            "title" : "Extract before Enemy Reinforcements Arrive",
+            "title" : "Extract before Enemy Reinforcments Arrive",
             "description" : "",
             "isPrimary" : true,
             "OnSuccessResults" : [],
-            "OnFailureResults" : [],
-            "OnSuccessDialogueGUID" : null,
-            "OnFailureDialogueGUID" : null
+            "OnFailureResults" : []
         },
         {
             "objective" : {
                 "EncounterObjectGuid" : "e47e2e68-3927-41de-9fd0-e8de166dc4c1"
             },
-            "title" : "Await DropShip Arrival",
+            "title" : "Await Dropship Arrival",
             "description" : "",
             "isPrimary" : true,
             "OnSuccessResults" : [],
-            "OnFailureResults" : [],
-            "OnSuccessDialogueGUID" : null,
-            "OnFailureDialogueGUID" : null
+            "OnFailureResults" : []
         }
     ],
     "artilleryObjectiveList" : [
@@ -463,8 +399,7 @@
             "encounterChunk" : {
                 "EncounterObjectGuid" : "fe7acedd-7d10-4632-bd5b-2abd9fd12372"
             },
-            "enableChunkFromContract" : true,
-            "controlledByContractChunkGroupList" : [],
+            "enableChunkFromContract" : false,
             "requirementList" : []
         },
         {
@@ -473,7 +408,6 @@
                 "EncounterObjectGuid" : "80c67186-d629-4cba-9145-288724cc0718"
             },
             "enableChunkFromContract" : false,
-            "controlledByContractChunkGroupList" : [],
             "requirementList" : []
         },
         {
@@ -481,8 +415,7 @@
             "encounterChunk" : {
                 "EncounterObjectGuid" : "eedc9ce0-5262-452b-b367-72d4e02defaf"
             },
-            "enableChunkFromContract" : false,
-            "controlledByContractChunkGroupList" : [],
+            "enableChunkFromContract" : true,
             "requirementList" : []
         },
         {
@@ -490,8 +423,7 @@
             "encounterChunk" : {
                 "EncounterObjectGuid" : "efb53005-cf39-4754-9ff1-8b0c81ee8760"
             },
-            "enableChunkFromContract" : true,
-            "controlledByContractChunkGroupList" : [],
+            "enableChunkFromContract" : false,
             "requirementList" : []
         },
         {
@@ -500,7 +432,6 @@
                 "EncounterObjectGuid" : "01b0e9ab-f953-475b-b744-c44d890cc4c6"
             },
             "enableChunkFromContract" : false,
-            "controlledByContractChunkGroupList" : [],
             "requirementList" : []
         },
         {
@@ -508,8 +439,7 @@
             "encounterChunk" : {
                 "EncounterObjectGuid" : "44bfa8ef-bc6d-4f29-adbf-10ad78fc8d4b"
             },
-            "enableChunkFromContract" : false,
-            "controlledByContractChunkGroupList" : [],
+            "enableChunkFromContract" : true,
             "requirementList" : []
         },
         {
@@ -518,7 +448,6 @@
                 "EncounterObjectGuid" : "1e0489a7-ff44-44a0-b16f-2ff8dc08267f"
             },
             "enableChunkFromContract" : false,
-            "controlledByContractChunkGroupList" : [],
             "requirementList" : []
         },
         {
@@ -527,7 +456,6 @@
                 "EncounterObjectGuid" : "04f0e24a-0540-4078-9627-1f593b1d7d89"
             },
             "enableChunkFromContract" : false,
-            "controlledByContractChunkGroupList" : [],
             "requirementList" : []
         },
         {
@@ -536,7 +464,6 @@
                 "EncounterObjectGuid" : "a8910d4c-761b-4479-9a4f-a1c725d763ec"
             },
             "enableChunkFromContract" : false,
-            "controlledByContractChunkGroupList" : [],
             "requirementList" : []
         }
     ],
@@ -653,7 +580,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "Commander, I'll try to keep this brief, because there's a lot happening on this one.",
+                    "words" : "The client wants to put on a show. We're here to mark the target so that can happen.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -669,39 +596,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "You need to move into position in three marked locations, here...",
-                    "wordsColor" : {
-                        "r" : 1,
-                        "g" : 1,
-                        "b" : 1,
-                        "a" : 1
-                    },
-                    "selectedCastDefId" : "castDef_DariusDefault",
-                    "emote" : "Default",
-                    "audioName" : "NONE",
-                    "cameraFocusGuid" : "4f98aca6-0a4c-4d89-95ce-5a3401bb76ab",
-                    "cameraDistance" : "Far",
-                    "cameraHeight" : "Default",
-                    "revealRadius" : -1
-                },
-                {
-                    "words" : "Here...",
-                    "wordsColor" : {
-                        "r" : 1,
-                        "g" : 1,
-                        "b" : 1,
-                        "a" : 1
-                    },
-                    "selectedCastDefId" : "castDef_DariusDefault",
-                    "emote" : "Default",
-                    "audioName" : "NONE",
-                    "cameraFocusGuid" : "9d1145a1-4395-4bb1-a8ac-11212a29b282",
-                    "cameraDistance" : "Far",
-                    "cameraHeight" : "Default",
-                    "revealRadius" : -1
-                },
-                {
-                    "words" : "And here. You'll have to station a unit in each location long enough to get the beacon deployed.",
+                    "words" : "Three points make a triangle around the target base. Set up beacons at those points and we can go home.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -717,7 +612,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "Expect significant {TEAM_TAR.FactionDef.Demonym} resistance. They'll try to force you out of the targeting regions.",
+                    "words" : "That base is supposed to be abandoned and empty, but I don't trust that and neither should you.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -727,13 +622,13 @@
                     "selectedCastDefId" : "castDef_DariusDefault",
                     "emote" : "Default",
                     "audioName" : "NONE",
-                    "cameraFocusGuid" : "693ada30-bb18-4b70-960f-3a64abacd5ce",
+                    "cameraFocusGuid" : "0bc80178-ee22-4613-8988-3a3f3546d027",
                     "cameraDistance" : "Far",
                     "cameraHeight" : "Default",
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "We're on a very tight schedule, Commander -- the satellite will only be overhead for a short time, and if we don't have the beacons up in time, no data, and no payday.",
+                    "words" : "Timing's important, here. This is a show of force, and if we miss our window, the right people won't be watching.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -743,39 +638,7 @@
                     "selectedCastDefId" : "castDef_DariusDefault",
                     "emote" : "Default",
                     "audioName" : "NONE",
-                    "cameraFocusGuid" : "",
-                    "cameraDistance" : "Far",
-                    "cameraHeight" : "Default",
-                    "revealRadius" : -1
-                },
-                {
-                    "words" : "After the data's been uploaded, you'll get confirmation and you can make for the evac point. Sumire will be on station to pull you out of there.",
-                    "wordsColor" : {
-                        "r" : 1,
-                        "g" : 1,
-                        "b" : 1,
-                        "a" : 1
-                    },
-                    "selectedCastDefId" : "castDef_DariusDefault",
-                    "emote" : "Default",
-                    "audioName" : "NONE",
-                    "cameraFocusGuid" : "a85da736-7a2e-4cc6-aff3-feb9d73fc7e1",
-                    "cameraDistance" : "Far",
-                    "cameraHeight" : "Default",
-                    "revealRadius" : -1
-                },
-                {
-                    "words" : "Watch yourself, Commander. I saw a hell of a lot of opposition on the way in.",
-                    "wordsColor" : {
-                        "r" : 1,
-                        "g" : 1,
-                        "b" : 1,
-                        "a" : 1
-                    },
-                    "selectedCastDefId" : "castDef_SumireDefault",
-                    "emote" : "Default",
-                    "audioName" : "NONE",
-                    "cameraFocusGuid" : "",
+                    "cameraFocusGuid" : "74637c9a-99e7-4e66-80f1-349fb6871d85",
                     "cameraDistance" : "Far",
                     "cameraHeight" : "Default",
                     "revealRadius" : -1
@@ -790,14 +653,14 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "Is everyone aboard? Let's get the hell out of here.",
+                    "words" : "The target is destroyed. Client's message is signed, sealed, and delivered.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_SumireDefault",
+                    "selectedCastDefId" : "castDef_DariusDefault",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -815,7 +678,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "That's it, Commander. We have to scrub the mission. Unfortunate.",
+                    "words" : "I am putting a stop to this, no way we pull this out of the fire. Abort Mission.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -840,23 +703,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "I'm getting a signal from the satellite, Commander. They've locked on to the beacons successfully.",
-                    "wordsColor" : {
-                        "r" : 1,
-                        "g" : 1,
-                        "b" : 1,
-                        "a" : 1
-                    },
-                    "selectedCastDefId" : "castDef_FarahDefault",
-                    "emote" : "Default",
-                    "audioName" : "NONE",
-                    "cameraFocusGuid" : "0bc80178-ee22-4613-8988-3a3f3546d027",
-                    "cameraDistance" : "Far",
-                    "cameraHeight" : "Default",
-                    "revealRadius" : -1
-                },
-                {
-                    "words" : "BEGINNING DATA TRANSMISSION.",
+                    "words" : "Observer Actual this is Fire Control: Target Locked. Firing for Effect. HE 30 rounds. Danger Close.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -872,14 +719,30 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "Okay, Farah, give me a heads-up when they're done, and I'll move in for the pickup.",
+                    "words" : "Observer Actual this is Fire Control: Shot Over. Splash in 30.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_SumireDefault",
+                    "selectedCastDefId" : "castDef_Computer",
+                    "emote" : "Default",
+                    "audioName" : "NONE",
+                    "cameraFocusGuid" : "0bc80178-ee22-4613-8988-3a3f3546d027",
+                    "cameraDistance" : "Far",
+                    "cameraHeight" : "Default",
+                    "revealRadius" : -1
+                },
+                {
+                    "words" : "Fire Control this is Observer Actual: Confirmed. Shot, out.",
+                    "wordsColor" : {
+                        "r" : 1,
+                        "g" : 1,
+                        "b" : 1,
+                        "a" : 1
+                    },
+                    "selectedCastDefId" : "castDef_DariusDefault",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "0bc80178-ee22-4613-8988-3a3f3546d027",
@@ -972,14 +835,14 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "Attention all {TEAM_TAR.FactionDef.Demonym} forces: we believe the hostiles are attempting to place targeting beacons. Intercept them immediately!",
+                    "words" : "Attention! All {TEAM_TAR.FactionDef.Demonym} forces, focus fire on the 'Mechs placing beacons for Artillery Strike. Fire at will and bring them down!",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_Computer",
+                    "selectedCastDefId" : "castDef_TeamLeader_Target",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "e7acc01a-0514-468f-8b6c-7c8eeb68e1ff",
@@ -997,14 +860,14 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "N/A",
+                    "words" : "All units, close distance on enemy forces. Send a short wave burst near them to disrupt enemy Artillery from locking on! Move quickly!",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_FP_allianceMarik_MjrMatthewsDefault",
+                    "selectedCastDefId" : "castDef_TeamLeader_Target",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -1013,14 +876,14 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "N/A",
+                    "words" : "Keep the pressure on to prevent them a chance to place those beacons!",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_FP_allianceMarik_MjrMatthewsDefault",
+                    "selectedCastDefId" : "castDef_TeamLeader_Target",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -1063,14 +926,30 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "N/A",
+                    "words" : "Greetings, Commander. Understand that this facility is as important to the {TEAM_TAR_ALLY.FactionDef.Name} as it is to our {TEAM_TAR.FactionDef.Demonym} friends.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_FP_allianceMarik_ChuiTetsuharaDefault",
+                    "selectedCastDefId" : "castDef_TeamLeader_TargetsAlly",
+                    "emote" : "Default",
+                    "audioName" : "NONE",
+                    "cameraFocusGuid" : "fddf5e8b-07c6-492b-861e-2d9c2bde80ee",
+                    "cameraDistance" : "Far",
+                    "cameraHeight" : "Default",
+                    "revealRadius" : -1
+                },
+                {
+                    "words" : "Let's see what you got.",
+                    "wordsColor" : {
+                        "r" : 1,
+                        "g" : 1,
+                        "b" : 1,
+                        "a" : 1
+                    },
+                    "selectedCastDefId" : "castDef_TeamLeader_TargetsAlly",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "fddf5e8b-07c6-492b-861e-2d9c2bde80ee",
@@ -1088,14 +967,14 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "N/A",
+                    "words" : "*STATIC* -ell, this round is yours. *COUGH* Until next time.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_FP_allianceMarik_ChuiTetsuharaDefault",
+                    "selectedCastDefId" : "castDef_TeamLeader_TargetsAlly",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -1113,7 +992,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "N/A",
+                    "words" : "Commander, {TEAM_EMP.FactionDef.Demonym} forces on station. Thanks for clearing those defenses to make way for us.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -1129,7 +1008,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "N/A",
+                    "words" : "We'll work in parallel to you and eliminate any opposition we come into contact with.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -1154,7 +1033,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "N/A",
+                    "words" : "We're finished, Commander. You're on your own again.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -1179,14 +1058,14 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "N/A",
+                    "words" : "Commander, long range sensors are picking up an enemy bogey. They'll be landing any minute.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_FP_allianceMarik_AiravataPilotDefault",
+                    "selectedCastDefId" : "castDef_DariusDefault",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "fddf5e8b-07c6-492b-861e-2d9c2bde80ee",
@@ -1195,17 +1074,17 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "N/A",
+                    "words" : "I don't have any way to know where they will land, but you can bet they will be close to the base.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_MarikRepDefault",
+                    "selectedCastDefId" : "castDef_DariusDefault",
                     "emote" : "Default",
                     "audioName" : "NONE",
-                    "cameraFocusGuid" : "",
+                    "cameraFocusGuid" : "0bc80178-ee22-4613-8988-3a3f3546d027",
                     "cameraDistance" : "Far",
                     "cameraHeight" : "Default",
                     "revealRadius" : -1
@@ -1220,7 +1099,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "N/A",
+                    "words" : "Commander, they are depolying vehicles and tanks from their motorpool.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -1236,7 +1115,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "N/A",
+                    "words" : "It appears to be subterranian, and hardened. We can't take it out, they will keep comng until the artillery lands. So move quickly.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -1261,14 +1140,14 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "Commander, I've been tracking the satellite and you're almost out of time! You need to get those beacons placed immediately!",
+                    "words" : "Commander, our window of oppurtunity for this strike is closing. At least half of our time has expired. You'll need to move quickly if you're to accomplish this.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_FarahDefault",
+                    "selectedCastDefId" : "castDef_DariusDefault",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -1293,10 +1172,26 @@
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_SumireDefault",
+                    "selectedCastDefId" : "castDef_TeamLeader_Employer",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
+                    "cameraDistance" : "Far",
+                    "cameraHeight" : "Default",
+                    "revealRadius" : -1
+                },
+                {
+                    "words" : "We're holding here for our own reinforcements. Get to your evac point and go! We'll cover you.",
+                    "wordsColor" : {
+                        "r" : 1,
+                        "g" : 1,
+                        "b" : 1,
+                        "a" : 1
+                    },
+                    "selectedCastDefId" : "castDef_TeamLeader_Employer",
+                    "emote" : "Default",
+                    "audioName" : "NONE",
+                    "cameraFocusGuid" : "2dc3da6a-fce4-4f95-a7c9-05fc5fd53ec2",
                     "cameraDistance" : "Far",
                     "cameraHeight" : "Default",
                     "revealRadius" : -1
@@ -1362,8 +1257,6 @@
             "dialogueContent" : []
         }
     ],
-    "extractionOverrideList" : [],
-    "overwriteMissionCompleteWhenAutoComplete" : true,
     "overrideAutoCompleteDialogueId" : null,
     "disableNegotations" : false,
     "disableLanceConfiguration" : false,
@@ -1740,8 +1633,7 @@
                 "lanceDefId" : "Tagged",
                 "lanceTagSet" : {
                     "items" : [
-                        "lance_type_battle",
-                        "lance_type_mech"
+                        "lance_type_battle"
                     ],
                     "tagSetSourceFile" : "tags/LanceTags"
                 },
@@ -1755,7 +1647,7 @@
                     "items" : [],
                     "tagSetSourceFile" : "tags/SpawnEffectTags"
                 },
-                "lanceDifficultyAdjustment" : -1,
+                "lanceDifficultyAdjustment" : 0,
                 "selectedLanceDefId" : null,
                 "selectedLanceDifficulty" : 0,
                 "unitSpawnPointOverrideList" : [
@@ -1901,8 +1793,7 @@
                 "lanceDefId" : "Tagged",
                 "lanceTagSet" : {
                     "items" : [
-                        "lance_type_support",
-                        "lance_type_mech"
+                        "lance_type_support"
                     ],
                     "tagSetSourceFile" : "tags/LanceTags"
                 },
@@ -1916,7 +1807,7 @@
                     "items" : [],
                     "tagSetSourceFile" : "tags/SpawnEffectTags"
                 },
-                "lanceDifficultyAdjustment" : -1,
+                "lanceDifficultyAdjustment" : 0,
                 "selectedLanceDefId" : null,
                 "selectedLanceDifficulty" : 0,
                 "unitSpawnPointOverrideList" : [
@@ -2062,8 +1953,7 @@
                 "lanceDefId" : "Tagged",
                 "lanceTagSet" : {
                     "items" : [
-                        "lance_type_cavalry",
-                        "lance_type_mech"
+                        "lance_type_cavalry"
                     ],
                     "tagSetSourceFile" : "tags/LanceTags"
                 },
@@ -2339,8 +2229,8 @@
                         "unitDefId" : "turretdef_Light_Sniper",
                         "unitTagSet" : {
                             "items" : [
-                                "unit_light",
-                                "unit_turret"
+                                "unit_turret",
+                                "unit_light"
                             ],
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
@@ -2375,8 +2265,8 @@
                         "unitDefId" : "turretdef_Light_Sniper",
                         "unitTagSet" : {
                             "items" : [
-                                "unit_light",
-                                "unit_turret"
+                                "unit_turret",
+                                "unit_light"
                             ],
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
@@ -2411,8 +2301,8 @@
                         "unitDefId" : "turretdef_Light_Sniper",
                         "unitTagSet" : {
                             "items" : [
-                                "unit_light",
-                                "unit_turret"
+                                "unit_turret",
+                                "unit_light"
                             ],
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
@@ -2447,8 +2337,8 @@
                         "unitDefId" : "turretdef_Light_Sniper",
                         "unitTagSet" : {
                             "items" : [
-                                "unit_light",
-                                "unit_turret"
+                                "unit_turret",
+                                "unit_light"
                             ],
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
@@ -2483,8 +2373,8 @@
                         "unitDefId" : "turretdef_Light_Sniper",
                         "unitTagSet" : {
                             "items" : [
-                                "unit_light",
-                                "unit_turret"
+                                "unit_turret",
+                                "unit_light"
                             ],
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
@@ -2552,10 +2442,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "37634f3f-6855-4572-b526-1fa66e770831"
                         },
-                        "customUnitName" : "Chu-i Tetsuhara",
+                        "customUnitName" : "",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_zeus_ZEU-6S",
+                        "unitDefId" : "mechDef_InheritLance",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -2568,7 +2458,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d9_flanker",
+                        "pilotDefId" : "pilotDef_InheritLance",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -2700,14 +2590,6 @@
         },
         "teamGuid" : "3c9f3a20-ab03-4bcb-8ab6-b1ef0442bbf0",
         "teamName" : "Hostile to All",
-        "faction" : "INVALID_UNSET",
-        "teamLeaderCastDefId" : "castDef_TeamLeader_Current",
-        "lanceOverrideList" : []
-    },
-    "employersAllyTeam" : {
-        "encounterLayerData" : null,
-        "teamGuid" : "70af7e7f-39a8-4e81-87c2-bd01dcb01b5e",
-        "teamName" : "Employers Ally",
         "faction" : "INVALID_UNSET",
         "teamLeaderCastDefId" : "castDef_TeamLeader_Current",
         "lanceOverrideList" : []
