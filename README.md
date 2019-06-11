@@ -46,6 +46,7 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     doubleAgent_c1_3wayBattle.json - fixed factions in dialogue, typos (Dropship, unexpeted, additonal, accodingly and suprise)
     FireMission_DataLiberation.json - typos (Reinforments and DropShip)
     FireMission_DataLiberation_Hard.json - typos (Reinforments and DropShip)
+    FireMission_FireForEffect.json - typos, too many to list here
     FireMission_Fireworks.json - "WarShip" changed to "Pocket WarShip" as no true WarShips should be available.
     SimpleBattle_RaidingParty.json - DropShip foramtting
     SimpleBattle_RaidingParty_Hard.json - DropShip foramtting
