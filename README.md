@@ -61,8 +61,11 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     event_mw_leadershipMoment.json - added contextual words to fix "they rises" error
     event_mw_triage.json - missing commas
     
-### StreamingAssets/data/factions
+### StreamingAssets/data/factions/
     faction_KellHounds.json - Demonym fixed missing space between "KellHounds"
+
+### StreamingAssets/data/flashpoints/
+    fp_uw1.json - Spawn weight 200 from 10 to match "Joint Venture"
 
 ### StreamingAssets/data/hardpoints/
     hardpointdatadef_trebuchet.json - fixed RA blank slot in hardpoint 2 (slot 1)
@@ -107,13 +110,13 @@ All pilot files have been refactored to stock passive traits, this is over 90+ f
 ### StreamingAssets/data/regions/
     regionDef_Positive.json - typo (Positve)
 
-### StreamingAssets/data/simGameConstants
+### StreamingAssets/data/simGameConstants/
     SimGameConstants.json - max contract fixes for 5+ skull contracts, various extra commas, missing commas
 
 ### StreamingAssets/data/starsystem/
     starsystemdef_Camadeirre.json - fixed typo: "Camadeirre" change to "Camadeierre"
     
-### StreamingAssets/data/turrets
+### StreamingAssets/data/turrets/
     turretdef_Standard_Laser.json - renamed "Standard Laser Turret" from "Light Standard Turret"
 	
 ### StreamingAssets/data/upgrades/cockpitMods/
