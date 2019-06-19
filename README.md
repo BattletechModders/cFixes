@@ -40,7 +40,7 @@ Thanks to mpstark and the entire ModTek team for making this mod possible!
 All Escort and Capture Base contracts have had the word "Dropship" replaced with "DropShip" as used in the BT writers guide.
 
     AttackDefend_Reconquest.json - typos (Goddness and DropShip)
-    AttackDefend_Retaliation.json - typos (Goddness and DropShip)
+    AttackDefend_Retaliation.json - enabled def. turrets as dialogue text implies, typos (Goddness and DropShip)
     doubleAgent_a1_3wayBattle.json - fixed factions in dialogue, typos (Dropship, unexpeted, additonal, accodingly and suprise)
     doubleAgent_b1_3wayBattle.json - fixed factions in dialogue, typos (Dropship, unexpeted, additonal, accodingly and suprise)
     doubleAgent_c1_3wayBattle.json - fixed factions in dialogue, typos (Dropship, unexpeted, additonal, accodingly and suprise)
