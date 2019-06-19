@@ -15,6 +15,7 @@
 	{ "Path": "contractsMerge", "Type": "AdvancedJSONMerge" },
 	{ "Type": "ContractOverride", "Path": "contracts", "AddToDB": true },
 	{ "Path": "eventsMerge", "Type": "AdvancedJSONMerge" },
+	{ "Type": "FlashpointDef", "Path": "flashpoints", "AddToDB": true },
 	{ "Path": "hardpointsMerge", "Type": "AdvancedJSONMerge" },
 	{ "Path": "heatsinksMerge", "Type": "AdvancedJSONMerge" },
 	{ "Type": "MechDef", "Path": "mech", "AddToDB": true },
