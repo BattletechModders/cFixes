@@ -59,6 +59,7 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
 
 ### StreamingAssets/data/events/
     event_mw_leadershipMoment.json - added contextual words to fix "they rises" error
+    event_mw_nobleBonds.json - Fixed the gender reference instead of defaulting to their.
     event_mw_triage.json - missing commas
     
 ### StreamingAssets/data/factions/
