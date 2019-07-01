@@ -95,7 +95,6 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     mechdef_javlin_JVN-10F.json - given Lance - Assassin/Vanguard tag, removed duplicate jumpOK tag
     mechdef_javlin_JVN-10N.json - given Lance - Assassin/Vanguard tag, removed duplicate jumpOK tag
     mechdef_quickdraw_QKD-5A.json - removed duplicate tags "unit_indirectFire" and jumpOK
-    mechdef_raven_RVN-1X.json - Typo "excells" fixed, added FP complete tag to prevent spawning before "The Prototype"
     mechdef_urbanmech_UM-R60L.json - given Lance - Tank tag, removed duplicate jumpOK tag
     
 ### StreamingAssets/data/milestoneSets/    
