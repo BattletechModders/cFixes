@@ -40,9 +40,6 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
 
     AttackDefend_Reconquest.json - typos (Goddness and DropShip)
     AttackDefend_Retaliation.json - enabled def. turrets as dialogue text implies, typos (Goddness and DropShip)
-    doubleAgent_a1_3wayBattle.json - fixed factions in dialogue, typos (Dropship, unexpeted, additonal, accodingly and suprise)
-    doubleAgent_b1_3wayBattle.json - fixed factions in dialogue, typos (Dropship, unexpeted, additonal, accodingly and suprise)
-    doubleAgent_c1_3wayBattle.json - fixed factions in dialogue, typos (Dropship, unexpeted, additonal, accodingly and suprise)
     FireMission_DataLiberation.json - typos (Reinforments and DropShip)
     FireMission_DataLiberation_Hard.json - typos (Reinforments and DropShip)
     FireMission_FireForEffect.json - typos, too many to list here
