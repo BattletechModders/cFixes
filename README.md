@@ -49,6 +49,7 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     SimpleBattle_RaidingParty_Hard.json - DropShip foramtting
     succession_1_assassinate - typos (commision and intitial)
     succession_a1_assassinate.json - typos (commision and intitial)
+    ThreeWayBattle_TestDrive.json - Exclude Cap.Con from being employer stealing from Cap.Con
 
 ### StreamingAssets/data/descriptions/Lore/
     LoreGreatHouses.json - ordered Houses "Around the Sphere"
