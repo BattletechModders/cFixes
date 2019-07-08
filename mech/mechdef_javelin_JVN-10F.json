@@ -20,7 +20,7 @@
     "ChassisID": "chassisdef_javelin_JVN-10F",
     "HeraldryID": null,
     "Description": {
-        "Cost": 2480000,
+        "Cost": 3280000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": null,
@@ -31,7 +31,7 @@
         "Details": "The JVN-10F is armed with four medium lasers. It's a functional scouting 'Mech, but shines as mobile reinforcement unit because it can provide sustained fire without ammo limitations.",
         "Icon": "uixTxrIcon_javelin"
     },
-    "simGameMechPartCost": 248000,
+    "simGameMechPartCost": 330000,
     "Version": 1,
     "Locations": [
         {
