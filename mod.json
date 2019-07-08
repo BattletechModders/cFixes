@@ -17,6 +17,7 @@
 	{ "Type": "FlashpointDef", "Path": "flashpoints", "AddToDB": true },
 	{ "Path": "hardpointsMerge", "Type": "AdvancedJSONMerge" },
 	{ "Path": "heatsinksMerge", "Type": "AdvancedJSONMerge" },
+	{ "Type": "ChassisDef", "Path": "chassis", "AddToDB": true },
 	{ "Type": "MechDef", "Path": "mech", "AddToDB": true },
 	{ "Path": "milestoneMerge", "Type": "AdvancedJSONMerge" },
 	{ "Type": "MovementCapabilitiesDef", "Path": "movement", "AddToDB": true },
