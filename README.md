@@ -41,8 +41,8 @@ Thanks to mpstark and the entire ModTek team for making this mod possible!
     chassisdef_hatchetman_HCT-3F.json - fixed costs
     chassisdef_hatchetman_HCT-3X.json - fixed costs
     chassisdef_highlander_HGN-732b.json - fixed "732B" to "732b"
-    chassisdef_hunchback_HBK-4G.json - fixed costs
-    chassisdef_hunchback_HBK-4P.json - fixed costs
+    chassisdef_hunchback_HBK-4G.json - melee DMG to 75 from 80
+    chassisdef_hunchback_HBK-4P.json - melee DMG to 75 from 80
     chassisdef_javelin_JVN-10F.json - fixed costs
     chassisdef_javelin_JVN-10N.json - fixed costs
     chassisdef_raven_RVN-1X.json - fixed costs
