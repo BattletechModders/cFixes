@@ -27,7 +27,7 @@
     "ChassisID": "chassisdef_hatchetman_HCT-3X",
     "HeraldryID": null,
     "Description": {
-        "Cost": 4600000,
+        "Cost": 4695000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": null,
@@ -38,7 +38,7 @@
         "Details": "The Hatchetman 3X further indexes on the stock design's close combat role, adding more armor and replacing its AC10 for an array of SRMs, Lasers, and Anti-Personnel weapons. This is the ultimate melee brawler.",
         "Icon": "uixTxrIcon_hatchetman"
     },
-    "simGameMechPartCost": 460000,
+    "simGameMechPartCost": 470000,
     "Version": 1,
     "Locations": [
         {
@@ -179,9 +179,7 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },		
-
-
+        },
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_MachineGun_MachineGun_0-STOCK",

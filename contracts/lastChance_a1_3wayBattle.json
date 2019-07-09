@@ -1,8 +1,8 @@
 {
-    "ID" : "doubleAgent_b1_3wayBattle",
-    "contractName" : "Double Agent II",
+    "ID" : "lastChance_a1_3wayBattle",
+    "contractName" : "A House Divided II",
     "contractDisplayStyle" : "BaseFlashpoint",
-    "difficulty" : 2,
+    "difficulty" : 5,
     "difficultyUIModifier" : 0,
     "weight" : 1,
     "scope" : "MID_CAMPAIGN",
@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride" : null,
     "badFaithStatementOverride" : null,
     "goodFaithStatementOverride" : null,
-    "shortDescription" : "We've received your message, and TMI agents are on their way to take possession of the facility. Be advised that our long-range sensors have detected Liao and Davion military DropShips en route to an AO near your position. To better protect the facility, we suggest that you engage them there. We'll supply you with reinforcements of our own as soon as we can.",
-    "longDescription" : "Get ready, {COMMANDER.FirstName}. This is shaping up to be an interesting day.",
+    "shortDescription" : "Luthendorff will not escape death again, Commander. Don't expect an easy fight. This time she'll be prepared for us. I'm picking up multiple heavy contacts on my sensors. More scrap for Luthendorff's funeral pyre.",
+    "longDescription" : "Let's see what Lady Suiko's lance of geriatric MechWarriors can do.",
     "salvagePotential" : 12,
     "requirementList" : [],
     "OnContractSuccessResults" : [],
@@ -21,7 +21,7 @@
     "encounterPlayStyle" : "SinglePlayer",
     "maxNumberOfPlayerUnits" : 4,
     "lanceMinTonnage" : -1,
-    "lanceMaxTonnage" : 240,
+    "lanceMaxTonnage" : -1,
     "mechMinTonnages" : [
         -1,
         -1,
@@ -29,10 +29,10 @@
         -1
     ],
     "mechMaxTonnages" : [
-        75,
-        75,
-        75,
-        75
+        -1,
+        -1,
+        -1,
+        -1
     ],
     "mapMood" : null,
     "startingFogOfWarVisibility" : "Surveyed",
@@ -41,7 +41,7 @@
             "contractObjective" : {
                 "EncounterObjectGuid" : "8d7e4513-f6c4-4914-a08f-d7baa89672be"
             },
-            "title" : "Destroy all Hostile Units",
+            "title" : "Destroy Luthendorff's Forces",
             "description" : "",
             "isPrimary" : true,
             "forPlayer" : "Player1",
@@ -67,8 +67,8 @@
             "objective" : {
                 "EncounterObjectGuid" : "d5ee674b-8993-4804-9fa2-b0a73be466e4"
             },
-            "title" : "Eliminate Liao Battle Lance",
-            "description" : "ATTN ANDREW main enemy lance",
+            "title" : "Eliminate Luthendorff and Her Forces",
+            "description" : "",
             "isPrimary" : true,
             "OnSuccessResults" : [],
             "OnFailureResults" : [],
@@ -79,8 +79,8 @@
             "objective" : {
                 "EncounterObjectGuid" : "cb9c173c-89b3-4447-b3a0-26193cbeb601"
             },
-            "title" : "Eliminate Davion Battle Lance",
-            "description" : "ATTN ANDREW hostile to all lance",
+            "title" : "Destroy Opposing {TEAM_HOST.FactionDef.Demonym} Forces",
+            "description" : "",
             "isPrimary" : true,
             "OnSuccessResults" : [],
             "OnFailureResults" : [],
@@ -130,33 +130,7 @@
             "title" : "Destroy Opposing {TEAM_HOST.FactionDef.Demonym} Forces",
             "description" : "",
             "isPrimary" : false,
-            "OnSuccessResults" : [
-                {
-                    "Scope" : "Company",
-                    "Requirements" : null,
-                    "AddedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "RemovedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "Stats" : [
-                        {
-                            "typeString" : "System.Single",
-                            "name" : "ContractBonusRewardPct",
-                            "value" : "0.1",
-                            "set" : false,
-                            "valueConstant" : null
-                        }
-                    ],
-                    "Actions" : [],
-                    "ForceEvents" : [],
-                    "TemporaryResult" : false,
-                    "ResultDuration" : 0
-                }
-            ],
+            "OnSuccessResults" : [],
             "OnFailureResults" : [],
             "OnSuccessDialogueGUID" : "",
             "OnFailureDialogueGUID" : ""
@@ -252,33 +226,7 @@
             "title" : "Destroy Additional Enemy Forces",
             "description" : "",
             "isPrimary" : false,
-            "OnSuccessResults" : [
-                {
-                    "Scope" : "Company",
-                    "Requirements" : null,
-                    "AddedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "RemovedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "Stats" : [
-                        {
-                            "typeString" : "System.Single",
-                            "name" : "ContractBonusRewardPct",
-                            "value" : "0.1",
-                            "set" : false,
-                            "valueConstant" : null
-                        }
-                    ],
-                    "Actions" : [],
-                    "ForceEvents" : [],
-                    "TemporaryResult" : false,
-                    "ResultDuration" : 0
-                }
-            ],
+            "OnSuccessResults" : [],
             "OnFailureResults" : [],
             "OnSuccessDialogueGUID" : "",
             "OnFailureDialogueGUID" : ""
@@ -374,33 +322,7 @@
             "title" : "Destroy Additional Enemy Reinforcements",
             "description" : "",
             "isPrimary" : false,
-            "OnSuccessResults" : [
-                {
-                    "Scope" : "Company",
-                    "Requirements" : null,
-                    "AddedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "RemovedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "Stats" : [
-                        {
-                            "typeString" : "System.Single",
-                            "name" : "ContractBonusRewardPct",
-                            "value" : "0.1",
-                            "set" : false,
-                            "valueConstant" : null
-                        }
-                    ],
-                    "Actions" : [],
-                    "ForceEvents" : [],
-                    "TemporaryResult" : false,
-                    "ResultDuration" : 0
-                }
-            ],
+            "OnSuccessResults" : [],
             "OnFailureResults" : [],
             "OnSuccessDialogueGUID" : "",
             "OnFailureDialogueGUID" : ""
@@ -496,33 +418,7 @@
             "title" : "Destroy Additional Enemy Allied Reinforcements",
             "description" : "",
             "isPrimary" : false,
-            "OnSuccessResults" : [
-                {
-                    "Scope" : "Company",
-                    "Requirements" : null,
-                    "AddedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "RemovedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "Stats" : [
-                        {
-                            "typeString" : "System.Single",
-                            "name" : "ContractBonusRewardPct",
-                            "value" : "0.1",
-                            "set" : false,
-                            "valueConstant" : null
-                        }
-                    ],
-                    "Actions" : [],
-                    "ForceEvents" : [],
-                    "TemporaryResult" : false,
-                    "ResultDuration" : 0
-                }
-            ],
+            "OnSuccessResults" : [],
             "OnFailureResults" : [],
             "OnSuccessDialogueGUID" : "",
             "OnFailureDialogueGUID" : ""
@@ -570,33 +466,7 @@
             "title" : "Destroy the Enemy Allied Forces",
             "description" : "",
             "isPrimary" : true,
-            "OnSuccessResults" : [
-                {
-                    "Scope" : "Company",
-                    "Requirements" : null,
-                    "AddedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "RemovedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "Stats" : [
-                        {
-                            "typeString" : "System.Single",
-                            "name" : "ContractBonusRewardPct",
-                            "value" : "0.1",
-                            "set" : false,
-                            "valueConstant" : null
-                        }
-                    ],
-                    "Actions" : [],
-                    "ForceEvents" : [],
-                    "TemporaryResult" : false,
-                    "ResultDuration" : 0
-                }
-            ],
+            "OnSuccessResults" : [],
             "OnFailureResults" : [],
             "OnSuccessDialogueGUID" : "",
             "OnFailureDialogueGUID" : ""
@@ -620,33 +490,7 @@
             "title" : "Destroy the Enemy Allied Forces",
             "description" : "",
             "isPrimary" : false,
-            "OnSuccessResults" : [
-                {
-                    "Scope" : "Company",
-                    "Requirements" : null,
-                    "AddedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "RemovedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "Stats" : [
-                        {
-                            "typeString" : "System.Single",
-                            "name" : "ContractBonusRewardPct",
-                            "value" : "0.1",
-                            "set" : false,
-                            "valueConstant" : null
-                        }
-                    ],
-                    "Actions" : [],
-                    "ForceEvents" : [],
-                    "TemporaryResult" : false,
-                    "ResultDuration" : 0
-                }
-            ],
+            "OnSuccessResults" : [],
             "OnFailureResults" : [],
             "OnSuccessDialogueGUID" : "",
             "OnFailureDialogueGUID" : ""
@@ -682,33 +526,7 @@
             "title" : "All of {COMPANY.CompanyName} Lance must survive",
             "description" : "",
             "isPrimary" : false,
-            "OnSuccessResults" : [
-                {
-                    "Scope" : "Company",
-                    "Requirements" : null,
-                    "AddedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "RemovedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "Stats" : [
-                        {
-                            "typeString" : "System.Single",
-                            "name" : "ContractBonusRewardPct",
-                            "value" : "0.1",
-                            "set" : false,
-                            "valueConstant" : null
-                        }
-                    ],
-                    "Actions" : [],
-                    "ForceEvents" : [],
-                    "TemporaryResult" : false,
-                    "ResultDuration" : 0
-                }
-            ],
+            "OnSuccessResults" : [],
             "OnFailureResults" : [],
             "OnSuccessDialogueGUID" : "",
             "OnFailureDialogueGUID" : ""
@@ -732,33 +550,7 @@
             "title" : "Unit one of {COMPANY.CompanyName} must survive",
             "description" : "",
             "isPrimary" : false,
-            "OnSuccessResults" : [
-                {
-                    "Scope" : "Company",
-                    "Requirements" : null,
-                    "AddedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "RemovedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "Stats" : [
-                        {
-                            "typeString" : "System.Single",
-                            "name" : "ContractBonusRewardPct",
-                            "value" : "0.1",
-                            "set" : false,
-                            "valueConstant" : null
-                        }
-                    ],
-                    "Actions" : [],
-                    "ForceEvents" : [],
-                    "TemporaryResult" : false,
-                    "ResultDuration" : 0
-                }
-            ],
+            "OnSuccessResults" : [],
             "OnFailureResults" : [],
             "OnSuccessDialogueGUID" : "",
             "OnFailureDialogueGUID" : ""
@@ -815,36 +607,10 @@
             "objective" : {
                 "EncounterObjectGuid" : "51aa5837-b540-42be-b8be-26b37bfcf976"
             },
-            "title" : "Ensure {TEAM_EMP.FactionDef.Demonym} Lance safely evacs.",
+            "title" : "Ensure Lady Suiko Survives",
             "description" : "",
             "isPrimary" : true,
-            "OnSuccessResults" : [
-                {
-                    "Scope" : "Company",
-                    "Requirements" : null,
-                    "AddedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "RemovedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "Stats" : [
-                        {
-                            "typeString" : "System.Single",
-                            "name" : "ContractBonusRewardPct",
-                            "value" : "0.1",
-                            "set" : false,
-                            "valueConstant" : null
-                        }
-                    ],
-                    "Actions" : [],
-                    "ForceEvents" : [],
-                    "TemporaryResult" : false,
-                    "ResultDuration" : 0
-                }
-            ],
+            "OnSuccessResults" : [],
             "OnFailureResults" : [],
             "OnSuccessDialogueGUID" : "",
             "OnFailureDialogueGUID" : ""
@@ -889,36 +655,10 @@
             "objective" : {
                 "EncounterObjectGuid" : "ac4199e4-c42e-4a41-ae0e-cf10f7dfcf8a"
             },
-            "title" : "TDF Reinforcement Lance Must Survive",
-            "description" : "ATTN ANDREW - bonus pay if employer (taurian) lance survives",
+            "title" : "Ensure {TEAM_EMP.FactionDef.Demonym} Lance safely evacs.",
+            "description" : "",
             "isPrimary" : false,
-            "OnSuccessResults" : [
-                {
-                    "Scope" : "Company",
-                    "Requirements" : null,
-                    "AddedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "RemovedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "Stats" : [
-                        {
-                            "typeString" : "System.Single",
-                            "name" : "ContractBonusRewardPct",
-                            "value" : "0.1",
-                            "set" : false,
-                            "valueConstant" : null
-                        }
-                    ],
-                    "Actions" : [],
-                    "ForceEvents" : [],
-                    "TemporaryResult" : false,
-                    "ResultDuration" : 0
-                }
-            ],
+            "OnSuccessResults" : [],
             "OnFailureResults" : [],
             "OnSuccessDialogueGUID" : "",
             "OnFailureDialogueGUID" : ""
@@ -930,33 +670,7 @@
             "title" : "The {TEAM_EMP.FactionDef.Demonym} lance must reach the evac zone",
             "description" : "",
             "isPrimary" : false,
-            "OnSuccessResults" : [
-                {
-                    "Scope" : "Company",
-                    "Requirements" : null,
-                    "AddedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "RemovedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "Stats" : [
-                        {
-                            "typeString" : "System.Single",
-                            "name" : "ContractBonusRewardPct",
-                            "value" : "0.1",
-                            "set" : false,
-                            "valueConstant" : null
-                        }
-                    ],
-                    "Actions" : [],
-                    "ForceEvents" : [],
-                    "TemporaryResult" : false,
-                    "ResultDuration" : 0
-                }
-            ],
+            "OnSuccessResults" : [],
             "OnFailureResults" : [],
             "OnSuccessDialogueGUID" : "",
             "OnFailureDialogueGUID" : ""
@@ -1040,33 +754,7 @@
             "title" : "Ensure {TEAM_EMP_ALLY.FactionDef.Demonym} Lance safely evacs.",
             "description" : "",
             "isPrimary" : false,
-            "OnSuccessResults" : [
-                {
-                    "Scope" : "Company",
-                    "Requirements" : null,
-                    "AddedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "RemovedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "Stats" : [
-                        {
-                            "typeString" : "System.Single",
-                            "name" : "ContractBonusRewardPct",
-                            "value" : "0.1",
-                            "set" : false,
-                            "valueConstant" : null
-                        }
-                    ],
-                    "Actions" : [],
-                    "ForceEvents" : [],
-                    "TemporaryResult" : false,
-                    "ResultDuration" : 0
-                }
-            ],
+            "OnSuccessResults" : [],
             "OnFailureResults" : [],
             "OnSuccessDialogueGUID" : "",
             "OnFailureDialogueGUID" : ""
@@ -1078,33 +766,7 @@
             "title" : "Escort friendlies to evac point",
             "description" : "",
             "isPrimary" : false,
-            "OnSuccessResults" : [
-                {
-                    "Scope" : "Company",
-                    "Requirements" : null,
-                    "AddedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "RemovedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "Stats" : [
-                        {
-                            "typeString" : "System.Single",
-                            "name" : "ContractBonusRewardPct",
-                            "value" : "0.1",
-                            "set" : false,
-                            "valueConstant" : null
-                        }
-                    ],
-                    "Actions" : [],
-                    "ForceEvents" : [],
-                    "TemporaryResult" : false,
-                    "ResultDuration" : 0
-                }
-            ],
+            "OnSuccessResults" : [],
             "OnFailureResults" : [],
             "OnSuccessDialogueGUID" : "",
             "OnFailureDialogueGUID" : ""
@@ -1250,7 +912,7 @@
             "encounterChunk" : {
                 "EncounterObjectGuid" : "8c5cfff4-066b-44be-9a28-c462461a757a"
             },
-            "enableChunkFromContract" : true,
+            "enableChunkFromContract" : false,
             "controlledByContractChunkGroupList" : [],
             "requirementList" : []
         },
@@ -1376,7 +1038,7 @@
             "encounterChunk" : {
                 "EncounterObjectGuid" : "1c3ad7ab-e81f-46af-a926-96b42fd171bd"
             },
-            "enableChunkFromContract" : false,
+            "enableChunkFromContract" : true,
             "controlledByContractChunkGroupList" : [],
             "requirementList" : []
         },
@@ -1385,7 +1047,7 @@
             "encounterChunk" : {
                 "EncounterObjectGuid" : "889ff9a0-067e-4fc5-bb85-99c2ee9e9e81"
             },
-            "enableChunkFromContract" : true,
+            "enableChunkFromContract" : false,
             "controlledByContractChunkGroupList" : [],
             "requirementList" : []
         },
@@ -1593,7 +1255,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "All right, Commander. If our Taurian friends are to be believed, at least two groups of hostiles should be just ahead of you. They're as likely to shoot at one another as they are to shoot at you, so I imagine the situation's about to get a little chaotic down there.",
+                    "words" : "So, where's Lady Suiko and her lance of Third Succession War vets? Think they had trouble waking up from a nap?",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -1609,23 +1271,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "I'll take chaos over concentrated fire any day. Plus, the Taurians are supposed to have reinforcements en route to help us. So\u2026 go team, I guess?",
-                    "wordsColor" : {
-                        "r" : 1,
-                        "g" : 1,
-                        "b" : 1,
-                        "a" : 1
-                    },
-                    "selectedCastDefId" : "castDef_YangDefault",
-                    "emote" : "Default",
-                    "audioName" : "NONE",
-                    "cameraFocusGuid" : "3f899376-6d15-413c-a260-a5f0aecff9bd",
-                    "cameraDistance" : "Far",
-                    "cameraHeight" : "Default",
-                    "revealRadius" : -1
-                },
-                {
-                    "words" : "That's the idea, Yang. Commander, you know how this goes: meet up with our reinforcements, take out all the bad guys, and get to the evac zone. Sumire will fetch you when the AO is clear.",
+                    "words" : "They'll be here. That woman is one focused old lady. In the meantime, Luthendorff is here, center stage.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -1635,7 +1281,7 @@
                     "selectedCastDefId" : "castDef_DariusDefault",
                     "emote" : "Default",
                     "audioName" : "NONE",
-                    "cameraFocusGuid" : "75580c14-0ed9-4576-91be-6ab0a8026d95",
+                    "cameraFocusGuid" : "3f899376-6d15-413c-a260-a5f0aecff9bd",
                     "cameraDistance" : "Far",
                     "cameraHeight" : "Default",
                     "revealRadius" : -1
@@ -1650,46 +1296,14 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "Well done, Commander. TMI operatives have already taken possession of the prison and extracted the captive MIM agent. We're especially pleased that you resisted House Liao's attempts to turn you against us. Not many mercenary companies would.",
+                    "words" : "It's done, and House Nakano's honor remains untarnished.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_TaurianRepDefault",
-                    "emote" : "Default",
-                    "audioName" : "NONE",
-                    "cameraFocusGuid" : "",
-                    "cameraDistance" : "Far",
-                    "cameraHeight" : "Default",
-                    "revealRadius" : -1
-                },
-                {
-                    "words" : "Our contract was with you. When we sign a binding agreement, we adhere to it, no matter what the Successor States say.",
-                    "wordsColor" : {
-                        "r" : 1,
-                        "g" : 1,
-                        "b" : 1,
-                        "a" : 1
-                    },
-                    "selectedCastDefId" : "castDef_DariusDefault",
-                    "emote" : "Default",
-                    "audioName" : "NONE",
-                    "cameraFocusGuid" : "",
-                    "cameraDistance" : "Far",
-                    "cameraHeight" : "Default",
-                    "revealRadius" : -1
-                },
-                {
-                    "words" : "I'll remember that. We'll resolve this when you return to orbit. Marisol-Chaplin out.",
-                    "wordsColor" : {
-                        "r" : 1,
-                        "g" : 1,
-                        "b" : 1,
-                        "a" : 1
-                    },
-                    "selectedCastDefId" : "castDef_TaurianRepDefault",
+                    "selectedCastDefId" : "castDef_UW_lastChance_LadyNakanoDefault",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -1707,14 +1321,14 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "This job ain't worth dyin' for, Boss. Let the Great Houses and the Taurians fight it out among themselves\u2014we need to cut and run.",
+                    "words" : "We've lost. This seals House Nakano's fate! Luthendorff will stain our good name forever.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_YangDefault",
+                    "selectedCastDefId" : "castDef_UW_lastChance_LadyNakanoDefault",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -1757,14 +1371,14 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "We're taking losses, Oliveira. At this rate, we might not be around to help you much longer.",
+                    "words" : "Commander, we've taken our first major loss, but our will to fight is unyielding. There shall be no retreat. Death before dishonor!",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_UW_doubleAgent_MWTaurianDefault",
+                    "selectedCastDefId" : "castDef_UW_lastChance_LadyNakanoDefault",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -1773,7 +1387,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "Copy that, lance leader. We'll do our best to keep you covered.",
+                    "words" : "I'm glad you're not taking the loss too hard, Lady Suiko. But let's try to keep the death to minimum. We like having allies.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -1839,7 +1453,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "The last of our Taurian allies just went down, Commander. Our lance is on its own.",
+                    "words" : "Lady Suiko and her old war buddies are down, Commander. It's all on us now.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -1971,7 +1585,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "PLACEHOLDER Primary targets destroyed Commander.",
+                    "words" : "Luthendorff is dead. Proceed to the LZ. Let's scram.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -1982,22 +1596,6 @@
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
-                    "cameraDistance" : "Far",
-                    "cameraHeight" : "Default",
-                    "revealRadius" : -1
-                },
-                {
-                    "words" : "PLACEHOLDER I'm inbound to the LZ Commander.",
-                    "wordsColor" : {
-                        "r" : 1,
-                        "g" : 1,
-                        "b" : 1,
-                        "a" : 1
-                    },
-                    "selectedCastDefId" : "castDef_SumireDefault",
-                    "emote" : "Default",
-                    "audioName" : "NONE",
-                    "cameraFocusGuid" : "75580c14-0ed9-4576-91be-6ab0a8026d95",
                     "cameraDistance" : "Far",
                     "cameraHeight" : "Default",
                     "revealRadius" : -1
@@ -2012,7 +1610,23 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "That Davion DropShip I told you about has set down 'Mechs, and they're moving on your position with purpose.",
+                    "words" : "PLACEHOLDER The Hostile to All {TEAM_HOST.FactionDef.Demonym} lance has arrived! This is the Primary Version.",
+                    "wordsColor" : {
+                        "r" : 1,
+                        "g" : 1,
+                        "b" : 1,
+                        "a" : 1
+                    },
+                    "selectedCastDefId" : "castDef_DariusDefault",
+                    "emote" : "Default",
+                    "audioName" : "NONE",
+                    "cameraFocusGuid" : "9bd2f5be-f04f-4f2e-a25d-4295f59a0369",
+                    "cameraDistance" : "Far",
+                    "cameraHeight" : "Default",
+                    "revealRadius" : -1
+                },
+                {
+                    "words" : "PLACEHOLDER Our Employer has kindly added taking this group to the contract. If we want to get paid we need to take them out.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -2119,7 +1733,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "PLACEHOLDER We won't get paid for covering their evac if we leave before them, plan accordingly Commander.",
+                    "words" : "PLACEHOLDER We won't get paid for covering their evac if we leave before them, plan accodingly Commander.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -2144,7 +1758,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "PLACEHOLDER Thanks for the assist, we're clear.",
+                    "words" : "PLACEHOLDER Thanks for the assist, we're clear. ATTN RYAN",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -2235,7 +1849,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "PLACEHOLDER We won't get paid for covering their evac if we leave before them, plan accordingly Commander.",
+                    "words" : "PLACEHOLDER We won't get paid for covering their evac if we leave before them, plan accodingly Commander.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -2310,7 +1924,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "PLACEHOLDER, holy cow what a surpriseits a {TEAM_TAR_ALLY.FactionDef.Demonym} lance! A surpriseindeed. This is the Primary Objective version.",
+                    "words" : "PLACEHOLDER, holy cow what a suprise its a {TEAM_TAR_ALLY.FactionDef.Demonym} lance! A suprise indeed. This is the Primary Objective version.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -2351,7 +1965,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "PLACEHOLDER, holy cow what a surpriseits a {TEAM_TAR_ALLY.FactionDef.Demonym} lance! A surpriseindeed. This is the Secondary Objective version.",
+                    "words" : "PLACEHOLDER, holy cow what a suprise its a {TEAM_TAR_ALLY.FactionDef.Demonym} lance! A suprise indeed. This is the Secondary Objective version.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -2580,7 +2194,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "We've got a Liao DropShip inbound, Commander. Things are about to get hairy down there.",
+                    "words" : "PLACHEHOLDER (Hostile to All Primary). In bound hostile Dropship detected, drop zone marked.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -2605,7 +2219,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "PLACHEHOLDER (Hostile to All Secondary). In bound hostile DropShip detected, drop zone marked.",
+                    "words" : "PLACHEHOLDER (Hostile to All Secondary). In bound hostile Dropship detected, drop zone marked.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -2630,7 +2244,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "PLACHEHOLDER (Additional Target Forces Primary). In bound hostile DropShip detected, drop zone marked.",
+                    "words" : "PLACHEHOLDER (Additional Target Forces Primary). In bound hostile Dropship detected, drop zone marked.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -2655,7 +2269,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "PLACHEHOLDER (Additional Target Forces Secondary). In bound hostile DropShip detected, drop zone marked.",
+                    "words" : "PLACHEHOLDER (Additional Target Forces Secondary). In bound hostile Dropship detected, drop zone marked.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -2680,7 +2294,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "PLACHEHOLDER (Additional Dropped Target Forces 2 Primary). In bound hostile DropShip detected, drop zone marked.",
+                    "words" : "PLACHEHOLDER (Additional Dropped Target Forces 2 Primary). In bound hostile Dropship detected, drop zone marked.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -2705,7 +2319,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "PLACHEHOLDER (Additional Target Forces 2 Secondary). In bound hostile DropShip detected, drop zone marked.",
+                    "words" : "PLACHEHOLDER (Additional Target Forces 2 Secondary). In bound hostile Dropship detected, drop zone marked.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -2730,7 +2344,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "PLACHEHOLDER (Additional Dropped Forces Enemy Ally Primary). In bound hostile DropShip detected, drop zone marked.",
+                    "words" : "PLACHEHOLDER (Additional Dropped Forces Enemy Ally Primary). In bound hostile Dropship detected, drop zone marked.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -2755,7 +2369,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "PLACHEHOLDER (Additional Dropped Forces Enemy Ally Secondary) . In bound hostile DropShip detected, drop zone marked.",
+                    "words" : "PLACHEHOLDER (Additional Dropped Forces Enemy Ally Secondary) . In bound hostile Dropship detected, drop zone marked.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -2780,7 +2394,96 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "PLACEHOLDER Commander, our {TEAM_EMP.FactionDef.Demonym} friends have deployed forces to assist in our operation here. This is the Primary version.",
+                    "words" : "All units stand by; I'm opening the comms. Attention, Corina Luthendorff. This is Lady Suiko Nakano, Matriarch of House Nakano and former Tai-i of the 177th Yorii Lancers. I will not allow your foul stench to pollute my ancestral home. Prepare to die.",
+                    "wordsColor" : {
+                        "r" : 1,
+                        "g" : 1,
+                        "b" : 1,
+                        "a" : 1
+                    },
+                    "selectedCastDefId" : "castDef_UW_lastChance_LadyNakanoDefault",
+                    "emote" : "Default",
+                    "audioName" : "NONE",
+                    "cameraFocusGuid" : "dbfbd66b-1989-46be-9bcc-3668de8f30e2",
+                    "cameraDistance" : "Far",
+                    "cameraHeight" : "Default",
+                    "revealRadius" : -1
+                },
+                {
+                    "words" : "Lady Suiko, your daughter warned me that you might be \"visiting.\" Please, we're not enemies. Surely we can come to a mutually beneficial arrangement.",
+                    "wordsColor" : {
+                        "r" : 1,
+                        "g" : 1,
+                        "b" : 1,
+                        "a" : 1
+                    },
+                    "selectedCastDefId" : "castDef_UW_lastChance_LuthendorffDefault",
+                    "emote" : "Default",
+                    "audioName" : "NONE",
+                    "cameraFocusGuid" : "",
+                    "cameraDistance" : "Far",
+                    "cameraHeight" : "Default",
+                    "revealRadius" : -1
+                },
+                {
+                    "words" : "You may have seduced my daughter with your money, pig, but my loyalties can't be bought.",
+                    "wordsColor" : {
+                        "r" : 1,
+                        "g" : 1,
+                        "b" : 1,
+                        "a" : 1
+                    },
+                    "selectedCastDefId" : "castDef_UW_lastChance_LadyNakanoDefault",
+                    "emote" : "Default",
+                    "audioName" : "NONE",
+                    "cameraFocusGuid" : "",
+                    "cameraDistance" : "Far",
+                    "cameraHeight" : "Default",
+                    "revealRadius" : -1
+                },
+                {
+                    "words" : "Mom\u2026 don't do this. Please, you're going to get yourself killed. Or you're going to kill the one person who can save us from bankruptcy.",
+                    "wordsColor" : {
+                        "r" : 1,
+                        "g" : 1,
+                        "b" : 1,
+                        "a" : 1
+                    },
+                    "selectedCastDefId" : "castDef_UW_lastChance_MariDefault",
+                    "emote" : "Default",
+                    "audioName" : "NONE",
+                    "cameraFocusGuid" : "",
+                    "cameraDistance" : "Far",
+                    "cameraHeight" : "Default",
+                    "revealRadius" : -1
+                },
+                {
+                    "words" : "Kill the comms. Enough talk.",
+                    "wordsColor" : {
+                        "r" : 1,
+                        "g" : 1,
+                        "b" : 1,
+                        "a" : 1
+                    },
+                    "selectedCastDefId" : "castDef_UW_lastChance_LadyNakanoDefault",
+                    "emote" : "Default",
+                    "audioName" : "NONE",
+                    "cameraFocusGuid" : "",
+                    "cameraDistance" : "Far",
+                    "cameraHeight" : "Default",
+                    "revealRadius" : -1
+                }
+            ]
+        },
+        {
+            "dialogue" : {
+                "EncounterObjectGuid" : "66e17c07-f768-472e-b129-9d5bc3fa87d0"
+            },
+            "name" : "Dialogue_Interrupt_FriendlyForcesAdvisory_Secondary",
+            "overrideDialogueBucketId" : "",
+            "dialogueContent" : [
+                {
+                    "words" : "PLACEHOLDER Commander, our {TEAM_EMP.FactionDef.Demonym} friends have deployed forces to assist in our operation here. This is the Secondary version.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -2790,7 +2493,7 @@
                     "selectedCastDefId" : "castDef_DariusDefault",
                     "emote" : "Default",
                     "audioName" : "NONE",
-                    "cameraFocusGuid" : "dbfbd66b-1989-46be-9bcc-3668de8f30e2",
+                    "cameraFocusGuid" : "38efff2a-29a9-4886-a145-c5a7ca747fb7",
                     "cameraDistance" : "Far",
                     "cameraHeight" : "Default",
                     "revealRadius" : -1
@@ -2806,7 +2509,7 @@
                     "selectedCastDefId" : "castDef_TeamLeader_Employer",
                     "emote" : "Default",
                     "audioName" : "NONE",
-                    "cameraFocusGuid" : "287b3743-7ff2-4179-8951-f48c86b8c696",
+                    "cameraFocusGuid" : "a251ed88-0ea5-4d3a-a70c-f05604c81352",
                     "cameraDistance" : "Far",
                     "cameraHeight" : "Default",
                     "revealRadius" : -1
@@ -2822,64 +2525,7 @@
                     "selectedCastDefId" : "castDef_DariusDefault",
                     "emote" : "Default",
                     "audioName" : "NONE",
-                    "cameraFocusGuid" : "dbfbd66b-1989-46be-9bcc-3668de8f30e2",
-                    "cameraDistance" : "Far",
-                    "cameraHeight" : "Default",
-                    "revealRadius" : -1
-                }
-            ]
-        },
-        {
-            "dialogue" : {
-                "EncounterObjectGuid" : "66e17c07-f768-472e-b129-9d5bc3fa87d0"
-            },
-            "name" : "Dialogue_Interrupt_FriendlyForcesAdvisory_Secondary",
-            "overrideDialogueBucketId" : "",
-            "dialogueContent" : [
-                {
-                    "words" : "Heads up, Commander! Our Taurian reinforcements are touching down now!",
-                    "wordsColor" : {
-                        "r" : 1,
-                        "g" : 1,
-                        "b" : 1,
-                        "a" : 1
-                    },
-                    "selectedCastDefId" : "castDef_SumireDefault",
-                    "emote" : "Default",
-                    "audioName" : "NONE",
                     "cameraFocusGuid" : "38efff2a-29a9-4886-a145-c5a7ca747fb7",
-                    "cameraDistance" : "Far",
-                    "cameraHeight" : "Default",
-                    "revealRadius" : -1
-                },
-                {
-                    "words" : "Elena Marisol-Chaplin sends her regards, Commander {COMMANDER.LastName}. This looks like a rough AO; if you'll allow us, we'll help you to pacify it.",
-                    "wordsColor" : {
-                        "r" : 1,
-                        "g" : 1,
-                        "b" : 1,
-                        "a" : 1
-                    },
-                    "selectedCastDefId" : "castDef_UW_doubleAgent_MWTaurianDefault",
-                    "emote" : "Default",
-                    "audioName" : "NONE",
-                    "cameraFocusGuid" : "",
-                    "cameraDistance" : "Far",
-                    "cameraHeight" : "Default",
-                    "revealRadius" : -1
-                },
-                {
-                    "words" : "Sounds like a plan to us, Lance Leader. Good to have you on board.",
-                    "wordsColor" : {
-                        "r" : 1,
-                        "g" : 1,
-                        "b" : 1,
-                        "a" : 1
-                    },
-                    "selectedCastDefId" : "castDef_DariusDefault",
-                    "emote" : "Default",
-                    "audioName" : "NONE",
-                    "cameraFocusGuid" : "",
                     "cameraDistance" : "Far",
                     "cameraHeight" : "Default",
                     "revealRadius" : -1
@@ -2894,7 +2540,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "PLACEHOLDER. Looks like we have some unexpectedsupport from {TEAM_EMP_ALLY.FactionDef.Demonym} forces. This is the Primary version.",
+                    "words" : "PLACEHOLDER. Looks like we have some unexpeted support from {TEAM_EMP_ALLY.FactionDef.Demonym} forces. This is the Primary version.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -2951,7 +2597,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "PLACEHOLDER. Looks like we have some unexpectedsupport from {TEAM_EMP_ALLY.FactionDef.Demonym} forces. This is the Secondary version.",
+                    "words" : "PLACEHOLDER. Looks like we have some unexpeted support from {TEAM_EMP_ALLY.FactionDef.Demonym} forces. This is the Secondary version.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -3246,15 +2892,12 @@
                 "lanceDefId" : "Tagged",
                 "lanceTagSet" : {
                     "items" : [
-                        "lance_type_mech"
+                        "Kurita"
                     ],
                     "tagSetSourceFile" : "tags/LanceTags"
                 },
                 "lanceExcludedTagSet" : {
-                    "items" : [
-                        "lance_type_convoy",
-                        "lance_type_turret"
-                    ],
+                    "items" : [],
                     "tagSetSourceFile" : "tags/LanceTags"
                 },
                 "spawnEffectTags" : {
@@ -3269,10 +2912,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "805d4192-850e-446e-afe4-cdb8a30685b4"
                         },
-                        "customUnitName" : "",
+                        "customUnitName" : "Lady Suiko Nakano",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechDef_InheritLance",
+                        "unitDefId" : "mechdef_grasshopper_GHR-5H",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -3285,7 +2928,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilotDef_InheritLance",
+                        "pilotDefId" : "pilot_d7_skirmisher",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -3302,7 +2945,7 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "6ae5d3ea-3c9d-4d76-b1c7-76abe1b298ff"
                         },
-                        "customUnitName" : "",
+                        "customUnitName" : "Kaiju",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
                         "unitDefId" : "mechDef_InheritLance",
@@ -3335,7 +2978,7 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "c4b4e072-864a-4158-8daf-2d35deee61ec"
                         },
-                        "customUnitName" : "",
+                        "customUnitName" : "Naginata",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
                         "unitDefId" : "mechDef_InheritLance",
@@ -3368,7 +3011,7 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "83c28f4a-e44d-4d82-8c0f-f66dbe5abbe9"
                         },
-                        "customUnitName" : "",
+                        "customUnitName" : "Yumi",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
                         "unitDefId" : "mechDef_InheritLance",
@@ -3407,12 +3050,15 @@
                 "lanceDefId" : "Tagged",
                 "lanceTagSet" : {
                     "items" : [
-                        "TaurianConcordat"
+                        "lance_type_mech"
                     ],
                     "tagSetSourceFile" : "tags/LanceTags"
                 },
                 "lanceExcludedTagSet" : {
-                    "items" : [],
+                    "items" : [
+                        "lance_type_turret",
+                        "lance_type_convoy"
+                    ],
                     "tagSetSourceFile" : "tags/LanceTags"
                 },
                 "spawnEffectTags" : {
@@ -3898,12 +3544,15 @@
                 "lanceDefId" : "Tagged",
                 "lanceTagSet" : {
                     "items" : [
-                        "Liao"
+                        "lance_type_mech"
                     ],
                     "tagSetSourceFile" : "tags/LanceTags"
                 },
                 "lanceExcludedTagSet" : {
-                    "items" : [],
+                    "items" : [
+                        "lance_type_turret",
+                        "lance_type_convoy"
+                    ],
                     "tagSetSourceFile" : "tags/LanceTags"
                 },
                 "spawnEffectTags" : {
@@ -3918,10 +3567,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "00c4ad37-d0f5-45e4-b54e-ab29d1646935"
                         },
-                        "customUnitName" : "",
+                        "customUnitName" : "Corina Luthdorff",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechDef_InheritLance",
+                        "unitDefId" : "mechdef_zeus_ZEU-6S",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -3934,7 +3583,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilotDef_InheritLance",
+                        "pilotDefId" : "pilot_d7_defender",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -3954,7 +3603,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechDef_InheritLance",
+                        "unitDefId" : "mechdef_thunderbolt_TDR-5SS",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -3989,7 +3638,9 @@
                         "unitType" : "Mech",
                         "unitDefId" : "mechDef_InheritLance",
                         "unitTagSet" : {
-                            "items" : [],
+                            "items" : [
+                                "unit_mech"
+                            ],
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "unitExcludedTagSet" : {
@@ -4022,7 +3673,9 @@
                         "unitType" : "Mech",
                         "unitDefId" : "mechDef_InheritLance",
                         "unitTagSet" : {
-                            "items" : [],
+                            "items" : [
+                                "unit_mech"
+                            ],
                             "tagSetSourceFile" : "tags/UnitTags"
                         },
                         "unitExcludedTagSet" : {
@@ -5376,12 +5029,16 @@
                 "lanceDefId" : "Tagged",
                 "lanceTagSet" : {
                     "items" : [
-                        "Davion"
+                        "lance_type_fire",
+                        "lance_type_notallvehicles"
                     ],
                     "tagSetSourceFile" : "tags/LanceTags"
                 },
                 "lanceExcludedTagSet" : {
-                    "items" : [],
+                    "items" : [
+                        "lance_type_convoy",
+                        "lance_type_turret"
+                    ],
                     "tagSetSourceFile" : "tags/LanceTags"
                 },
                 "spawnEffectTags" : {
@@ -5540,7 +5197,10 @@
                     "tagSetSourceFile" : "tags/LanceTags"
                 },
                 "lanceExcludedTagSet" : {
-                    "items" : [],
+                    "items" : [
+                        "lance_type_convoy",
+                        "lance_type_turret"
+                    ],
                     "tagSetSourceFile" : "tags/LanceTags"
                 },
                 "spawnEffectTags" : {

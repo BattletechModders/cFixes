@@ -31,26 +31,40 @@ Thanks to mpstark and the entire ModTek team for making this mod possible!
 ## List of Fixes
 
 ### StreamingAssets/data/chassis/
+    chassisdef_banshee_BNC-3S.json - fixed costs
+    chassisdef_blackjack_BJ-1DB.json - fixed costs
     chassisdef_blackknight_BL-6-KNT.json - fixed variant name to BK-7-KNT
     chassisdef_blackknight_BL-6b-KNT.json - fixed reference to BK-7-KNT
+    chassisdef_cicada_CDA-2A.json - fixed costs
+    chassisdef_crab_CRB-27.json - fixed costs
+    chassisdef_cyclops_CP-10-Q.json - fixed costs
+    chassisdef_hatchetman_HCT-3F.json - fixed costs
+    chassisdef_hatchetman_HCT-3X.json - fixed costs
     chassisdef_highlander_HGN-732b.json - fixed "732B" to "732b"
-    chassisdef_raven_RVN-1X.json - fixed "Cappellans" and "excells" typo
+    chassisdef_hunchback_HBK-4G.json - fixed costs
+    chassisdef_hunchback_HBK-4P.json - fixed costs
+    chassisdef_javelin_JVN-10F.json - fixed costs
+    chassisdef_javelin_JVN-10N.json - fixed costs
+    chassisdef_raven_RVN-1X.json - fixed costs
+    chassisdef_urbanmech_UM-R60L.json - fixed costs
+    chassisdef_urbanmech_UM-R90.json - fixed costs
+    chassisdef_vindicator_VND-1AA.json - fixed costs
 
 ### StreamingAssets/data/contracts/
 All Escort and Capture Base contracts have had the word "Dropship" replaced with "DropShip" as used in the BT writers guide.
 
     AttackDefend_Reconquest.json - typos (Goddness and DropShip)
-    AttackDefend_Retaliation.json - typos (Goddness and DropShip)
-    doubleAgent_a1_3wayBattle.json - fixed factions in dialogue, typos (Dropship, unexpeted, additonal, accodingly and suprise)
-    doubleAgent_b1_3wayBattle.json - fixed factions in dialogue, typos (Dropship, unexpeted, additonal, accodingly and suprise)
-    doubleAgent_c1_3wayBattle.json - fixed factions in dialogue, typos (Dropship, unexpeted, additonal, accodingly and suprise)
+    AttackDefend_Retaliation.json - enabled def. turrets as dialogue text implies, typos (Goddness and DropShip)
     FireMission_DataLiberation.json - typos (Reinforments and DropShip)
     FireMission_DataLiberation_Hard.json - typos (Reinforments and DropShip)
+    FireMission_FireForEffect.json - typos, too many to list here
     FireMission_Fireworks.json - "WarShip" changed to "Pocket WarShip" as no true WarShips should be available.
+    lastChance_a1_3wayBattle.json - Removed chance for turrets to appear
     SimpleBattle_RaidingParty.json - DropShip foramtting
     SimpleBattle_RaidingParty_Hard.json - DropShip foramtting
     succession_1_assassinate - typos (commision and intitial)
     succession_a1_assassinate.json - typos (commision and intitial)
+    ThreeWayBattle_TestDrive.json - Exclude Cap.Con from being employer stealing from Cap.Con
 
 ### StreamingAssets/data/descriptions/Lore/
     LoreGreatHouses.json - ordered Houses "Around the Sphere"
@@ -58,10 +72,15 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
 
 ### StreamingAssets/data/events/
     event_mw_leadershipMoment.json - added contextual words to fix "they rises" error
+    event_mw_nobleBonds.json - Fixed the gender reference instead of defaulting to their.
     event_mw_triage.json - missing commas
     
-### StreamingAssets/data/factions
+### StreamingAssets/data/factions/
     faction_KellHounds.json - Demonym fixed missing space between "KellHounds"
+
+### StreamingAssets/data/flashpoints/
+    fp_shadowOrg.json - Changed required tags to spwan to allow both Campaign and Career spawning
+    fp_uw1.json - Spawn weight 200 from 10 to match "Joint Venture"
 
 ### StreamingAssets/data/hardpoints/
     hardpointdatadef_trebuchet.json - fixed RA blank slot in hardpoint 2 (slot 1)
@@ -75,22 +94,25 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     Gear_HeatSink_Generic_Thermal-Exchanger-III.json - fixed [AMT] value in StatusEffect Description Details
 
 ### StreamingAssets/data/mech/
+    mechdef_banshee_BNC-3S.json - fixed costs
+    mechdef_blackjack_BJ-1DB.json - fixed costs
     mechdef_blackknight_BL-6-KNT.json - fixed variant name to BK-7-KNT
-    mechdef_blackknight_BL-6b-KNT.json - fixed reference to BK-7-KNT, moved DHS from illegal Leg slots to torsos and arms
-    mechdef_crab_CRB-27.json - given Role - Brawler and Lance - Tank tags, 
-    mechdef_cyclops_CP-10-Q.json - given Role - Sniper and Lance - Support tags, removed duplicate IDF tag
-    mechdef_cyclops_CP-10-Z.json - given Role - Sniper and Lance - Support tags, removed duplicate IDF tag
+    mechdef_blackknight_BL-6b-KNT.json - fixed reference to BK-7-KNT and 6b, moved DHS, fixed costs
+    mechdef_cicada_CDA-2A.json - fixed costs
+    mechdef_crab_CRB-27.json - given Role - Brawler and Lance - Tank tags, fixed costs
+    mechdef_cyclops_CP-10-Q.json - given Role - Sniper and Lance - Support tags, removed duplicate IDF tag, fixed costs
+    mechdef_cyclops_CP-10-Z.json - given Role - Sniper and Lance - Support tags, removed duplicate IDF tag, fixed costs
     mechdef_griffin_GRF-4N.json - fixed JJ from Leg to Torso, moved DHS from illegal Leg slots to torsos to match "Greed"
     mechdef_griffin_GRF-4N_fp_greed.json - fixed JJ from Leg to Torso
-    mechdef_hatchetman_HCT-3F.json - given Lance - Assassin tag, removed duplicate jumpOK tag
-    mechdef_hatchetman_HCT-3X.json - given Lance - Assassin tag, removed duplicate jumpOK tag, changed faction tag
+    mechdef_hatchetman_HCT-3F.json - given Lance - Assassin tag, removed duplicate jumpOK tag, fixed costs
+    mechdef_hatchetman_HCT-3X.json - given Lance - Assassin tag, removed duplicate jumpOK tag, changed faction tag, fixed costs
     mechdef_highlander_HGN-732b.json - Adjusted Torso Front Armor to match Record Sheets, 1b from 1B typos
     mechdef_highlander_HGN-733.json - Adjusted Center Torso Front Armor to match Record Sheets, allocated "spare" armor point to CTR
     mechdef_highlander_HGN-733P.json - adjusted Torso Front Armor and HS+ammo locations to match Record Sheets
-    mechdef_javlin_JVN-10F.json - given Lance - Assassin/Vanguard tag, removed duplicate jumpOK tag
-    mechdef_javlin_JVN-10N.json - given Lance - Assassin/Vanguard tag, removed duplicate jumpOK tag
+    mechdef_javlin_JVN-10F.json - given Lance - Assassin/Vanguard tag, removed duplicate jumpOK tag, fixed costs
+    mechdef_javlin_JVN-10N.json - given Lance - Assassin/Vanguard tag, removed duplicate jumpOK tag, fixed costs
     mechdef_quickdraw_QKD-5A.json - removed duplicate tags "unit_indirectFire" and jumpOK
-    mechdef_raven_RVN-1X.json - Typo "excells" fixed, added FP complete tag to prevent spawning before "The Prototype"
+    mechdef_raven_RVN-1X.json - fixed costs
     mechdef_urbanmech_UM-R60L.json - given Lance - Tank tag, removed duplicate jumpOK tag
     
 ### StreamingAssets/data/milestoneSets/    
@@ -106,13 +128,13 @@ All pilot files have been refactored to stock passive traits, this is over 90+ f
 ### StreamingAssets/data/regions/
     regionDef_Positive.json - typo (Positve)
 
-### StreamingAssets/data/simGameConstants
+### StreamingAssets/data/simGameConstants/
     SimGameConstants.json - max contract fixes for 5+ skull contracts, various extra commas, missing commas
 
 ### StreamingAssets/data/starsystem/
     starsystemdef_Camadeirre.json - fixed typo: "Camadeirre" change to "Camadeierre"
     
-### StreamingAssets/data/turrets
+### StreamingAssets/data/turrets/
     turretdef_Standard_Laser.json - renamed "Standard Laser Turret" from "Light Standard Turret"
 	
 ### StreamingAssets/data/upgrades/cockpitMods/

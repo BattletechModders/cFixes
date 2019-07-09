@@ -18,7 +18,7 @@
     "ChassisID": "chassisdef_cyclops_CP-10-Q",
     "HeraldryID": null,
     "Description": {
-        "Cost": 114600000,
+        "Cost": 12780000,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": null,
@@ -29,7 +29,7 @@
         "Details": "Cyclops 10-Qs are strong support units. Lacking the close in weapons and command suite of the 10-Z variant, this model instead capitalizes on a longer range weapon configuration and added armor. The protection and expanded missile racks make the 10-Q a significant threat at range in the right hands.",
         "Icon": "uixTxrIcon_cyclops"
     },
-    "simGameMechPartCost": 1080000,
+    "simGameMechPartCost": 1280000,
     "Version": 1,
     "Locations": [
         {
