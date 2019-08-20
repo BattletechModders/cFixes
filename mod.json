@@ -2,7 +2,7 @@
     "Name": "cFixes",
     "Enabled": true,
 
-	"Version": "1.6.2.3",
+	"Version": "1.6.2.4",
 	"PackagedOn": "2019-08-08T16:45:00Z",
 
     "Author": "Team Banzai",
@@ -25,7 +25,8 @@
 	{ "Type": "MovementCapabilitiesDef", "Path": "movement", "AddToDB": true },
 	{ "Type": "SimGameMilestoneSet", "Path": "milestoneSets" },
 	{ "Type": "VehicleChassisDef", "Path": "vehicleChassis", "AddToDB": true },
-	{ "Type": "VehicleDef", "Path": "vehicle", "AddToDB": true }
+	{ "Type": "VehicleDef", "Path": "vehicle", "AddToDB": true },
+	{ "Path": "weaponsMerge", "Type": "AdvancedJSONMerge" }
 
     ]
 }
