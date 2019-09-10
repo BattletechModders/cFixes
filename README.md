@@ -79,7 +79,6 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     faction_KellHounds.json - Demonym fixed missing space between "KellHounds"
 
 ### StreamingAssets/data/flashpoints/
-    fp_shadowOrg.json - Changed required tags to spwan to allow both Campaign and Career spawning
     fp_uw1.json - Spawn weight 200 from 10 to match "Joint Venture"
 
 ### StreamingAssets/data/hardpoints/
