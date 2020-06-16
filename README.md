@@ -120,7 +120,7 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     movedef_PACKRAT.json - max walk 210 from 200
     movedef_GALLANT.json - slowed down Gallant to TT speeds
 
-### StreamingAssets/data/pilot/ - Current WIP manual check of every modded file vs 1.9.1
+### StreamingAssets/data/pilot/ - Current WIP manual check of every modded file vs 1.9.1, cleared d3-d7 pilots, resume on d8
 All pilot files have been refactored to stock passive traits, this is over 90+ files and summerized here for brevity.  Any missing passive traits have been added to conform to the standard progressions.  Story pilots with more than the normal amount of abilities have been retained, but their passive traits have been brought up to standard.  Turret "pilots" have not been touched.
 
 ### StreamingAssets/data/regions/ - CHECKED GOOD FOR 1.9.1
