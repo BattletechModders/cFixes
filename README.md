@@ -120,22 +120,22 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     movedef_PACKRAT.json - max walk 210 from 200
     movedef_GALLANT.json - slowed down Gallant to TT speeds
 
-### StreamingAssets/data/pilot/
+### StreamingAssets/data/pilot/ - Current WIP manual check of every modded file vs 1.9.1
 All pilot files have been refactored to stock passive traits, this is over 90+ files and summerized here for brevity.  Any missing passive traits have been added to conform to the standard progressions.  Story pilots with more than the normal amount of abilities have been retained, but their passive traits have been brought up to standard.  Turret "pilots" have not been touched.
 
-### StreamingAssets/data/regions/
+### StreamingAssets/data/regions/ - CHECKED GOOD FOR 1.9.1
     regionDef_Positive.json - typo (Positve)
 
-### StreamingAssets/data/simGameConstants/
+### StreamingAssets/data/simGameConstants/ - It's complicated, come back to this later
     SimGameConstants.json - max contract fixes for 5+ skull contracts, various extra commas, missing commas
 
-### StreamingAssets/data/starsystem/
+### StreamingAssets/data/starsystem/ - CHECKED GOOD FOR 1.9.1
     starsystemdef_Camadeirre.json - fixed typo: "Camadeirre" change to "Camadeierre"
     
-### StreamingAssets/data/turrets/
+### StreamingAssets/data/turrets/ - CHECKED GOOD FOR 1.9.1
     turretdef_Standard_Laser.json - renamed "Standard Laser Turret" from "Light Standard Turret"
 
-### StreamingAssets/data/vehicle/
+### StreamingAssets/data/vehicle/ - CHECKED GOOD FOR 1.9.1
     vehicledef_BULLDOG.json - added Front MG and ammo
     vehicledef_DEMOLISHER.json - added missing 4th ton of AC/20 ammo
     vehicledef_GALLANT.json - fixed armor to TT values, LRM hardpoint slot adjustment
@@ -144,7 +144,7 @@ All pilot files have been refactored to stock passive traits, this is over 90+ f
     vehicledef_STRIKER.json - fixed value: Turret Armor 120 changed to 110
     vehicledef_SWIFTWIND_ARMORED.json - fixed tonnage and armor to match possible TT config
 
-### StreamingAssets/data/vehicleChassis/
+### StreamingAssets/data/vehicleChassis/ - CHECKED GOOD FOR 1.9.1
     vehiclechassisdef_GALLANT.json - fixed weight class to Heavy
     vehiclechassisdef_MANTICORE.json - fixed armor and internals
     vehiclechassisdef_SCORPION - moved AP hardpoint from Turret to Front
@@ -152,7 +152,7 @@ All pilot files have been refactored to stock passive traits, this is over 90+ f
     vehiclechassisdef_SWIFTWIND.json - fixed armor and internals
     vehiclechassisdef_SWIFTWIND_ARMORED.json - fixed Tonnage and armor and internals
 
-### StreamingAssets/data/weapon/
+### StreamingAssets/data/weapon/ - CHECKED GOOD FOR 1.9.1
     Weapon_Gauss_Gauss_1-M7.json - tag fixes
     Weapon_Gauss_Gauss_2-M9.json - tag fixes
     Weapon_Laser_LargeLaserER_1-Blankenburg25.json - tag fixes
