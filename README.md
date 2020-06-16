@@ -70,7 +70,7 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     LoreGreatHouses.json - ordered Houses "Around the Sphere"
     LoreSuccessorState.json - ordered Houses "Around the Sphere"
 
-### StreamingAssets/data/events/
+### StreamingAssets/data/events/ - CHECKED GOOD FOR 1.9.1
     event_mw_dubiousIntentions.json - "You" replaced with "You're" in results error
     event_mw_leadershipMoment.json - added contextual words to fix "they rises" error
     event_mw_nobleBonds.json - Fixed the gender reference instead of defaulting to their
@@ -81,10 +81,10 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
 ### StreamingAssets/data/factions/ - CHECKED GOOD FOR 1.9.1
     faction_KellHounds.json - Demonym fixed missing space between "KellHounds"
 
-### StreamingAssets/data/flashpoints/
+### StreamingAssets/data/flashpoints/ - Might not be needed FOR 1.9.1
     fp_uw1.json - Spawn weight 200 from 10 to match "Joint Venture"
 
-### StreamingAssets/data/hardpoints/
+### StreamingAssets/data/hardpoints/ - Needs confirmation 1.9.1
     hardpointdatadef_trebuchet.json - fixed RA blank slot in hardpoint 2 (slot 1)
     
 ### StreamingAssets/data/heatsinks/
