@@ -116,10 +116,7 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     mechdef_raven_RVN-1X.json - fixed costs
     mechdef_urbanmech_UM-R60L.json - given Lance - Tank tag,
     
-### StreamingAssets/data/milestoneSets/    
-    ms_fp_doubleAgent.json - fixed Taurian rep (was Steiner) in reward ms for all branches
-    
-### StreamingAssets/data/movement/
+### StreamingAssets/data/movement/ - CHECKED GOOD FOR 1.9.1
     movedef_PACKRAT.json - max walk 210 from 200
     movedef_GALLANT.json - slowed down Gallant to TT speeds
 
