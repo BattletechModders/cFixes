@@ -79,7 +79,6 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     faction_KellHounds.json - Demonym fixed missing space between "KellHounds"
 
 ### StreamingAssets/data/flashpoints/
-    fp_shadowOrg.json - Changed required tags to spwan to allow both Campaign and Career spawning
     fp_uw1.json - Spawn weight 200 from 10 to match "Joint Venture"
 
 ### StreamingAssets/data/hardpoints/
@@ -111,9 +110,8 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     mechdef_highlander_HGN-733P.json - adjusted Torso Front Armor and HS+ammo locations to match Record Sheets
     mechdef_javlin_JVN-10F.json - given Lance - Assassin/Vanguard tag, removed duplicate jumpOK tag, fixed costs
     mechdef_javlin_JVN-10N.json - given Lance - Assassin/Vanguard tag, removed duplicate jumpOK tag, fixed costs
-    mechdef_quickdraw_QKD-5A.json - removed duplicate tags "unit_indirectFire" and jumpOK
     mechdef_raven_RVN-1X.json - fixed costs
-    mechdef_urbanmech_UM-R60L.json - given Lance - Tank tag, removed duplicate jumpOK tag
+    mechdef_urbanmech_UM-R60L.json - given Lance - Tank tag,
     
 ### StreamingAssets/data/milestoneSets/    
     ms_fp_doubleAgent.json - fixed Taurian rep (was Steiner) in reward ms for all branches

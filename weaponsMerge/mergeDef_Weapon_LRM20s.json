@@ -1,0 +1,10 @@
+{
+    "TargetIDs": ["Weapon_LRM_LRM20_0-STOCK", "Weapon_LRM_LRM20_1-Delta", "Weapon_LRM_LRM20_1-LongFire", "Weapon_LRM_LRM20_1-Telos", "Weapon_LRM_LRM20_2-Delta", "Weapon_LRM_LRM20_2-LongFire", "Weapon_LRM_LRM20_2-Telos", "Weapon_LRM_LRM20_2-Zeus", "Weapon_LRM_LRM20_3-Zeus"],
+    "Instructions": [
+        {
+            "JSONPath": "PrefabIdentifier",
+            "Action": "Replace",
+            "Value": "srm20"
+        }
+    ]
+}

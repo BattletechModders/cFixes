@@ -1,0 +1,10 @@
+{
+    "TargetID": "EscortSingle_MerchantCaravan",
+    "Instructions": [
+        {
+            "JSONPath": "$.shortDescription",
+            "Action": "Replace",
+            "Value": "A mercantile convoy operating under a {TEAM_EMP.FactionDef.Name} charter needs to travel through {TEAM_TAR.FactionDef.Name}-controlled territory. We need you to escort the convoy to a safe location."
+        }
+    ]
+}
