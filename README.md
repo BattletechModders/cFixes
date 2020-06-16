@@ -87,7 +87,7 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
 ### StreamingAssets/data/hardpoints/ - Needs confirmation 1.9.1
     hardpointdatadef_trebuchet.json - fixed RA blank slot in hardpoint 2 (slot 1)
     
-### StreamingAssets/data/heatsinks/
+### StreamingAssets/data/heatsinks/ - CHECKED GOOD FOR 1.9.1
     Gear_HeatSink_Generic_Bulk-Bank.json - fixed [AMT] value in StatusEffect Description Details
     Gear_HeatSink_Generic_Improved-Bank.json - fixed [AMT] value in StatusEffect Description Details
     Gear_HeatSink_Generic_Standard-Bank.json - fixed [AMT] value in StatusEffect Description Details
