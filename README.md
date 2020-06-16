@@ -66,7 +66,7 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     succession_a1_assassinate.json - typos (commision and intitial)
     ThreeWayBattle_TestDrive.json - Exclude Cap.Con from being employer stealing from Cap.Con
 
-### StreamingAssets/data/descriptions/Lore/
+### StreamingAssets/data/descriptions/Lore/ - CHECKED GOOD FOR 1.9.1
     LoreGreatHouses.json - ordered Houses "Around the Sphere"
     LoreSuccessorState.json - ordered Houses "Around the Sphere"
 
@@ -75,7 +75,7 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     event_mw_nobleBonds.json - Fixed the gender reference instead of defaulting to their.
     event_mw_triage.json - missing commas
     
-### StreamingAssets/data/factions/
+### StreamingAssets/data/factions/ - CHECKED GOOD FOR 1.9.1
     faction_KellHounds.json - Demonym fixed missing space between "KellHounds"
 
 ### StreamingAssets/data/flashpoints/
