@@ -114,7 +114,10 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     mechdef_javlin_JVN-10F.json - given Lance - Assassin/Vanguard tag, removed duplicate jumpOK tag, fixed costs
     mechdef_javlin_JVN-10N.json - given Lance - Assassin/Vanguard tag, removed duplicate jumpOK tag, fixed costs
     mechdef_raven_RVN-1X.json - fixed costs
-    mechdef_urbanmech_UM-R60L.json - given Lance - Tank tag,
+    mechdef_urbanmech_UM-R60L.json - given Lance - Tank tag
+    
+### StreamingAssets/data/milestones/ - CHECKED GOOD FOR 1.9.1
+    All 144 milestone files have cost, rarity and purchasable lines removed for loading/logging readability.
     
 ### StreamingAssets/data/movement/ - CHECKED GOOD FOR 1.9.1
     movedef_PACKRAT.json - max walk 210 from 200
