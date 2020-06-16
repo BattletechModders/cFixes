@@ -136,9 +136,6 @@ All pilot files have been refactored to stock passive traits, this is over 90+ f
     
 ### StreamingAssets/data/turrets/
     turretdef_Standard_Laser.json - renamed "Standard Laser Turret" from "Light Standard Turret"
-	
-### StreamingAssets/data/upgrades/cockpitMods/
-	Gear_Cockpit_StarCorps_Dalban.json - fixed typo: "Morale" changed to "Resolve"
 
 ### StreamingAssets/data/vehicle/
     vehicledef_BULLDOG.json - added Front MG and ammo
