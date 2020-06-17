@@ -104,13 +104,12 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     mechdef_griffin_GRF-4N.json - fixed JJ from Leg to Torso, moved DHS from illegal Leg slots to torsos to match "Greed"
     mechdef_griffin_GRF-4N_fp_greed.json - fixed JJ from Leg to Torso
     mechdef_hatchetman_HCT-3F.json - given Lance - Assassin tag, removed duplicate jumpOK tag, fixed costs
-    mechdef_hatchetman_HCT-3X.json - given Lance - Assassin tag, removed duplicate jumpOK tag, changed faction tag, fixed costs
+    mechdef_hatchetman_HCT-3X.json - given Lance - Assassin tag, removed duplicate jumpOK tag, fixed costs
     mechdef_highlander_HGN-732b.json - Adjusted Torso Front Armor to match Record Sheets, 1b from 1B typos
     mechdef_highlander_HGN-733.json - Adjusted Center Torso Front Armor to match Record Sheets, allocated "spare" armor point to CTR
     mechdef_highlander_HGN-733P.json - adjusted Torso Front Armor and HS+ammo locations to match Record Sheets
     mechdef_javlin_JVN-10F.json - given Lance - Assassin/Vanguard tag, removed duplicate jumpOK tag, fixed costs
     mechdef_javlin_JVN-10N.json - given Lance - Assassin/Vanguard tag, removed duplicate jumpOK tag, fixed costs
-    mechdef_raven_RVN-1X.json - fixed costs
     mechdef_urbanmech_UM-R60L.json - given Lance - Tank tag
     
 ### StreamingAssets/data/milestones/ - CHECKED GOOD FOR 1.9.1
