@@ -6,11 +6,11 @@
             "unit_light",
             "unit_range_short",
             "unit_role_brawler",
-	    "unit_lance_tank",
+            "unit_lance_tank",
             "unit_urbie",
             "unit_jumpOK",
-	    "unit_speed_low",
-	    "Liao"
+            "unit_speed_low",
+            "Liao"
         ]
     }
 }
