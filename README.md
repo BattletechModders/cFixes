@@ -50,21 +50,23 @@ Thanks to mpstark and the entire ModTek team for making this mod possible!
     chassisdef_urbanmech_UM-R90.json - fixed costs
     chassisdef_vindicator_VND-1AA.json - fixed costs
 
-### StreamingAssets/data/contracts/
+### StreamingAssets/data/contracts/ - CHECKED GOOD FOR 1.9.1
 All Escort and Capture Base contracts have had the word "Dropship" replaced with "DropShip" as used in the BT writers guide.
 
     Assassinate_HardTarget.json - extra space removed
     AttackDefend_Reconquest.json - typos (Goddness and DropShip)
-    AttackDefend_Retaliation.json - enabled def. turrets as dialogue text implies, typos (Goddness and DropShip)
+    c_fp_headhunting_1_battle.json - Fixed "Flack Jackal" typo
+    c_fp_longHunt_c1_rescue - Fixed improper 's after "lees's"
     EscortSingle_MerchantCaravan.json - Fixed typo "loacation" in short desc
     FireMission_DataLiberation.json - typos (Reinforments and DropShip)
     FireMission_DataLiberation_Hard.json - typos (Reinforments and DropShip)
     FireMission_FireForEffect.json - typos, too many to list here
     FireMission_Fireworks.json - "WarShip" changed to "Pocket WarShip" as no true WarShips should be available.
-    lastChance_a1_3wayBattle.json - Removed chance for turrets to appear
+    redHunt_1_DefendBase.json - Typos "Targetted" "Commmander" and "recieved" fixed
+    redHunt_2_ThreeWayBattle.json - Typos, various
     SimpleBattle_RaidingParty.json - DropShip foramtting
     SimpleBattle_RaidingParty_Hard.json - DropShip foramtting
-    succession_1_assassinate - typos (commision and intitial)
+    succession_1_assassinate.json - typos (commision and intitial)
     succession_a1_assassinate.json - typos (commision and intitial)
 
 ### StreamingAssets/data/descriptions/Lore/ - CHECKED GOOD FOR 1.9.1
