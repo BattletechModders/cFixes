@@ -30,7 +30,7 @@ Thanks to mpstark and the entire ModTek team for making this mod possible!
 
 ## List of Fixes
 
-### StreamingAssets/data/chassis/
+### StreamingAssets/data/chassis/ - CHECKED GOOD FOR 1.9.1
     chassisdef_banshee_BNC-3S.json - fixed costs
     chassisdef_blackjack_BJ-1DB.json - fixed costs
     chassisdef_blackknight_BL-6-KNT.json - fixed variant name to BK-7-KNT
