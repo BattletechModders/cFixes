@@ -92,12 +92,12 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     Gear_HeatSink_Generic_Thermal-Exchanger-II.json - fixed [AMT] value in StatusEffect Description Details
     Gear_HeatSink_Generic_Thermal-Exchanger-III.json - fixed [AMT] value in StatusEffect Description Details
 
-### StreamingAssets/data/mech/
+### StreamingAssets/data/mech/ - CHECKED GOOD FOR 1.9.1
     mechdef_annihilator_ANH-1A.json - given Lance - Support tag
-    mechdef_archer_ARC-2R.json - given Lance - Tank/Support tag
-    mechdef_archer_ARC-2S.json - given Lance - Tank/Support tag
-    mechdef_assassin_ASN-21.json - given Role - Scout and Lance - Assassin tag, duh
-    mechdef_assassin_ASN-101.json - given Role - Scout and Lance - Assassin tag, duh
+    mechdef_archer_ARC-2R.json - given Lance - Tank/Support tags
+    mechdef_archer_ARC-2S.json - given Lance - Tank/Support tags
+    mechdef_assassin_ASN-21.json - given Role - Scout and Lance - Assassin tags, duh
+    mechdef_assassin_ASN-101.json - given Role - Scout and Lance - Assassin tags, duh
     mechdef_banshee_BNC-3S.json - fixed costs
     mechdef_blackjack_BJ-1DB.json - fixed costs
     mechdef_blackknight_BL-6-KNT.json - fixed variant name to BK-7-KNT
@@ -105,9 +105,9 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     mechdef_bullshark_BSK-M3.json - given Lance - Support tag
     mechdef_cicada_CDA-2A.json - fixed costs
     mechdef_crab_CRB-27.json - given Role - Brawler and Lance - Tank tags, fixed costs
-    mechdef_cyclops_CP-10-HQ.json - given Lance - Support tags, removed duplicate IDF tag
-    mechdef_cyclops_CP-10-Q.json - given Lance - Support tags, removed duplicate IDF tag, fixed costs
-    mechdef_cyclops_CP-10-Z.json - given Lance - Support tags, removed duplicate IDF tag, fixed costs
+    mechdef_cyclops_CP-10-HQ.json - given Lance - Support tag, removed duplicate IDF tag
+    mechdef_cyclops_CP-10-Q.json - given Lance - Support tag, removed duplicate IDF tag, fixed costs
+    mechdef_cyclops_CP-10-Z.json - given Lance - Support tag, removed duplicate IDF tag, fixed costs
     mechdef_flea_FLE-4.json - given Lance - Vanguard tag
     mechdef_flea_FLE-15.json - given Lance - Vanguard tag
     mechdef_griffin_GRF-4N.json - fixed JJ from Leg to Torso, moved DHS from illegal Leg slots to torsos to match "Greed"
@@ -116,18 +116,22 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     mechdef_hatchetman_HCT-3X.json - given Lance - Assassin tag, removed duplicate jumpOK tag, fixed costs
     mechdef_highlander_HGN-732b.json - Adjusted Torso Front Armor to match Record Sheets, 1b from 1B typos
     mechdef_highlander_HGN-733.json - Adjusted Center Torso Front Armor to match Record Sheets, allocated "spare" armor point to CTR
-    mechdef_highlander_HGN-733P.json - adjusted Torso Front Armor and HS+ammo locations to match Record Sheets
+    mechdef_highlander_HGN-733P.json - Adjusted Torso Front Armor and HS+ammo locations to match Record Sheets
     mechdef_javelin_JVN-10A.json - given Role - Sniper tag
-    mechdef_javelin_JVN-10F.json - given Lance - Assassin/Vanguard tag, removed duplicate jumpOK tag, fixed costs
-    mechdef_javelin_JVN-10N.json - given Lance - Assassin/Vanguard tag, removed duplicate jumpOK tag, fixed costs
+    mechdef_javelin_JVN-10F.json - given Lance - Assassin/Vanguard tags, removed duplicate jumpOK tag, fixed costs
+    mechdef_javelin_JVN-10N.json - given Lance - Assassin/Vanguard tags, removed duplicate jumpOK tag, fixed costs
+    mechdef_marauder_MAD-3D - given Lance - Tank/Support tags
+    mechdef_marauder_MAD-3R - given Lance - Tank/Support tags
     mechdef_phoenixhawk_PXH-1.json - given Role - Scout and Lance - Assassin/Vanguard tags
     mechdef_phoenixhawk_PXH-1K.json - given Role - Scout and Lance - Assassin/Vanguard tags
     mechdef_rifleman_RFL-3C.json - given Role - Sniper and Lance - Support tags
     mechdef_rifleman_RFL-3N.json - given Role - Sniper and Lance - Support tags
     mechdef_rifleman_RFL-4D.json - given Role - Sniper and Lance - Support tags
     mechdef_urbanmech_UM-R60L.json - given Lance - Tank tag
-    mechdef_vulcan_VL-2T.json - given Lance - Vanguard tags
+    mechdef_vulcan_VL-2T.json - given Lance - Vanguard tag
     mechdef_vulcan_VL-5T.json - given Role - Scout and Lance - Assassin/Vanguard tags
+    mechdef_warhammer_WHM-6D - given Lance - Tank/Support tags
+    mechdef_warhammer_WHM-6R - given Lance - Tank/Support tags
     
 ### StreamingAssets/data/milestones/ - CHECKED GOOD FOR 1.9.1
     All 144 milestone files have cost, rarity and purchasable lines removed for loading/logging readability.
