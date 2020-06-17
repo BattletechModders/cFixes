@@ -129,7 +129,7 @@ All pilot files have been refactored to stock passive traits, this is over 90+ f
     regionDef_Positive.json - typo (Positve)
 
 ### StreamingAssets/data/simGameConstants/
-    SimGameConstants.json - max contract fixes for 5+ skull contracts, various extra commas, missing commas
+    SimGameConstants.json - various extra commas, missing commas
 
 ### StreamingAssets/data/starsystem/
     starsystemdef_Camadeirre.json - fixed typo: "Camadeirre" change to "Camadeierre"
