@@ -28,7 +28,7 @@ https://github.com/BattletechModders/ModTek/releases
 Thanks to mpstark and the entire ModTek team for making this mod possible!
 
 
-## List of Fixes
+## Stock Files Edited:
 
 ### StreamingAssets/data/chassis/ - CHECKED GOOD FOR 1.9.1
     chassisdef_banshee_BNC-3S.json - fixed costs
