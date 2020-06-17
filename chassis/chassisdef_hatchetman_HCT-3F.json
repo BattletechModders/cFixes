@@ -8,7 +8,7 @@
         "UIName" : "Hatchetman",
         "Id" : "chassisdef_hatchetman_HCT-3F",
         "Name" : "Hatchetman",
-        "Details" : "Hatchetman 3Fs are the king of the close quarters fight. Packing high impact short range weaponry, and a unique melee Hatchet, any target is in danger when close to the Hatchetman. The Hatchetmans lighter armor requires it to rely on maneuvering and ambushing to stay in the fight.",
+        "Details" : "Hatchetman 3Fs are the king of the close quarters fight. Packing high impact short range weaponry, and a unique melee Hatchet, any target is in danger when close to the Hatchetman. The Hatchetman's lighter armor requires it to rely on maneuvering and ambushing to stay in the fight.",
         "Icon" : "uixTxrIcon_hatchetman"
     },
     "MovementCapDefID" : "movedef_hatchetman_HCT-3F",
@@ -18,7 +18,7 @@
     "PrefabBase" : "hatchetman",
     "VariantName" : "HCT-3F",
     "StockRole" : "Brawler & Skirmisher",
-    "YangsThoughts" : "Hatchetman 3Fs are the king of the close quarters fight. Packing high impact short range weaponry, and a unique melee Hatchet, any target is in danger when close to the Hatchetman. The Hatchetmans lighter armor requires it to rely on maneuvering and ambushing to stay in the fight.",
+    "YangsThoughts" : "Hatchetman 3Fs are the king of the close quarters fight. Packing high impact short range weaponry, and a unique melee Hatchet, any target is in danger when close to the Hatchetman. The Hatchetman's lighter armor requires it to rely on maneuvering and ambushing to stay in the fight.",
     "Tonnage" : 45,
     "InitialTonnage" : 16.5,
     "weightClass" : "MEDIUM",
@@ -40,7 +40,8 @@
     "SensorRangeMultiplier" : 1,
     "Signature" : 0,
     "Radius" : 5,
-    "PunchesWithLeftArm" : false,
+	"PunchesWithLeftArm" : false,
+    "AlwaysPunchIfPossible" : true,
     "MeleeDamage" : 70,
     "MeleeInstability" : 45,
     "MeleeToHitModifier" : 0,
@@ -72,6 +73,10 @@
                 {
                     "WeaponMount" : "Energy",
                     "Omni" : false
+                },
+                {
+                    "WeaponMount" : "Energy",
+                    "Omni" : false
                 }
             ],
             "Tonnage" : 0,
@@ -83,6 +88,14 @@
         {
             "Location" : "LeftTorso",
             "Hardpoints" : [
+                {
+                    "WeaponMount" : "AntiPersonnel",
+                    "Omni" : false
+                },
+                {
+                    "WeaponMount" : "AntiPersonnel",
+                    "Omni" : false
+                }
                 
             ],
             "Tonnage" : 0,
@@ -107,6 +120,10 @@
             "Hardpoints" : [
                 {
                     "WeaponMount" : "Ballistic",
+                    "Omni" : false
+                },
+                {
+                    "WeaponMount" : "Energy",
                     "Omni" : false
                 }
             ],
