@@ -37,9 +37,10 @@ Thanks to mpstark and the entire ModTek team for making this mod possible!
     chassisdef_blackknight_BL-6b-KNT.json - fixed reference to BK-7-KNT
     chassisdef_cicada_CDA-2A.json - fixed costs
     chassisdef_crab_CRB-27.json - fixed costs
+    chassisdef_crab_CRB-27b.json - fixed 27b from 27B
     chassisdef_cyclops_CP-10-Q.json - fixed costs
-    chassisdef_hatchetman_HCT-3F.json - fixed costs
-    chassisdef_hatchetman_HCT-3X.json - fixed costs
+    chassisdef_hatchetman_HCT-3F.json - fixed costs and base melee damage
+    chassisdef_hatchetman_HCT-3X.json - fixed costs and base melee damage
     chassisdef_highlander_HGN-732b.json - fixed "732B" to "732b"
     chassisdef_hunchback_HBK-4G.json - melee DMG to 75 from 80
     chassisdef_hunchback_HBK-4P.json - melee DMG to 75 from 80
@@ -105,6 +106,7 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     mechdef_bullshark_BSK-M3.json - given Lance - Support tag
     mechdef_cicada_CDA-2A.json - fixed costs
     mechdef_crab_CRB-27.json - given Role - Brawler and Lance - Tank tags, fixed costs
+    mechdef_crab_CRB-27b.json -  - fixed 27b from 27B
     mechdef_cyclops_CP-10-HQ.json - given Lance - Support tag, removed duplicate IDF tag
     mechdef_cyclops_CP-10-Q.json - given Lance - Support tag, removed duplicate IDF tag, fixed costs
     mechdef_cyclops_CP-10-Z.json - given Lance - Support tag, removed duplicate IDF tag, fixed costs
