@@ -53,8 +53,10 @@ Thanks to mpstark and the entire ModTek team for making this mod possible!
 ### StreamingAssets/data/contracts/
 All Escort and Capture Base contracts have had the word "Dropship" replaced with "DropShip" as used in the BT writers guide.
 
+    Assassinate_HardTarget.json - extra space removed
     AttackDefend_Reconquest.json - typos (Goddness and DropShip)
     AttackDefend_Retaliation.json - enabled def. turrets as dialogue text implies, typos (Goddness and DropShip)
+    EscortSingle_MerchantCaravan.json - Fixed typo "loacation" in short desc
     FireMission_DataLiberation.json - typos (Reinforments and DropShip)
     FireMission_DataLiberation_Hard.json - typos (Reinforments and DropShip)
     FireMission_FireForEffect.json - typos, too many to list here
@@ -64,7 +66,6 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     SimpleBattle_RaidingParty_Hard.json - DropShip foramtting
     succession_1_assassinate - typos (commision and intitial)
     succession_a1_assassinate.json - typos (commision and intitial)
-    ThreeWayBattle_TestDrive.json - Exclude Cap.Con from being employer stealing from Cap.Con
 
 ### StreamingAssets/data/descriptions/Lore/ - CHECKED GOOD FOR 1.9.1
     LoreGreatHouses.json - ordered Houses "Around the Sphere"
