@@ -10,17 +10,17 @@
             "unit_mech",
             "unit_medium",
             "unit_role_brawler",
-			"unit_lance_assassin",
+	    "unit_lance_assassin",
             "unit_jumpOK",
-			"unit_release",
+	    "unit_release",
             "unit_dlc",
-			"unit_hatchetman",
-			"unit_range_short",
-			"unit_hot",
-			"unit_speed_low",
-			"unit_armor_high",
-			"Davion",
-			"Steiner"
+	    "unit_hatchetman",
+            "unit_range_short",
+	    "unit_hot",
+	    "unit_speed_low",
+	    "unit_armor_high",
+	    "Davion",
+	    "Steiner"
         ],
         "tagSetSourceFile": ""
     },
@@ -136,7 +136,8 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-        },        {
+        },        
+	{
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
             "SimGameUID": null,
@@ -235,7 +236,6 @@
             "prefabName": null,
             "hasPrefabName": false
         },
-
         {
             "MountedLocation": "RightArm",
             "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
