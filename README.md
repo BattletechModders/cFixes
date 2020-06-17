@@ -80,9 +80,6 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     
 ### StreamingAssets/data/factions/ - CHECKED GOOD FOR 1.9.1
     faction_KellHounds.json - Demonym fixed missing space between "KellHounds"
-
-### StreamingAssets/data/flashpoints/ - Might not be needed FOR 1.9.1
-    fp_uw1.json - Spawn weight 200 from 10 to match "Joint Venture"
     
 ### StreamingAssets/data/heatsinks/ - CHECKED GOOD FOR 1.9.1
     Gear_HeatSink_Generic_Bulk-Bank.json - fixed [AMT] value in StatusEffect Description Details
