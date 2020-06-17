@@ -3,8 +3,6 @@
 	   "ContractNegotiableReputationAddition" : 5
    }, 
    "Story" : {
-	   "FriendlyMaxContractDifficulty" : 6,
-	   "HonoredMaxContractDifficulty" : 6,
 	   "MaxMoralePowerLevelLimits" : [
 		   12,
 		   24
@@ -25,21 +23,6 @@
 	   	"FlashpointStartRange" : [
 			14,
 			21
-		],
-                "HonoredMaxContractDifficulty" : 14,
-		"PossibleAllyFallbackFactions" : [
-			"Davion",
-			"Liao",
-			"Kurita",
-			"Marik",
-			"Steiner",
-			"TaurianConcordat",
-			"MagistracyOfCanopus",
-			"AuriganRestoration",
-			"ComStar",
-			"Locals",
-			"AuriganMercenaries"
-		],
-		"StartWithRandomMechs" : true
+		]
    }
 }
