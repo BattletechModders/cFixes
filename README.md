@@ -52,7 +52,7 @@ Thanks to mpstark and the entire ModTek team for making this mod possible!
     chassisdef_vindicator_VND-1AA.json - fixed costs
 
 ### StreamingAssets/data/contracts/ - CHECKED GOOD FOR 1.9.1
-All Escort and Capture Base contracts have had the word "Dropship" replaced with "DropShip" as used in the BT writers guide.
+All Escort and Capture Base contracts have had the word "Dropship" replaced with "DropShip" as used in the BT writers guide. NOTE - MAKE SURE TO FIX "andstop" TYPO IN "CaptureEscort_AbortedColony" Obj. List "dest_host_blck_frc" and check other CaptEsc. missions.
 
     Assassinate_HardTarget.json - extra space removed
     AttackDefend_Reconquest.json - typos (Goddness and DropShip)
