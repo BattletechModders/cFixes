@@ -1,0 +1,20 @@
+{
+    "TargetID": "CaptureEscort_BlownOperation",
+    "Instructions": [
+        {
+            "JSONPath": "$.objectiveList[?(@.objective.EncounterObjectGuid== 'acf88d1b-d09f-4db7-b7ea-9f48a426075c')].description",
+            "Action": "Replace",
+            "Value": "The objective to destroy the force of enemies which will try and stop the player from reaching the rally point."
+        },
+        {
+            "JSONPath": "$.objectiveList[?(@.objective.EncounterObjectGuid== '9820d0c3-79e7-4456-b55c-ca820e82fae2')].title",
+            "Action": "Replace",
+            "Value": "Protect Convoy while DropShip Arrives"
+        },
+        {
+            "JSONPath": "$.objectiveList[?(@.objective.EncounterObjectGuid== 'fa7458f8-c940-480c-91ce-4605fa8965d4')].title",
+            "Action": "Replace",
+            "Value": "Protect Convoy as they Embark on the DropShip"
+        }
+    ]
+}
