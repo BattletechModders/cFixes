@@ -142,8 +142,52 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     movedef_PACKRAT.json - max walk 210 from 200
     movedef_GALLANT.json - slowed down Gallant to TT speeds
 
-### StreamingAssets/data/pilot/ - Current WIP manual check of every modded file vs 1.9.1, cleared d3-d7 pilots, resume on d8
-All pilot files have been refactored to stock passive traits, this is over 90+ files and summerized here for brevity.  Any missing passive traits have been added to conform to the standard progressions.  Story pilots with more than the normal amount of abilities have been retained, but their passive traits have been brought up to standard.  Turret "pilots" have not been touched.
+### StreamingAssets/data/pilot/ - CHECKED GOOD FOR 1.9.1
+All pilot files below have been refactored to stock passive traits..  Any missing passive traits have been added to conform to the standard progressions.  Story pilots with more than the normal amount of abilities or traits have been retained, but their passive traits have been brought up to standard.
+
+    pilot_contract_TheProfessional.json
+    pilot_cvs1_bullhorn.json
+    pilot_cvs2_gargoyle.json
+    pilot_cvs3_myrmidon.json
+    pilot_cvs4_overload.json
+    pilot_d10_BL_myrmidon.json
+    pilot_d10_skirmisher.json
+    pilot_d10_striker.json
+    pilot_d10_vanguard.json
+    pilot_fp_Beta.json
+    pilot_fp_Diva.json
+    pilot_fp_DominikZhao.json
+    pilot_fp_KellHound_1.json
+    pilot_fp_KellHound_2.json
+    pilot_fp_MorganKell.json
+    pilot_fp_OrchidZhao.json
+    pilot_fp_StienerLongRoad.json
+    pilot_fp_Talon.json
+    pilot_fp_Valravn.json
+    pilot_fp_steelBeast.json
+    pilot_privbeta_gn2-pl8-gt4-tc2.json
+    pilot_privbeta_gn3-pl5-gt3-tc5.json
+    pilot_privbeta_gn4-pl4-gt4-tc4.json
+    pilot_privbeta_gn4-pl4-gt6-tc6.json
+    pilot_privbeta_gn5-pl3-gt5-tc3.json
+    pilot_privbeta_gn5-pl5-gt5-tc5.json
+    pilot_privbeta_gn8-pl2-gt4-tc2.json
+    pilot_sim_starter_behemoth_d4.json
+    pilot_sim_starter_behemoth_d6.json
+    pilot_sim_starter_medusa_d4.json
+    pilot_sim_starter_shoe.json
+    pilot_sim_starter_trigger.json
+    pilot_story_KameaGuard1.json
+    pilot_story_KameaGuard2.json
+    pilot_story_SLDFAI.json
+    pilot_story_VictoriaEnd.json
+    pilot_story_kamea.json
+    pilot_story_kamea_end.json
+    pilot_story_mastiff.json
+    pilot_uw_siegebreaker1.json
+    pilot_uw_siegebreaker2.json
+    pilot_uw_siegebreaker3.json
+    pilot_uw_siegebreaker4.json
 
 ### StreamingAssets/data/regions/ - CHECKED GOOD FOR 1.9.1
     regionDef_Positive.json - typo (Positve)
