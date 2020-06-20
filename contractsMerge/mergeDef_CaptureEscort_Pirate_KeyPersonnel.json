@@ -2,9 +2,9 @@
     "TargetID": "CaptureEscort_Pirate_KeyPersonnel",
     "Instructions": [
         {
-            "JSONPath": "$.shortDescription",
+            "JSONPath": "$.objectiveList[?(@.objective.EncounterObjectGuid== 'acf88d1b-d09f-4db7-b7ea-9f48a426075c')].description",
             "Action": "Replace",
-            "Value": "An ally of {TEAM_TAR.FactionDef.Name} here in {TGT_SYSTEM.name} stands accused of a long list of illegal, unethical and deplorable activities. Proof of her guilt was being transported to a spaceport, for safe-keeping off-planet, when it was attacked by unidentified mercenary forces. The convoy narrowly escaped and we need you to protect it while we arrange for a DropShip pickup."
+            "Value": "The objective to destroy the force of enemies which will try and stop the player from reaching the rally point."
         },
         {
             "JSONPath": "$.objectiveList[?(@.objective.EncounterObjectGuid== '9820d0c3-79e7-4456-b55c-ca820e82fae2')].title",
