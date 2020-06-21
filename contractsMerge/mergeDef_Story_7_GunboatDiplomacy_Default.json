@@ -1,0 +1,15 @@
+{
+    "TargetID": "Story_7_GunboatDiplomacy_Default",
+    "Instructions": [
+        {
+            "JSONPath": "$.dialogueList[?(@.name== 'Inter_KameaMakesHerChoice')].dialogueContent[7].words",
+            "Action": "Replace",
+            "Value": "Roger that, Lady Arano\u2014I'm marking the coordinates on your map now. Commander we show multiple DropShips inbound, as soon as you have the Data get out of there!"
+         },
+        {
+            "JSONPath": "$.dialogueList[?(@.name== 'Inter_ThatsLastShipCommander')].dialogueContent[0].words",
+            "Action": "Replace",
+            "Value": "That's the last inbound hostile DropShip from the landing force we have the window we need to evac."
+         }
+    ]
+}
