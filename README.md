@@ -63,11 +63,12 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     FireMission_DataLiberation_Hard.json - typos (Reinforments and DropShip)
     FireMission_FireForEffect.json - typos, too many to list here
     FireMission_Fireworks.json - "WarShip" changed to "Pocket WarShip" as no true WarShips should be available.
-    Panzyr_Attack_Default.json - DropShip typo
+    Panzyr_Attack_Default.json - DropShip foramtting
     redHunt_1_DefendBase.json - Typos "Targetted" "Commmander" and "recieved" fixed
     redHunt_2_ThreeWayBattle.json - Typos, various
     SimpleBattle_RaidingParty.json - DropShip foramtting
     SimpleBattle_RaidingParty_Hard.json - DropShip foramtting
+    Smithon_Defense_Default.json - DropShip foramtting
     succession_1_assassinate.json - typos (commision and intitial)
     succession_a1_assassinate.json - typos (commision and intitial)
 
