@@ -1,0 +1,10 @@
+{
+    "TargetID": "Story_6B_TreasureTrove_Default",
+    "Instructions": [
+        {
+            "JSONPath": "$.objectiveList[?(@.objective.EncounterObjectGuid== 'ed62c80b-f50e-4bad-b6bc-31441740874f')].title",
+            "Action": "Replace",
+            "Value": "Proceed to the DropShip"
+        }
+    ]
+}
