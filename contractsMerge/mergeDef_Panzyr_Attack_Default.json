@@ -1,0 +1,10 @@
+{
+    "TargetID": "Panzyr_Attack_Default",
+    "Instructions": [
+        {
+            "JSONPath": "$.objectiveList[?(@.objective.EncounterObjectGuid== 'f9f54db9-8111-45a8-b304-d603a4b3cc6f')].title",
+            "Action": "Replace",
+            "Value": "Destroy the DropShip Control Center before the <i>ADV Coronach</i> arrives"
+        }
+    ]
+}
