@@ -71,6 +71,7 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     Smithon_Defense_Default.json - DropShip foramtting
     Story_1B_Retreat_Default.json - DropShip formatting
     Story_6B_TreasureTrove_Default - DropShip formatting
+    Story_7_GunboatDiplomacy_Default.json - DropShip formatting
     succession_1_assassinate.json - typos (commision and intitial)
     succession_a1_assassinate.json - typos (commision and intitial)
 
