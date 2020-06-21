@@ -1,0 +1,10 @@
+{
+    "TargetID": "Smithon_Defense_Default",
+    "Instructions": [
+        {
+            "JSONPath": "$.objectiveList[?(@.objective.EncounterObjectGuid== '423b194d-8231-4ffd-b7dc-e10f15b83846')].title",
+            "Action": "Replace",
+            "Value": "Two Loaded DropShips Must Escape"
+        }
+    ]
+}
