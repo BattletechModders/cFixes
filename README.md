@@ -14,14 +14,14 @@ Credits:
 
 Thanks to the community at large for helping bring these bugs to HBS's attention!
 
-This mod is intended for free use and re-use.
+This mod is intended for free use and adaptation in other mods.
 
 ### Instructions:
-    Remove older editions of cFixes.
+    Remove older editions of cFixes. This is very important to not crash the game.
     Copy cFixes folder in to Mods folder created for ModTek.
     
 ### ModTek/BTML
-This mod needs ModTek to work:
+This mod can use either HBS Mod Manager or ModTek:
 
 https://github.com/BattletechModders/ModTek/releases
 
@@ -30,7 +30,7 @@ Thanks to mpstark and the entire ModTek team for making this mod possible!
 
 ## Stock Files Edited:
 
-### StreamingAssets/data/chassis/ - CHECKED GOOD FOR 1.9.1
+### StreamingAssets/data/chassis/
     chassisdef_banshee_BNC-3S.json - fixed costs
     chassisdef_blackjack_BJ-1DB.json - fixed costs
     chassisdef_blackknight_BL-6-KNT.json - fixed variant name to BK-7-KNT
@@ -51,8 +51,8 @@ Thanks to mpstark and the entire ModTek team for making this mod possible!
     chassisdef_urbanmech_UM-R90.json - fixed costs
     chassisdef_vindicator_VND-1AA.json - fixed costs
 
-### StreamingAssets/data/contracts/ - CHECKED GOOD FOR 1.9.1
-All Escort and Capture Base contracts have had the word "Dropship" replaced with "DropShip" as used in the BT writers guide, other small typos may also have been fixed in those files.
+### StreamingAssets/data/contracts/
+All Escort and Capture Base contracts have had the word "Dropship" replaced with "DropShip" as used in the BT writers guide, a list too long to put here.  Listed here are all the other contracts that have been fixed.
 
     Assassinate_HardTarget.json - extra space removed
     c_fp_allianceDavion_b2_fireMission.json - DropShip formatting
@@ -88,11 +88,11 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     ThreeWayBattle_InterceptedSalvage.json - DropShip formatting
     ThreeWayBattle_BountyHunting.json - DropShip formatting
 
-### StreamingAssets/data/descriptions/Lore/ - CHECKED GOOD FOR 1.9.1
+### StreamingAssets/data/descriptions/Lore/
     LoreGreatHouses.json - ordered Houses "Around the Sphere"
     LoreSuccessorState.json - ordered Houses "Around the Sphere"
 
-### StreamingAssets/data/events/ - CHECKED GOOD FOR 1.9.1
+### StreamingAssets/data/events/
     event_mw_dubiousIntentions.json - "You" replaced with "You're" in results error
     event_mw_leadershipMoment.json - added contextual words to fix "they rises" error
     event_mw_nobleBonds.json - Fixed the gender reference instead of defaulting to their
@@ -100,10 +100,10 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     event_mw_spotlight_dekker.json - Typo "recupterating", even dekker's event is injured...
     event_mw_triage.json - missing commas
     
-### StreamingAssets/data/factions/ - CHECKED GOOD FOR 1.9.1
+### StreamingAssets/data/factions/
     faction_KellHounds.json - Demonym fixed missing space between "KellHounds"
     
-### StreamingAssets/data/heatsinks/ - CHECKED GOOD FOR 1.9.1
+### StreamingAssets/data/heatsinks/
     Gear_HeatSink_Generic_Bulk-Bank.json - fixed [AMT] value in StatusEffect Description Details
     Gear_HeatSink_Generic_Improved-Bank.json - fixed [AMT] value in StatusEffect Description Details
     Gear_HeatSink_Generic_Standard-Bank.json - fixed [AMT] value in StatusEffect Description Details
@@ -111,7 +111,7 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     Gear_HeatSink_Generic_Thermal-Exchanger-II.json - fixed [AMT] value in StatusEffect Description Details
     Gear_HeatSink_Generic_Thermal-Exchanger-III.json - fixed [AMT] value in StatusEffect Description Details
 
-### StreamingAssets/data/mech/ - CHECKED GOOD FOR 1.9.1
+### StreamingAssets/data/mech/
     mechdef_annihilator_ANH-1A.json - given Lance - Support tag
     mechdef_archer_ARC-2R.json - given Lance - Tank/Support tags
     mechdef_archer_ARC-2S.json - given Lance - Tank/Support tags
@@ -153,15 +153,15 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     mechdef_warhammer_WHM-6D - given Lance - Tank/Support tags
     mechdef_warhammer_WHM-6R - given Lance - Tank/Support tags
     
-### StreamingAssets/data/milestones/ - CHECKED GOOD FOR 1.9.1
+### StreamingAssets/data/milestones/
     All 144 milestone files have cost, rarity and purchasable lines removed for loading/logging readability.
     
-### StreamingAssets/data/movement/ - CHECKED GOOD FOR 1.9.1
+### StreamingAssets/data/movement/
     movedef_PACKRAT.json - max walk 210 from 200
     movedef_GALLANT.json - slowed down Gallant to TT speeds
 
-### StreamingAssets/data/pilot/ - CHECKED GOOD FOR 1.9.1
-All pilot files below have been refactored to stock passive traits..  Any missing passive traits have been added to conform to the standard progressions.  Story pilots with more than the normal amount of abilities or traits have been retained, but their passive traits have been brought up to standard.
+### StreamingAssets/data/pilot/
+The pilot files below had missing passive traits per their skill points.  Any missing passive traits have been added to conform to the standard progressions.  Story pilots with more than the normal amount of abilities/traits have been retained, but their passive traits have been brought up to standard.
 
     pilot_contract_TheProfessional.json
     pilot_cvs1_bullhorn.json
@@ -207,16 +207,16 @@ All pilot files below have been refactored to stock passive traits..  Any missin
     pilot_uw_siegebreaker3.json
     pilot_uw_siegebreaker4.json
 
-### StreamingAssets/data/regions/ - CHECKED GOOD FOR 1.9.1
+### StreamingAssets/data/regions/
     regionDef_Positive.json - typo (Positve)
 
-### StreamingAssets/data/starsystem/ - CHECKED GOOD FOR 1.9.1
+### StreamingAssets/data/starsystem/
     starsystemdef_Camadeirre.json - fixed typo: "Camadeirre" change to "Camadeierre"
     
-### StreamingAssets/data/turrets/ - CHECKED GOOD FOR 1.9.1
+### StreamingAssets/data/turrets/
     turretdef_Standard_Laser.json - renamed "Standard Laser Turret" from "Light Standard Turret"
 
-### StreamingAssets/data/vehicle/ - CHECKED GOOD FOR 1.9.1
+### StreamingAssets/data/vehicle/
     vehicledef_BULLDOG.json - added Front MG and ammo
     vehicledef_DEMOLISHER.json - added missing 4th ton of AC/20 ammo
     vehicledef_GALLANT.json - fixed armor to TT values, LRM hardpoint slot adjustment
@@ -225,7 +225,7 @@ All pilot files below have been refactored to stock passive traits..  Any missin
     vehicledef_STRIKER.json - fixed value: Turret Armor 120 changed to 110
     vehicledef_SWIFTWIND_ARMORED.json - fixed tonnage and armor to match possible TT config
 
-### StreamingAssets/data/vehicleChassis/ - CHECKED GOOD FOR 1.9.1
+### StreamingAssets/data/vehicleChassis/
     vehiclechassisdef_GALLANT.json - fixed weight class to Heavy
     vehiclechassisdef_MANTICORE.json - fixed armor and internals
     vehiclechassisdef_SCORPION - moved AP hardpoint from Turret to Front
@@ -233,7 +233,7 @@ All pilot files below have been refactored to stock passive traits..  Any missin
     vehiclechassisdef_SWIFTWIND.json - fixed armor and internals
     vehiclechassisdef_SWIFTWIND_ARMORED.json - fixed Tonnage and armor and internals
 
-### StreamingAssets/data/weapon/ - CHECKED GOOD FOR 1.9.1
+### StreamingAssets/data/weapon/
     Weapon_Gauss_Gauss_1-M7.json - tag fixes
     Weapon_Gauss_Gauss_2-M9.json - tag fixes
     Weapon_Laser_LargeLaserER_1-Blankenburg25.json - tag fixes
