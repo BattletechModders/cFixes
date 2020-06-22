@@ -55,7 +55,6 @@ Thanks to mpstark and the entire ModTek team for making this mod possible!
 All Escort and Capture Base contracts have had the word "Dropship" replaced with "DropShip" as used in the BT writers guide, other small typos may also have been fixed in those files.
 
     Assassinate_HardTarget.json - extra space removed
-    AttackDefend_Reconquest.json - typos (Goddness and DropShip)
     c_fp_allianceDavion_b2_fireMission.json - DropShip formatting
     c_fp_allianceKurita_a2_fireMission.json - DropShip formatting
     c_fp_allianceKurita_b2_fireMission.json - DropShip formatting
