@@ -11,7 +11,6 @@ These files are the result of the combined work of several community modders, na
 - Sheepy, bug fixes and code review.
 
 Credits:
-
 Thanks to the community at large for helping bring these bugs to HBS's attention!
 
 This mod is intended for free use and adaptation in other mods.
@@ -27,7 +26,6 @@ https://github.com/BattletechModders/ModTek/releases
 
 Thanks to mpstark and the entire ModTek team for making this mod possible!
 
-
 ## Stock Files Edited:
 
 ### StreamingAssets/data/chassis/
@@ -38,7 +36,7 @@ Thanks to mpstark and the entire ModTek team for making this mod possible!
     chassisdef_blackknight_BL-6b-KNT.json - fixed reference to BK-7-KNT
     chassisdef_cicada_CDA-2A.json - fixed costs
     chassisdef_crab_CRB-27.json - fixed costs
-    chassisdef_crab_CRB-27b.json - fixed 27b from 27B
+    chassisdef_crab_CRB-27b.json - FF armor/tonnage fix, fixed 27b from 27B
     chassisdef_cyclops_CP-10-Q.json - fixed costs
     chassisdef_hatchetman_HCT-3F.json - fixed costs and base melee damage
     chassisdef_hatchetman_HCT-3X.json - fixed costs and base melee damage
@@ -47,6 +45,7 @@ Thanks to mpstark and the entire ModTek team for making this mod possible!
     chassisdef_hunchback_HBK-4P.json - melee DMG to 75 from 80
     chassisdef_javelin_JVN-10F.json - fixed costs
     chassisdef_javelin_JVN-10N.json - fixed costs
+    chassisdef_marauder_MAD-2R.json - FF armor/tonnage fix
     chassisdef_phoenixhawk_PXH-1b.json - fixed 1b from 1B
     chassisdef_raven_RVN-1X.json - fixed costs
     chassisdef_urbanmech_UM-R60L.json - fixed costs
@@ -127,7 +126,7 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     mechdef_bullshark_BSK-M3.json - given Lance - Support tag
     mechdef_cicada_CDA-2A.json - fixed costs
     mechdef_crab_CRB-27.json - given Role - Brawler and Lance - Tank tags, fixed costs
-    mechdef_crab_CRB-27b.json -  - fixed 27b from 27B
+    mechdef_crab_CRB-27b.json - FF armor/tonnage fix, fixed 27b from 27B
     mechdef_cyclops_CP-10-HQ.json - given Lance - Support tag, removed duplicate IDF tag
     mechdef_cyclops_CP-10-Q.json - given Lance - Support tag, removed duplicate IDF tag, fixed costs
     mechdef_cyclops_CP-10-Z.json - given Lance - Support tag, removed duplicate IDF tag, fixed costs
@@ -143,8 +142,9 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     mechdef_javelin_JVN-10A.json - given Role - Sniper tag
     mechdef_javelin_JVN-10F.json - Removed "Fire" from UIname for sorting, given Lance - Assassin/Vanguard tags, removed duplicate jumpOK tag, fixed costs
     mechdef_javelin_JVN-10N.json - given Lance - Assassin/Vanguard tags, removed duplicate jumpOK tag, fixed costs
-    mechdef_marauder_MAD-3D - given Lance - Tank/Support tags
-    mechdef_marauder_MAD-3R - given Lance - Tank/Support tags
+    mechdef_marauder_MAD-2D.json - FF armor/tonnage fix
+    mechdef_marauder_MAD-3D.json - given Lance - Tank/Support tags
+    mechdef_marauder_MAD-3R.json - given Lance - Tank/Support tags
     mechdef_phoenixhawk_PXH-1.json - given Role - Scout and Lance - Assassin/Vanguard tags
     mechdef_phoenixhawk_PXH-1b.json - fixed 1b from 1B
     mechdef_phoenixhawk_PXH-1K.json - given Role - Scout and Lance - Assassin/Vanguard tags
@@ -154,8 +154,8 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     mechdef_urbanmech_UM-R60L.json - given Lance - Tank tag
     mechdef_vulcan_VL-2T.json - given Lance - Vanguard tag
     mechdef_vulcan_VL-5T.json - given Role - Scout and Lance - Assassin/Vanguard tags
-    mechdef_warhammer_WHM-6D - given Lance - Tank/Support tags
-    mechdef_warhammer_WHM-6R - given Lance - Tank/Support tags
+    mechdef_warhammer_WHM-6D.json - given Lance - Tank/Support tags
+    mechdef_warhammer_WHM-6R.json - given Lance - Tank/Support tags
     
 ### StreamingAssets/data/milestones/
     All 144 milestone files have cost, rarity and purchasable lines removed for loading/logging readability.
