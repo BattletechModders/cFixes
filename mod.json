@@ -22,6 +22,7 @@
 	{ "Path": "mechMerge", "Type": "AdvancedJSONMerge" },
 	{ "Path": "milestoneMerge", "Type": "AdvancedJSONMerge" },
 	{ "Type": "MovementCapabilitiesDef", "Path": "movement", "AddToDB": true },
+	{ "Type": "UpgradeDef", "Path": "upgrades", "AddToDB": true },
 	{ "Type": "VehicleDef", "Path": "vehicle", "AddToDB": true },
 	{ "Type": "VehicleChassisDef", "Path": "vehicleChassis", "AddToDB": true }
 
