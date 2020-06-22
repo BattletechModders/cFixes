@@ -229,7 +229,8 @@ The pilot files below had missing passive traits per their skill points.  Any mi
     vehicledef_GALLANT.json - fixed armor to TT values, LRM hardpoint slot adjustment
     vehicledef_MOBILEHQ_ARMORED.json - fixed armor to match TT values
     vehicledef_SCORPION.json - moved MG from Turret to Front
-    vehicledef_STRIKER.json - fixed value: Turret Armor 120 changed to 110
+    vehicledef_STRIKER.json - fixed value: Turret Armor 120 changed to 110, fixed IS to 20 from 10
+    vehicledef_STRIKER_Narc.json - fixed IS to 20 from 10
     vehicledef_SWIFTWIND_ARMORED.json - fixed tonnage and armor to match possible TT config
 
 ### StreamingAssets/data/vehicleChassis/
@@ -237,6 +238,7 @@ The pilot files below had missing passive traits per their skill points.  Any mi
     vehiclechassisdef_MANTICORE.json - fixed armor and internals
     vehiclechassisdef_SCORPION - moved AP hardpoint from Turret to Front
     vehiclechassisdef_STRIKER.json - fixed armor and internals
+    vehiclechassisdef_STRIKER_Narc.json - fixed IS to 20 from 10
     vehiclechassisdef_SWIFTWIND.json - fixed armor and internals
     vehiclechassisdef_SWIFTWIND_ARMORED.json - fixed Tonnage and armor and internals
 
