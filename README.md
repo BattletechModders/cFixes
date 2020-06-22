@@ -74,6 +74,10 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     Story_7_GunboatDiplomacy_Default.json - DropShip formatting
     succession_1_assassinate.json - typos (commision and intitial)
     succession_a1_assassinate.json - typos (commision and intitial)
+    ThreeWayBattle_ClashOfTitans.json - DropShip formatting
+    ThreeWayBattle_HotPursuit.json - DropShip formatting
+    ThreeWayBattle_InterceptedSalvage.json - DropShip formatting
+    ThreeWayBattle_BountyHunting.json - DropShip formatting
 
 ### StreamingAssets/data/descriptions/Lore/ - CHECKED GOOD FOR 1.9.1
     LoreGreatHouses.json - ordered Houses "Around the Sphere"
