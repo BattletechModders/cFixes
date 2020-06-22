@@ -215,6 +215,9 @@ The pilot files below had missing passive traits per their skill points.  Any mi
     
 ### StreamingAssets/data/turrets/
     turretdef_Standard_Laser.json - renamed "Standard Laser Turret" from "Light Standard Turret"
+    
+### StreamingAssets/data/upgrades/
+    Gear_General_Enhanced_Missilery_System.json - Corrected displayed SRM bonus to 50% STB DMG per stat value
 
 ### StreamingAssets/data/vehicle/
     vehicledef_BULLDOG.json - added Front MG and ammo
