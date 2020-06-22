@@ -138,7 +138,7 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     mechdef_highlander_HGN-733.json - Adjusted Center Torso Front Armor to match Record Sheets, allocated "spare" armor point to CTR
     mechdef_highlander_HGN-733P.json - Adjusted Torso Front Armor and HS+ammo locations to match Record Sheets
     mechdef_javelin_JVN-10A.json - given Role - Sniper tag
-    mechdef_javelin_JVN-10F.json - given Lance - Assassin/Vanguard tags, removed duplicate jumpOK tag, fixed costs
+    mechdef_javelin_JVN-10F.json - Removed "Fire" from UIname for sorting, given Lance - Assassin/Vanguard tags, removed duplicate jumpOK tag, fixed costs
     mechdef_javelin_JVN-10N.json - given Lance - Assassin/Vanguard tags, removed duplicate jumpOK tag, fixed costs
     mechdef_marauder_MAD-3D - given Lance - Tank/Support tags
     mechdef_marauder_MAD-3R - given Lance - Tank/Support tags
