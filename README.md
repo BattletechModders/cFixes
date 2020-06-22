@@ -32,6 +32,7 @@ Thanks to mpstark and the entire ModTek team for making this mod possible!
 
 ### StreamingAssets/data/chassis/
     chassisdef_banshee_BNC-3S.json - fixed costs
+    chassisdef_battlemaster_BLR-1GB.json - fixed 1Gb from 1GB
     chassisdef_blackjack_BJ-1DB.json - fixed costs
     chassisdef_blackknight_BL-6-KNT.json - fixed variant name to BK-7-KNT
     chassisdef_blackknight_BL-6b-KNT.json - fixed reference to BK-7-KNT
@@ -46,6 +47,7 @@ Thanks to mpstark and the entire ModTek team for making this mod possible!
     chassisdef_hunchback_HBK-4P.json - melee DMG to 75 from 80
     chassisdef_javelin_JVN-10F.json - fixed costs
     chassisdef_javelin_JVN-10N.json - fixed costs
+    chassisdef_phoenixhawk_PXH-1b.json - fixed 1b from 1B
     chassisdef_raven_RVN-1X.json - fixed costs
     chassisdef_urbanmech_UM-R60L.json - fixed costs
     chassisdef_urbanmech_UM-R90.json - fixed costs
@@ -118,6 +120,7 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     mechdef_assassin_ASN-21.json - given Role - Scout and Lance - Assassin tags, duh
     mechdef_assassin_ASN-101.json - given Role - Scout and Lance - Assassin tags, duh
     mechdef_banshee_BNC-3S.json - fixed costs
+    mechdef_battlemaster_BLR-1GB.json - Fixed 1Gb from 1GB
     mechdef_blackjack_BJ-1DB.json - fixed costs
     mechdef_blackknight_BL-6-KNT.json - fixed variant name to BK-7-KNT
     mechdef_blackknight_BL-6b-KNT.json - fixed reference to BK-7-KNT and 6b, moved DHS, fixed costs
@@ -143,6 +146,7 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     mechdef_marauder_MAD-3D - given Lance - Tank/Support tags
     mechdef_marauder_MAD-3R - given Lance - Tank/Support tags
     mechdef_phoenixhawk_PXH-1.json - given Role - Scout and Lance - Assassin/Vanguard tags
+    mechdef_phoenixhawk_PXH-1b.json - fixed 1b from 1B
     mechdef_phoenixhawk_PXH-1K.json - given Role - Scout and Lance - Assassin/Vanguard tags
     mechdef_rifleman_RFL-3C.json - given Role - Sniper and Lance - Support tags
     mechdef_rifleman_RFL-3N.json - given Role - Sniper and Lance - Support tags
