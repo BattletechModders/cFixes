@@ -17,7 +17,7 @@
     "PrefabIdentifier": "chrPrfMech_crabBase-001",
     "PrefabBase": "crab",
     "Tonnage": 50,
-    "InitialTonnage": 23.5,
+    "InitialTonnage": 22.5,
     "weightClass": "MEDIUM",
     "BattleValue": 8100000,
     "Heatsinks": 30,
