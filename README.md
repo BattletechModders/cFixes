@@ -56,13 +56,23 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
 
     Assassinate_HardTarget.json - extra space removed
     AttackDefend_Reconquest.json - typos (Goddness and DropShip)
+    c_fp_allianceDavion_b2_fireMission.json - DropShip formatting
+    c_fp_allianceKurita_a2_fireMission.json - DropShip formatting
+    c_fp_allianceKurita_b2_fireMission.json - DropShip formatting
+    c_fp_allianceMarik_a2_fireMission.json - DropShip formatting
+    c_fp_allianceMarik_b2_fireMission.json - DropShip formatting
+    c_fp_allianceSteiner_a1_fireMission.json - DropShip formatting
+    c_fp_allianceSteiner_b1_fireMission.json - DropShip formatting
     c_fp_headhunting_1_battle.json - Fixed "Flack Jackal" typo
     c_fp_longHunt_c1_rescue - Fixed improper 's after "lees's"
+    c_fp_scoundrel_a1_target.json - DropShip formatting
+    c_fp_unwelcomeGuests_1_fireMission.json - DropShip formatting
     EscortSingle_MerchantCaravan.json - Fixed typo "loacation" in short desc
     FireMission_DataLiberation.json - typos (Reinforments and DropShip)
     FireMission_DataLiberation_Hard.json - typos (Reinforments and DropShip)
     FireMission_FireForEffect.json - typos, too many to list here
     FireMission_Fireworks.json - "WarShip" changed to "Pocket WarShip" as no true WarShips should be available.
+    FireMission_Untouchable.json - DropShip formatting
     Panzyr_Attack_Default.json - DropShip foramtting
     redHunt_1_DefendBase.json - Typos "Targetted" "Commmander" and "recieved" fixed
     redHunt_2_ThreeWayBattle.json - Typos, various
