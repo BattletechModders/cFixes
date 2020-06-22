@@ -93,8 +93,8 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     LoreGreatHouses.json - ordered Houses "Around the Sphere"
     LoreSuccessorState.json - ordered Houses "Around the Sphere"
 
-### StreamingAssets/data/events/ *ERROR*
-    event_mw_dubiousIntentions.json - "You" replaced with "You're" in results error  - CHECK MODTEK ERROR
+### StreamingAssets/data/events/
+    event_mw_dubiousIntentions.json - "You" replaced with "You're" in results error
     event_mw_leadershipMoment.json - added contextual words to fix "they rises" error
     event_mw_nobleBonds.json - Fixed the gender reference instead of defaulting to their
     event_mw_smugglingOnPurpose.json - Missing space between "report[s]that" in option3 result
