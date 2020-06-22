@@ -1,0 +1,10 @@
+{
+    "TargetID": "Assassinate_HardTarget",
+    "Instructions": [
+        {
+            "JSONPath": "$.dialogueList[?(@.name== 'Dialogue_AmbushDestroyed')].dialogueContent[0].words",
+            "Action": "Replace",
+            "Value": "Readings indicate the ambushing units are out of commission. The employer will be pleased."
+        }
+    ]
+}

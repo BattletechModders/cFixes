@@ -1,29 +1,30 @@
 {
     "Name": "cFixes",
     "Enabled": true,
-	
-    "Version": "1.6.2.1",
+
+    "Version": "1.9.1.0",
+    "PackagedOn": "2020-06-16T00:00:00Z",
 
     "Author": "Team Banzai",
-
+    "Website": "https://github.com/BattletechModders/cFixes/",
+	
     "DependsOn": [],
     "ConflictsWith": [],
 
     "Manifest": [
 
-	{ "Path": "contractsMerge", "Type": "AdvancedJSONMerge" },
-	{ "Type": "ContractOverride", "Path": "contracts", "AddToDB": true },
-	{ "Path": "eventsMerge", "Type": "AdvancedJSONMerge" },
-	{ "Type": "FlashpointDef", "Path": "flashpoints", "AddToDB": true },
-	{ "Path": "hardpointsMerge", "Type": "AdvancedJSONMerge" },
-	{ "Path": "heatsinksMerge", "Type": "AdvancedJSONMerge" },
 	{ "Type": "ChassisDef", "Path": "chassis", "AddToDB": true },
+	{ "Type": "ContractOverride", "Path": "contracts", "AddToDB": true },
+	{ "Path": "contractsMerge", "Type": "AdvancedJSONMerge" },
+	{ "Path": "eventsMerge", "Type": "AdvancedJSONMerge" },
+	{ "Path": "heatsinksMerge", "Type": "AdvancedJSONMerge" },
 	{ "Type": "MechDef", "Path": "mech", "AddToDB": true },
+	{ "Path": "mechMerge", "Type": "AdvancedJSONMerge" },
 	{ "Path": "milestoneMerge", "Type": "AdvancedJSONMerge" },
 	{ "Type": "MovementCapabilitiesDef", "Path": "movement", "AddToDB": true },
-	{ "Type": "SimGameMilestoneSet", "Path": "milestoneSets" },
-	{ "Type": "VehicleChassisDef", "Path": "vehicleChassis", "AddToDB": true },
-	{ "Type": "VehicleDef", "Path": "vehicle", "AddToDB": true }
+	{ "Type": "UpgradeDef", "Path": "upgrades", "AddToDB": true },
+	{ "Type": "VehicleDef", "Path": "vehicle", "AddToDB": true },
+	{ "Type": "VehicleChassisDef", "Path": "vehicleChassis", "AddToDB": true }
 
     ]
 }

@@ -4,7 +4,7 @@
         {
             "JSONPath": "$.statusEffects[?(@.Description.Id== 'StatusEffect-Heat_Max-T2')].Description.Details",
             "Action": "Replace",
-            "Value": "Maximum allowed heat increased by 120."
+            "Value": "Maximum allowed heat increased by 20."
          }
     ]
 }

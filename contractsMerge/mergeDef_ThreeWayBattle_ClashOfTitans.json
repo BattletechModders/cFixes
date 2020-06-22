@@ -1,0 +1,10 @@
+{
+    "TargetID": "ThreeWayBattle_ClashOfTitans",
+    "Instructions": [
+        {
+            "JSONPath": "$.dialogueList[?(@.name== 'Dialogue_Interrupt_DropWarning_HostileToAll_Primary')].dialogueContent[0].words",
+            "Action": "Replace",
+            "Value": "There's a DropShip coming in fast and low, Commander. I'm seeing {TEAM_HOST.FactionDef.Demonym} markings."
+         }
+    ]
+}

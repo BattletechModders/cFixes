@@ -1,0 +1,10 @@
+{
+    "TargetID": "Story_1B_Retreat_Default",
+    "Instructions": [
+        {
+            "JSONPath": "$.objectiveList[?(@.objective.EncounterObjectGuid== 'f55bfc23-dcc2-4eae-862b-5c58c75c4117')].title",
+            "Action": "Replace",
+            "Value": "Get Kamea to the dropship"
+        }
+    ]
+}

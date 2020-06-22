@@ -1,0 +1,10 @@
+{
+    "TargetID": "ThreeWayBattle_HotPursuit",
+    "Instructions": [
+        {
+            "JSONPath": "$.dialogueList[?(@.name== 'Dialogue_Interrupt_DropWarning_HostileToAll_Primary')].dialogueContent[0].words",
+            "Action": "Replace",
+            "Value": "Hey, boss; got an unmarked DropShip coming in fast and low. Wanna bet that's the other team?"
+         }
+    ]
+}

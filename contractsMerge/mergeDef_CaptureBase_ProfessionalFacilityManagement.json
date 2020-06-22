@@ -1,0 +1,10 @@
+{
+    "TargetID": "CaptureBase_ProfessionalFacilityManagement",
+    "Instructions": [
+        {
+            "JSONPath": "$.dialogueList[?(@.name== 'Dialogue_Interrupt_DropshipLanding')].dialogueContent[0].words",
+            "Action": "Replace",
+            "Value": "Heads up, Commander; DropShip inbound."
+         }
+    ]
+}
