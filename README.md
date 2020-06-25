@@ -20,11 +20,13 @@ This mod is intended for free use and adaptation in other mods.
     Copy cFixes folder in to Mods folder created for ModTek.
     
 ### ModTek/BTML
-This mod can use either HBS Mod Manager or ModTek:
+This mod uses ModTek:
 
 https://github.com/BattletechModders/ModTek/releases
 
 Thanks to mpstark and the entire ModTek team for making this mod possible!
+
+cFixes can be loaded as is by the HBS mod loader, however it will not be able to alter any files inside the DLC packages.  It is recommended you use this mod with ModTek for a complete feature set and the ability to remove this mod without affecting your saves.
 
 ## Stock Files Edited:
 
