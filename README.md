@@ -103,6 +103,9 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     
 ### StreamingAssets/data/factions/
     faction_KellHounds.json - Demonym fixed missing space between "KellHounds"
+
+### StreamingAssets/data/hardpoints/
+    hardpointdatadef_phoenixhawk.json - Fixed MG underslung mount to always show
     
 ### StreamingAssets/data/heatsinks/
     Gear_HeatSink_Generic_Bulk-Bank.json - fixed [AMT] value in StatusEffect Description Details
