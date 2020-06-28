@@ -19,7 +19,7 @@ This mod is intended for free use and adaptation in other mods.
     Remove older editions of cFixes. This is very important to not crash the game.
     Copy cFixes folder in to Mods folder created for ModTek.
     
-### ModTek/BTML
+### ModTek
 This mod uses ModTek:
 
 https://github.com/BattletechModders/ModTek/releases
