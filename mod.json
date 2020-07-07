@@ -3,8 +3,8 @@
     "Enabled": true,
 
     "Version": "1.9.1.2",
-    "PackagedOn": "2020-06-25T01:00:00Z",
-
+    "PackagedOn": "2020-07-06T01:00:00Z",
+    "Description": "Community sourced bug fixes, for BATTLETECH 1.9.1",
     "Author": "Team Banzai",
     "Website": "https://github.com/BattletechModders/cFixes/",
 	
