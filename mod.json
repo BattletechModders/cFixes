@@ -2,7 +2,7 @@
     "Name": "cFixes",
     "Enabled": true,
 
-    "Version": "1.9.1.1",
+    "Version": "1.9.1.2",
     "PackagedOn": "2020-06-25T01:00:00Z",
 
     "Author": "Team Banzai",
@@ -13,19 +13,19 @@
 
     "Manifest": [
 
-	{ "Type": "ChassisDef", "Path": "chassis", "AddToDB": true },
-	{ "Type": "ContractOverride", "Path": "contracts", "AddToDB": true },
+	{ "Type": "ChassisDef", "Path": "chassis" },
+	{ "Type": "ContractOverride", "Path": "contracts" },
 	{ "Path": "contractsMerge", "Type": "AdvancedJSONMerge" },
 	{ "Path": "eventsMerge", "Type": "AdvancedJSONMerge" },
-	{ "Type": "HardpointDataDef", "Path": "hardpoints", "AddToDB": true },
+	{ "Type": "HardpointDataDef", "Path": "hardpoints" },
 	{ "Path": "heatsinksMerge", "Type": "AdvancedJSONMerge" },
-	{ "Type": "MechDef", "Path": "mech", "AddToDB": true },
+	{ "Type": "MechDef", "Path": "mech" },
 	{ "Path": "mechMerge", "Type": "AdvancedJSONMerge" },
 	{ "Path": "milestoneMerge", "Type": "AdvancedJSONMerge" },
-	{ "Type": "MovementCapabilitiesDef", "Path": "movement", "AddToDB": true },
-	{ "Type": "UpgradeDef", "Path": "upgrades", "AddToDB": true },
-	{ "Type": "VehicleDef", "Path": "vehicle", "AddToDB": true },
-	{ "Type": "VehicleChassisDef", "Path": "vehicleChassis", "AddToDB": true }
+	{ "Type": "MovementCapabilitiesDef", "Path": "movement" },
+	{ "Type": "UpgradeDef", "Path": "upgrades" },
+	{ "Type": "VehicleDef", "Path": "vehicle" },
+	{ "Type": "VehicleChassisDef", "Path": "vehicleChassis" }
 
     ]
 }
