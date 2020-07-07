@@ -1,0 +1,28 @@
+{
+    "TargetIDs": [
+				  "mechdef_marauder_MAD-3D",
+				  "mechdef_marauder_MAD-3R"
+	],
+    "Instructions": [
+        {
+            "JSONPath": "$.inventory[0].ComponentDefID",
+            "Action": "Replace",
+            "Value": "Weapon_PPC_PPC_0-STOCK"
+        },
+        {
+            "JSONPath": "$.inventory[1].ComponentDefID",
+            "Action": "Replace",
+            "Value": "Weapon_Laser_MediumLaser_0-STOCK"
+        },
+        {
+            "JSONPath": "$.inventory[2].ComponentDefID",
+            "Action": "Replace",
+            "Value": "Weapon_PPC_PPC_0-STOCK"
+        },
+        {
+            "JSONPath": "$.inventory[3].ComponentDefID",
+            "Action": "Replace",
+            "Value": "Weapon_Laser_MediumLaser_0-STOCK"
+        }
+    ]
+}

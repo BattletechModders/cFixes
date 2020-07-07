@@ -1,0 +1,27 @@
+{
+    "TargetIDs": [
+				  "mechdef_marauder_MAD-2R"
+	],
+    "Instructions": [
+        {
+            "JSONPath": "$.inventory[0].ComponentDefID",
+            "Action": "Replace",
+            "Value": "Weapon_PPC_PPCER_0-STOCK"
+        },
+        {
+            "JSONPath": "$.inventory[1].ComponentDefID",
+            "Action": "Replace",
+            "Value": "Weapon_Laser_MediumLaser_0-STOCK"
+        },
+        {
+            "JSONPath": "$.inventory[2].ComponentDefID",
+            "Action": "Replace",
+            "Value": "Weapon_PPC_PPCER_0-STOCK"
+        },
+        {
+            "JSONPath": "$.inventory[3].ComponentDefID",
+            "Action": "Replace",
+            "Value": "Weapon_Laser_MediumLaser_0-STOCK"
+        }
+    ]
+}
