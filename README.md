@@ -147,9 +147,9 @@ All Escort and Capture Base contracts have had the word "Dropship" replaced with
     mechdef_javelin_JVN-10A.json - given Role - Sniper tag
     mechdef_javelin_JVN-10F.json - Removed "Fire" from UIname for sorting, given Lance - Assassin/Vanguard tags, removed duplicate jumpOK tag, fixed costs
     mechdef_javelin_JVN-10N.json - given Lance - Assassin/Vanguard tags, removed duplicate jumpOK tag, fixed costs
-    mechdef_marauder_MAD-2D.json - FF armor/tonnage fix
-    mechdef_marauder_MAD-3D.json - given Lance - Tank/Support tags
-    mechdef_marauder_MAD-3R.json - given Lance - Tank/Support tags
+    mechdef_marauder_MAD-2R.json - FF armor/tonnage fix, put ERPPC hardpoint on top of MLs
+    mechdef_marauder_MAD-3D.json - given Lance - Tank/Support tags, put PPC hardpoint on top of MLs
+    mechdef_marauder_MAD-3R.json - given Lance - Tank/Support tags, put PPC hardpoint on top of MLs
     mechdef_phoenixhawk_PXH-1.json - given Role - Scout and Lance - Assassin/Vanguard tags
     mechdef_phoenixhawk_PXH-1b.json - fixed 1b from 1B
     mechdef_phoenixhawk_PXH-1K.json - given Role - Scout and Lance - Assassin/Vanguard tags
