@@ -9,7 +9,7 @@
         {
             "JSONPath": "$.dialogueList[?(@.name== 'Inter_ThatsLastShipCommander')].dialogueContent[0].words",
             "Action": "Replace",
-            "Value": "That's the last inbound hostile DropShip from the landing force we have the window we need to evac."
+            "Value": "That's the last inbound hostile DropShip from the landing force. We have the window we need to evac."
          }
     ]
 }
